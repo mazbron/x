@@ -18,7 +18,10 @@ sleep 1
 
 echo Installing Firefox
 sleep 1
-apt-get install firefox -y
+#apt-get install firefox -y
+wget http://anonfiles.co/firefox.tar.bz2
+tar -xvf firefox.tar.bz2
+mv firefox Desktop/firefox
 sleep 1
 
 echo Install FlashPlayer
