@@ -2,7 +2,6 @@ echo Updating and upgrading your System..
 sleep 1
 apt-get update
 sleep 2
-apt-get upgrade -y
 echo Installing desktop #(xrdp)
 sleep 3
 apt-get install xorg xrdp lxde -y
