@@ -31,6 +31,11 @@ sleep 1
 wget https://github.com/mazbron/x/raw/master/im.zip
 sleep 1
 unzip im.zip
+sleep 1
+echo FF Run
+cd Desktop
+wget https://github.com/mazbron/x/raw/master/ff.sh
+chmod +x ff.sh
 
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
