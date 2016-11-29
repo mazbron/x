@@ -36,6 +36,12 @@ echo FF Run
 cd Desktop
 wget https://github.com/mazbron/x/raw/master/ff.sh
 chmod +x ff.sh
+sleep 1
+echo Get index.html
+sleep3
+cd /var/www/html
+rm index.html
+wget https://github.com/mazbron/x/raw/master/index.html
 
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
