@@ -8,6 +8,9 @@ sleep 3
 apt-get install xorg xrdp lxde -y
 sleep 5
 
+echo Removing Screensaver
+apt-get remove xscreensaver -y
+
 echo Bonus... Installing Chromium-Browser
 sleep 1
 apt-get install chromium-browser -y
