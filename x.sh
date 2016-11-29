@@ -32,3 +32,6 @@ unzip im.zip
 
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
+sleep 3
+echo Editing hosts
+sudo nano /etc/hosts
