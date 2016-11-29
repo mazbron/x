@@ -8,7 +8,9 @@ apt-get install xorg xrdp lxde -y
 sleep 3
 echo Removing Screensaver
 apt-get remove xscreensaver -y
-
+echo Installing wget and nano
+apt-get install wget -y
+apt-get install nano -y
 echo Installing Chromium-Browser
 sleep 1
 apt-get install chromium-browser -y
