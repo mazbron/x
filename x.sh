@@ -41,7 +41,9 @@ sleep3
 cd /var/www/html
 rm index.html
 wget https://github.com/mazbron/x/raw/master/index.html
-
+sleep 1
+echo Installing proxychains
+apt-get install proxychains
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
 sleep 3
