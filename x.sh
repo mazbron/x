@@ -34,7 +34,6 @@ unzip im.zip
 sleep 1
 echo FF Run
 wget https://github.com/mazbron/x/raw/master/ff.sh
-mv ff.sh Desktop/ff.sh
 chmod +x ff.sh
 sleep 1
 echo Get index.html
