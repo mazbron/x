@@ -11,9 +11,6 @@ apt-get remove xscreensaver -y
 echo Installing wget and nano
 apt-get install wget -y
 apt-get install nano -y
-echo Installing Chromium-Browser
-sleep 1
-apt-get install chromium-browser -y
 sleep 1
 
 echo Installing Firefox
@@ -32,18 +29,19 @@ wget https://github.com/mazbron/x/raw/master/im.zip
 sleep 1
 unzip im.zip
 sleep 1
+cd cd iMacros/Macros
+wget https://raw.githubusercontent.com/mazbron/x/master/tek.iim
+sleep 1
 echo FF Run
 wget https://github.com/mazbron/x/raw/master/ff.sh
 chmod +x ff.sh
 sleep 1
-echo Get index.html
-sleep3
-cd /var/www/html
-rm index.html
-wget https://github.com/mazbron/x/raw/master/index.html
-sleep 1
 echo Installing proxychains
 apt-get install proxychains -y
+sleep 1
+cd /etc
+sudo rm hosts
+wget https://raw.githubusercontent.com/mazbron/x/master/hosts
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
 sleep 3
