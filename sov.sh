@@ -38,6 +38,7 @@ sleep 1
 echo Installing proxychains
 apt-get install proxychains -y
 sleep 1
+echo rm hosts
 cd /etc
 sudo rm hosts
 wget https://raw.githubusercontent.com/mazbron/x/master/hosts
