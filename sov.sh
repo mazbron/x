@@ -30,6 +30,7 @@ sleep 1
 unzip im.zip
 sleep 1
 wget https://raw.githubusercontent.com/mazbron/x/master/tek.iim -P iMacros/Macros
+wget https://github.com/mazbron/x/raw/master/random.txt -P iMacros/Datasources
 sleep 1
 echo FF Run
 wget https://github.com/mazbron/x/raw/master/ff.sh
