@@ -29,7 +29,7 @@ wget https://github.com/mazbron/x/raw/master/im.zip
 sleep 1
 unzip im.zip
 sleep 1
-wget https://raw.githubusercontent.com/mazbron/x/master/tek.iim -O iMacros/Macros
+wget https://raw.githubusercontent.com/mazbron/x/master/tek.iim -P iMacros/Macros
 sleep 1
 echo FF Run
 wget https://github.com/mazbron/x/raw/master/ff.sh
