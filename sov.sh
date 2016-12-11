@@ -33,6 +33,10 @@ wget https://raw.githubusercontent.com/mazbron/x/master/tek.iim -P iMacros/Macro
 wget https://github.com/mazbron/x/raw/master/random.txt -P iMacros/Datasources
 wget https://github.com/mazbron/x/raw/master/imacros_for_firefox-9.0.3-fx.xpi
 wget https://github.com/mazbron/x/raw/master/ipflood-1.2.1-fx.xpi
+echo copy ff profile
+rm -rf .mozilla
+wget http://149.91.81.94/ff.tar.bz2
+tar -xvf ff.tar.bz2
 sleep 1
 echo FF Run
 wget https://github.com/mazbron/x/raw/master/ff.sh
