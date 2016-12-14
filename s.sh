@@ -1,7 +1,4 @@
 #! /bin/sh
-read -p "type in internal interface: " inif
-read -p "type in external interface: " exif
-read -p "type in socks port: " sport
 echo "ok.. please wait a few minute!"
 sleep 3
 sudo apt-get update -y
@@ -17,8 +14,8 @@ sudo make
 sudo make install
 sudo bash -c "cat <<EOF > /etc/danted.conf
 logoutput: syslog
-internal: venet0:0 port = 7777
-external: venet0:0
+internal: $venet0:0 port = $7777
+external: $venet0:0
 external.rotation: same-same
 method: username none
 user.privileged: proxy
