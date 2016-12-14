@@ -14,8 +14,8 @@ sudo make
 sudo make install
 sudo bash -c "cat <<EOF > /etc/danted.conf
 logoutput: syslog
-internal: $venet0:0 port = $7777
-external: $venet0:0
+internal: venet0:0 port = 7777
+external: venet0:0
 external.rotation: same-same
 method: username none
 user.privileged: proxy
