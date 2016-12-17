@@ -28,19 +28,34 @@ URL GOTO=http://www.tekrevue.com/tip/imessage-read-receipts-iphone-mac/
 TAB OPEN
 TAB T=6
 URL GOTO=http://www.tekrevue.com/tip/imessage-read-receipts-iphone-mac/
-WAIT SECONDS=20
+WAIT SECONDS=10
 TAB T=2
+WAIT SECONDS=1
+url goto=javascript:window.scrollBy(0,20000)
+WAIT SECONDS=1
 REFRESH
 TAB T=3
+WAIT SECONDS=1
+url goto=javascript:window.scrollBy(0,20000)
+WAIT SECONDS=1
 REFRESH
 TAB T=4
+WAIT SECONDS=1
+url goto=javascript:window.scrollBy(0,20000)
+WAIT SECONDS=1
 REFRESH 
 TAB T=5
+WAIT SECONDS=1
+url goto=javascript:window.scrollBy(0,20000)
+WAIT SECONDS=1
 REFRESH 
 TAB T=6
+WAIT SECONDS=1
+url goto=javascript:window.scrollBy(0,20000)
+WAIT SECONDS=1
 REFRESH 
 TAB T=2
-WAIT SECONDS=20
+WAIT SECONDS=2
 FRAME F=1
 TAG POS=1 TYPE=IMG ATTR=SRC:*
 TAG POS=1 TYPE=IMG ATTR=SRC:*
