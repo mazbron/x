@@ -20,7 +20,9 @@ sleep 1
 
 echo Install FlashPlayer
 sleep 1
-sudo apt-get install flashplugin-installer -y
+wget https://github.com/mazbron/x/raw/master/install_flash_player_11_linux.x86_64.tar.gz
+tar -xvf install_flash_player_11_linux.x86_64.tar.gz
+sudo cp libflashplayer.so /usr/lib/mozilla/plugins
 sleep 1
 
 echo Download iMacros
