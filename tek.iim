@@ -1,6 +1,6 @@
 VERSION BUILD=8881205 RECORDER=FX
 	SET !LOOP -9999999
-	SET !TIMEOUT_PAGE 1
+	SET !TIMEOUT_PAGE 3
 	SET !ERRORIGNORE YES
 	SET !TIMEOUT_STEP 0.5
 ONDIALOG POS=1 BUTTON=OK CONTENT=
@@ -18,17 +18,47 @@ TAB T=2
 URL GOTO=http://www.tekrevue.com/tip/imessage-read-receipts-iphone-mac/
 TAB OPEN
 TAB T=3
-URL GOTO=http://www.tekrevue.com/tip/imessage-read-receipts-iphone-mac/
+URL GOTO=http://www.tekrevue.com/
 TAB OPEN
 TAB T=4
-URL GOTO=http://www.tekrevue.com/tip/imessage-read-receipts-iphone-mac/
+URL GOTO=http://www.tekrevue.com/
 TAB OPEN
 TAB T=5
-URL GOTO=http://www.tekrevue.com/tip/imessage-read-receipts-iphone-mac/
+URL GOTO=http://www.tekrevue.com/
 TAB OPEN
 TAB T=6
-URL GOTO=http://www.tekrevue.com/tip/imessage-read-receipts-iphone-mac/
+URL GOTO=http://www.tekrevue.com/
 WAIT SECONDS=10
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
 TAB T=2
 WAIT SECONDS=1
 url goto=javascript:window.scrollBy(0,20000)
@@ -54,15 +84,36 @@ WAIT SECONDS=1
 url goto=javascript:window.scrollBy(0,20000)
 WAIT SECONDS=1
 REFRESH 
-TAB T=2
+TAB T=3
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
+SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
+FRAME F={{!VAR1}}
+TAG POS=1 TYPE=IMG ATTR=SRC:*
 WAIT SECONDS=2
-FRAME F=1
-TAG POS=1 TYPE=IMG ATTR=SRC:*
-TAG POS=1 TYPE=IMG ATTR=SRC:*
-TAG POS=1 TYPE=CANVAS ATTR=ID:*
-TAG POS=1 TYPE=DIV ATTR=CLASS:bt-middle
-FRAME F=14
-TAG POS=1 TYPE=IMG ATTR=CLASS:bt-image
-FRAME F=19
-TAG POS=1 TYPE=IMG ATTR=HEIGHT:600&&WIDTH:160
 CLEAR
