@@ -29,15 +29,6 @@ TAB OPEN
 TAB T=6
 URL GOTO=http://www.tekrevue.com/
 WAIT SECONDS=10
-SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
-FRAME F={{!VAR1}}
-TAG POS=1 TYPE=IMG ATTR=SRC:*
-SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
-FRAME F={{!VAR1}}
-TAG POS=1 TYPE=IMG ATTR=SRC:*
-SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
-FRAME F={{!VAR1}}
-TAG POS=1 TYPE=IMG ATTR=SRC:*
 TAB T=2
 WAIT SECONDS=1
 url goto=javascript:window.scrollBy(0,20000)
@@ -64,14 +55,5 @@ url goto=javascript:window.scrollBy(0,20000)
 WAIT SECONDS=1
 REFRESH 
 TAB T=3
-SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
-FRAME F={{!VAR1}}
-TAG POS=1 TYPE=IMG ATTR=SRC:*
-SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
-FRAME F={{!VAR1}}
-TAG POS=1 TYPE=IMG ATTR=SRC:*
-SET !VAR1 EVAL("var randomNumber=Math.floor(Math.random()*100 + 1); randomNumber;")
-FRAME F={{!VAR1}}
-TAG POS=1 TYPE=IMG ATTR=SRC:*
-WAIT SECONDS=2
+WAIT SECONDS=5
 CLEAR
