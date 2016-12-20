@@ -7,15 +7,16 @@ ONDIALOG POS=1 BUTTON=OK CONTENT=
 CLEAR
 TAB CLOSEALLOTHERS
 TAB T=1
-SET !DATASOURCE random.txt
+SET !DATASOURCE mac.txt
 SET !DATASOURCE_COLUMNS 1
-SET !VAR1 EVAL("Math.floor(Math.random()*1065 + 1);")
+SET !VAR1 EVAL("Math.floor(Math.random()*54 + 1);")
 SET !DATASOURCE_LINE {{!VAR1}}
 SET !USERAGENT {{!COL1}}
 URL GOTO=about:newtab
+URL GOTO=http://www.tekrevue.com/
 TAB OPEN
 TAB T=2
-URL GOTO=http://www.tekrevue.com/tip/imessage-read-receipts-iphone-mac/
+URL GOTO=http://www.tekrevue.com/
 TAB OPEN
 TAB T=3
 URL GOTO=http://www.tekrevue.com/
@@ -25,35 +26,30 @@ URL GOTO=http://www.tekrevue.com/
 TAB OPEN
 TAB T=5
 URL GOTO=http://www.tekrevue.com/
-TAB OPEN
-TAB T=6
-URL GOTO=http://www.tekrevue.com/
-WAIT SECONDS=10
-TAB T=2
+WAIT SECONDS=15
+TAB T=1
 WAIT SECONDS=1
-url goto=javascript:window.scrollBy(0,20000)
+REFRESH
+TAB T=2
 WAIT SECONDS=1
 REFRESH
 TAB T=3
-WAIT SECONDS=1
-url goto=javascript:window.scrollBy(0,20000)
 WAIT SECONDS=1
 REFRESH
 TAB T=4
 WAIT SECONDS=1
-url goto=javascript:window.scrollBy(0,20000)
-WAIT SECONDS=1
 REFRESH 
 TAB T=5
 WAIT SECONDS=1
-url goto=javascript:window.scrollBy(0,20000)
-WAIT SECONDS=1
 REFRESH 
-TAB T=6
-WAIT SECONDS=1
-url goto=javascript:window.scrollBy(0,20000)
-WAIT SECONDS=1
-REFRESH 
+TAB T=1
+WAIT SECONDS=2
+TAB T=2
+WAIT SECONDS=2
 TAB T=3
-WAIT SECONDS=5
+WAIT SECONDS=2
+TAB T=4
+WAIT SECONDS=2
+TAB T=5
+WAIT SECONDS=3
 CLEAR
