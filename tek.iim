@@ -13,19 +13,39 @@ SET !VAR1 EVAL("Math.floor(Math.random()*540 + 1);")
 SET !DATASOURCE_LINE {{!VAR1}}
 SET !USERAGENT {{!COL1}}
 URL GOTO=about:newtab
-URL GOTO=http://www.tekrevue.com/
+SET !DATASOURCE url.csv
+SET !DATASOURCE_COLUMNS 1
+SET !VAR1 EVAL("Math.floor(Math.random()*85 + 1);")
+SET !DATASOURCE_LINE {{!VAR1}}
+URL GOTO={{!COL1}}
 TAB OPEN
 TAB T=2
-URL GOTO=http://www.tekrevue.com/
+SET !DATASOURCE url.csv
+SET !DATASOURCE_COLUMNS 1
+SET !VAR1 EVAL("Math.floor(Math.random()*85 + 1);")
+SET !DATASOURCE_LINE {{!VAR1}}
+URL GOTO={{!COL1}}
 TAB OPEN
 TAB T=3
-URL GOTO=http://www.tekrevue.com/
+SET !DATASOURCE url.csv
+SET !DATASOURCE_COLUMNS 1
+SET !VAR1 EVAL("Math.floor(Math.random()*85 + 1);")
+SET !DATASOURCE_LINE {{!VAR1}}
+URL GOTO={{!COL1}}
 TAB OPEN
 TAB T=4
-URL GOTO=http://www.tekrevue.com/
+SET !DATASOURCE url.csv
+SET !DATASOURCE_COLUMNS 1
+SET !VAR1 EVAL("Math.floor(Math.random()*85 + 1);")
+SET !DATASOURCE_LINE {{!VAR1}}
+URL GOTO={{!COL1}}
 TAB OPEN
 TAB T=5
-URL GOTO=http://www.tekrevue.com/
+SET !DATASOURCE url.csv
+SET !DATASOURCE_COLUMNS 1
+SET !VAR1 EVAL("Math.floor(Math.random()*85 + 1);")
+SET !DATASOURCE_LINE {{!VAR1}}
+URL GOTO={{!COL1}}
 TAB T=1
 WAIT SECONDS=2
 REFRESH
