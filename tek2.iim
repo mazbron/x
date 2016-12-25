@@ -26,5 +26,4 @@ URL GOTO=https://t.co/lypp8jLbqp
 TAB OPEN
 TAB T=5
 URL GOTO=https://t.co/lypp8jLbqp
-WAIT SECONDS=20
 URL GOTO=imacros://run/?m=UA.iim
