@@ -26,9 +26,10 @@ chmod +x ff3.sh
 sleep 1
 echo install chrome
 sleep 1
-wget https://raw.githubusercontent.com/mazbron/x/master/chrome.sh
-chmod +x chrome.sh
-./chrome.sh
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+sudo apt-get update -y
+sudo apt-get install google-chrome-stable -y
 sleep 1
 mkdir Desktop
 cd Desktop
