@@ -1,7 +1,6 @@
 #! /bin/sh
 echo "ok.. please wait a few minute!"
 sleep 3
-sudo apt-get update -y
 sudo apt-get install wget -y
 sudo apt-get install curl -y
 sudo apt-get install build-essential -y
