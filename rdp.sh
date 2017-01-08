@@ -35,5 +35,10 @@ wget https://raw.githubusercontent.com/mazbron/x/master/ch2.sh
 chmod +x ch2.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/ff3.sh
 chmod +x ff3.sh
+nano /etc/hosts
+149.56.111.62	85ideas.com
+149.56.111.62	www.mazbron.net
+149.56.111.62 	www.tekrevue.com
+149.56.111.62	www.seventeen.com
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
