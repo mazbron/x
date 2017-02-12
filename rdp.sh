@@ -19,8 +19,12 @@ sleep 1
 echo download ff profile
 sleep 1
 mv .mozilla .mozilla.bak
-wget http://149.56.111.62/mozilla.tar.gz
-tar -xvf mozilla.tar.gz
+#wget http://149.56.111.62/mozilla.tar.gz
+wget https://raw.githubusercontent.com/mazbron/x/master/.mozilla-new.tar.gz
+tar -xvf .mozilla-new.tar.gz
+sleep 1
+wget https://github.com/mazbron/x/raw/master/iMacros-new.tar.gz
+tar -xvf iMacros-new.tar.gz
 sleep 1
 echo install chrome
 sleep 1
@@ -29,17 +33,15 @@ sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable
 sudo apt-get update -y
 sudo apt-get install google-chrome-stable -y
 sleep 1
-mkdir Desktop
-cd Desktop
-wget https://raw.githubusercontent.com/mazbron/x/master/ch2.sh
-chmod +x ch2.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/ff3.sh
-chmod +x ff3.sh
 sudo apt-get install flashplugin-installer -y
 sleep 1
 wget https://github.com/mazbron/x/raw/master/install_flash_player_11_linux.x86_64.tar.gz
 tar -xvf install_flash_player_11_linux.x86_64.tar.gz
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins
+mkdir Desktop
+cd Desktop
+wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
+chmod +x ff.sh
 sleep 1
 nano /etc/hosts
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
