@@ -35,6 +35,12 @@ wget https://raw.githubusercontent.com/mazbron/x/master/ch2.sh
 chmod +x ch2.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/ff3.sh
 chmod +x ff3.sh
+sudo apt-get install flashplugin-installer -y
+sleep 1
+wget https://github.com/mazbron/x/raw/master/install_flash_player_11_linux.x86_64.tar.gz
+tar -xvf install_flash_player_11_linux.x86_64.tar.gz
+sudo cp libflashplayer.so /usr/lib/mozilla/plugins
+sleep 1
 nano /etc/hosts
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
