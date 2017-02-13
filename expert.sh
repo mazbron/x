@@ -11,7 +11,7 @@ google-chrome https://t.co/ONr8ChhpAb --no-sandbox --disable-session--crashed-bu
 google-chrome https://t.co/ONr8ChhpAb --no-sandbox --disable-session--crashed-bubble --incognito & sleep 3
 google-chrome https://t.co/ONr8ChhpAb --no-sandbox --disable-session--crashed-bubble --incognito & sleep 3
 google-chrome https://t.co/ONr8ChhpAb --no-sandbox --disable-session--crashed-bubble --incognito & sleep 3
-google-chrome https://t.co/ONr8ChhpAb --no-sandbox --disable-session--crashed-bubble --incognito & sleep 1000
+google-chrome https://t.co/ONr8ChhpAb --no-sandbox --disable-session--crashed-bubble --incognito & sleep 500
 killall chrome
 killall chrome
 sleep 5
