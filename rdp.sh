@@ -49,6 +49,8 @@ mkdir Desktop
 cd Desktop
 wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
 chmod +x ff.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/expert.sh
+chmod +x expert.sh
 sleep 1
 cd /etc
 mv hosts hosts.bak
