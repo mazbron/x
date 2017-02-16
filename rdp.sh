@@ -47,6 +47,12 @@ wget https://raw.githubusercontent.com/mazbron/x/master/expert.sh
 chmod +x expert.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/85ideas.sh
 chmod +x 85ideas.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/nicks.sh
+chmod +x nicks.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/drive.sh
+chmod +x drive.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/tek.sh
+chmod +x tek.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/ext.sh
 chmod +x ext.sh
 sleep 1
