@@ -5,6 +5,7 @@ sleep 2
 echo Installing desktop #(xrdp)
 sleep 3
 apt-get install xorg xrdp lxde -y
+apt-get install nano -y
 sleep 5
 
 echo Removing Screensaver
@@ -52,6 +53,8 @@ wget https://raw.githubusercontent.com/mazbron/x/master/expert.sh
 chmod +x expert.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/85ideas.sh
 chmod +x 85ideas.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/85.sh
+chmod +x 85.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/nicks.sh
 chmod +x nicks.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/drive.sh
