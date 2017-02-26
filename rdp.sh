@@ -63,6 +63,10 @@ wget https://raw.githubusercontent.com/mazbron/x/master/tek.sh
 chmod +x tek.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/ext.sh
 chmod +x ext.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/allsov.sh
+chmod +x allsov.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/god.sh
+chmod +x god.sh
 sleep 1
 cd /etc
 mv hosts hosts.bak
