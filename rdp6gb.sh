@@ -11,7 +11,11 @@ sleep 5
 echo Removing Screensaver
 apt-get remove xscreensaver -y
 
-echo Bonus... Installing Chromium-Browser
+echo Install Htop
+apt-get install htop -y
+sleep 2
+
+echo Installing Chromium-Browser
 sleep 1
 apt-get install chromium-browser -y
 sleep 1
