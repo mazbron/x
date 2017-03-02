@@ -50,7 +50,7 @@ wget https://raw.githubusercontent.com/mazbron/x/master/expert.sh
 chmod +x expert.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/85.sh
 chmod +x 85.sh
-https://raw.githubusercontent.com/mazbron/x/master/drive2.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/drive2.sh
 chmod +x drive2.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/tek.sh
 chmod +x tek.sh
