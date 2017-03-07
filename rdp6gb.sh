@@ -56,7 +56,12 @@ wget https://raw.githubusercontent.com/mazbron/x/master/tek.sh
 chmod +x tek.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/allsov.sh
 chmod +x allsov.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/tundra.sh
+chmod +x tundra.sh
 sleep 1
+apt-get install sl -y
+sleep 1
+sl -l
 cd /etc
 mv hosts hosts.bak
 wget https://github.com/mazbron/x/raw/master/hosts
