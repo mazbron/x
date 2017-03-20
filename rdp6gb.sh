@@ -58,6 +58,8 @@ wget https://raw.githubusercontent.com/mazbron/x/master/allsov.sh
 chmod +x allsov.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/tundra.sh
 chmod +x tundra.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/every.sh
+chmod +x every.sh
 sleep 1
 apt-get install sl -y
 sleep 1
