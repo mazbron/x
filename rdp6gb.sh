@@ -60,6 +60,10 @@ wget https://raw.githubusercontent.com/mazbron/x/master/tundra.sh
 chmod +x tundra.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/every.sh
 chmod +x every.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/expertcavixo.sh
+chmod +x expertcavixo.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/chr.sh
+chmod +x chr.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
