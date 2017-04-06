@@ -51,6 +51,8 @@ chmod +x expert.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/85.sh
 chmod +x 85.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/drive2.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/drive.sh
+chmod +x drive.sh
 chmod +x drive2.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/tek.sh
 chmod +x tek.sh
@@ -66,6 +68,8 @@ wget https://raw.githubusercontent.com/mazbron/x/master/chr.sh
 chmod +x chr.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/automo.sh
 chmod +x automo.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/nomadic.sh
+chmod +x nomadic.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
