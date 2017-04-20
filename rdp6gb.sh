@@ -72,6 +72,8 @@ wget https://raw.githubusercontent.com/mazbron/x/master/automo.sh
 chmod +x automo.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/nomadic.sh
 chmod +x nomadic.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/hipi.sh
+chmod +x hipi.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
