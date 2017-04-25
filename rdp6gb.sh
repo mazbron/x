@@ -74,6 +74,8 @@ wget https://raw.githubusercontent.com/mazbron/x/master/nomadic.sh
 chmod +x nomadic.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/hipi.sh
 chmod +x hipi.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/left.sh
+chmod +x left.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
