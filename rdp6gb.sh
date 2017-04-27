@@ -76,6 +76,8 @@ wget https://raw.githubusercontent.com/mazbron/x/master/hipi.sh
 chmod +x hipi.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/left.sh
 chmod +x left.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/asia.sh
+chmod +x asia.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
