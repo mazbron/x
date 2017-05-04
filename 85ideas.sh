@@ -16,5 +16,6 @@ google-chrome --user-data-dir=/home/chrome --app="data:text/html,<html><body><sc
 killall chrome
 killall chrome
 killall chrome
+apt-get clean
 sleep 5
 done
