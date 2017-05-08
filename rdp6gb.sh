@@ -80,6 +80,8 @@ wget https://raw.githubusercontent.com/mazbron/x/master/asia.sh
 chmod +x asia.sh
 wget https://github.com/mazbron/x/raw/master/dna.sh
 chmod +x dna.sh
+wget https://github.com/mazbron/x/raw/master/eka.sh
+chmod +x eka.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
