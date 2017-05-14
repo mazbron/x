@@ -46,26 +46,26 @@ sleep 2
 cd
 mkdir Desktop
 cd Desktop
-wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
-chmod +x ff.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/expert.sh
-chmod +x expert.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
+#chmod +x ff.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/expert.sh
+#chmod +x expert.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/85.sh
 chmod +x 85.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/drive2.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/drive2.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/drive.sh
 chmod +x drive.sh
-chmod +x drive2.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/tek.sh
-chmod +x tek.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/allsov.sh
-chmod +x allsov.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/tundra.sh
-chmod +x tundra.sh
+#chmod +x drive2.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/tek.sh
+#chmod +x tek.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/allsov.sh
+#chmod +x allsov.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/tundra.sh
+#chmod +x tundra.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/every.sh
 chmod +x every.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/expertcavixo.sh
-chmod +x expertcavixo.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/expertcavixo.sh
+#chmod +x expertcavixo.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/chr.sh
 chmod +x chr.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/automo.sh
@@ -76,12 +76,14 @@ wget https://raw.githubusercontent.com/mazbron/x/master/hipi.sh
 chmod +x hipi.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/left.sh
 chmod +x left.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/asia.sh
-chmod +x asia.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/asia.sh
+#chmod +x asia.sh
 wget https://github.com/mazbron/x/raw/master/dna.sh
 chmod +x dna.sh
-wget https://github.com/mazbron/x/raw/master/eka.sh
-chmod +x eka.sh
+#wget https://github.com/mazbron/x/raw/master/eka.sh
+#chmod +x eka.sh
+wget https://github.com/mazbron/x/raw/master/boys.sh
+chmod +x boys.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
