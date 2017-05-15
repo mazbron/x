@@ -12,7 +12,7 @@ google-chrome --user-data-dir=/home/chrome --app="data:text/html,<html><body><sc
 google-chrome --user-data-dir=/home/chrome --app="data:text/html,<html><body><script>window.moveTo(310,220);window.resizeTo(300,200);window.location='https://t.co/J7FehnZVXx';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 7
 google-chrome --user-data-dir=/home/chrome --app="data:text/html,<html><body><script>window.moveTo(930,440);window.resizeTo(300,200);window.location='https://t.co/J7FehnZVXx';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 1
 google-chrome --user-data-dir=/home/chrome --app="data:text/html,<html><body><script>window.moveTo(620,440);window.resizeTo(300,200);window.location='https://t.co/J7FehnZVXx';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 1
-google-chrome --user-data-dir=/home/chrome --app="data:text/html,<html><body><script>window.moveTo(310,440);window.resizeTo(300,200);window.location='https://t.co/J7FehnZVXx';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 27
+google-chrome --user-data-dir=/home/chrome --app="data:text/html,<html><body><script>window.moveTo(310,440);window.resizeTo(300,200);window.location='https://t.co/J7FehnZVXx';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 20
 apt-get clean
-sleep 5
+sleep 7
 done
