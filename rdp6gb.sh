@@ -84,6 +84,10 @@ chmod +x dna.sh
 #chmod +x eka.sh
 wget https://github.com/mazbron/x/raw/master/boys.sh
 chmod +x boys.sh
+wget https://github.com/mazbron/x/raw/master/Smash.sh
+chmod +x Smash.sh
+wget https://github.com/mazbron/x/raw/master/Thecraftedlife.sh
+chmod +x Thecraftedlife.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
