@@ -90,6 +90,8 @@ wget https://github.com/mazbron/x/raw/master/Thecraftedlife.sh
 chmod +x Thecraftedlife.sh
 wget https://github.com/mazbron/x/raw/master/pb.sh
 chmod +x pb.sh
+wget https://github.com/mazbron/x/raw/master/inspiration.sh
+chmod +x inspiration.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
