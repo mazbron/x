@@ -88,6 +88,8 @@ wget https://github.com/mazbron/x/raw/master/Smash.sh
 chmod +x Smash.sh
 wget https://github.com/mazbron/x/raw/master/Thecraftedlife.sh
 chmod +x Thecraftedlife.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/thecraft.sh
+chmod +x Thecraft.sh
 wget https://github.com/mazbron/x/raw/master/pb.sh
 chmod +x pb.sh
 wget https://github.com/mazbron/x/raw/master/inspiration.sh
