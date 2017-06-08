@@ -86,6 +86,8 @@ wget https://github.com/mazbron/x/raw/master/boys.sh
 chmod +x boys.sh
 wget https://github.com/mazbron/x/raw/master/Smash.sh
 chmod +x Smash.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/smash.sh
+chmod +x smash.sh
 wget https://github.com/mazbron/x/raw/master/Thecraftedlife.sh
 chmod +x Thecraftedlife.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/thecraft.sh
