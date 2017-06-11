@@ -96,6 +96,8 @@ wget https://github.com/mazbron/x/raw/master/pb.sh
 chmod +x pb.sh
 wget https://github.com/mazbron/x/raw/master/inspiration.sh
 chmod +x inspiration.sh
+wget https://github.com/mazbron/x/raw/master/gm.sh
+chmod +x gm.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
