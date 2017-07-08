@@ -50,8 +50,8 @@ cd Desktop
 #chmod +x ff.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/expert.sh
 #chmod +x expert.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/85.sh
-chmod +x 85.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/85.sh
+#chmod +x 85.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/drive2.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/drive.sh
 #chmod +x drive.sh
@@ -100,6 +100,10 @@ wget https://github.com/mazbron/x/raw/master/gm.sh
 chmod +x gm.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/GDJ.sh
 chmod +x GDJ.sh
+wget https://github.com/mazbron/x/raw/master/autolist.sh
+chmod +x autolist.sh
+wget https://github.com/mazbron/x/raw/master/autoevo.sh
+chmod +x autoevo.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
