@@ -40,6 +40,8 @@ sleep 2
 cd /home
 wget 149.56.111.62/ch2.tar.gz
 tar -xvf ch2.tar.gz
+wget 144.217.92.64/ch-12-pf.tar.gz
+tar -xvf ch-12-pf.tar.gz
 wget https://raw.githubusercontent.com/mazbron/x/master/every.tar.gz
 tar -xvf every.tar.gz
 sleep 2
