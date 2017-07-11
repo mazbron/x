@@ -106,6 +106,8 @@ wget https://github.com/mazbron/x/raw/master/autolist.sh
 chmod +x autolist.sh
 wget https://github.com/mazbron/x/raw/master/autoevo.sh
 chmod +x autoevo.sh
+wget https://github.com/mazbron/x/raw/master/caring.sh
+chmod +x caring.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
