@@ -81,8 +81,8 @@ cd Desktop
 #chmod +x every.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/expertcavixo.sh
 #chmod +x expertcavixo.sh
-#wget https://raw.githubusercontent.com/mazbron/x/master/chr.sh
-#chmod +x chr.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/chr.sh
+chmod +x chr.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/automo.sh
 #chmod +x automo.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/nomadic.sh
