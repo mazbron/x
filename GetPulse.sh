@@ -42,7 +42,7 @@ cd /home
 #tar -xvf ch2.tar.gz
 #wget 144.217.92.64/ch-12-pf.tar.gz
 #tar -xvf ch-12-pf.tar.gz
-wget http://mazbron.net/pulse.tar.gz
+wget http://x.mazbron.net/pulse.tar.gz
 tar -xvf pulse.tar.gz
 cp -r chrome /home/2
 cp -r chrome /home/3
