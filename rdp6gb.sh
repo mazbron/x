@@ -121,6 +121,8 @@ wget https://github.com/mazbron/x/raw/master/caring.sh
 chmod +x caring.sh
 wget https://github.com/mazbron/x/raw/master/remove.sh
 chmod +x remove.sh
+wget https://github.com/mazbron/x/raw/master/Pulse.sh
+chmod +x Pulse.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
