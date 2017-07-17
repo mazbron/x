@@ -123,6 +123,8 @@ wget https://github.com/mazbron/x/raw/master/remove.sh
 chmod +x remove.sh
 wget https://github.com/mazbron/x/raw/master/Pulse.sh
 chmod +x Pulse.sh
+wget https://github.com/mazbron/x/raw/master/AOL.sh
+chmod +x AOL.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
