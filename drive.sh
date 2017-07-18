@@ -11,7 +11,7 @@ google-chrome --user-data-dir=/home/7 --app="data:text/html,<html><body><script>
 google-chrome --user-data-dir=/home/8 --app="data:text/html,<html><body><script>window.moveTo(620,220);window.resizeTo(300,200);window.location='https://t.co/NqqtmH6FjY';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 3
 google-chrome --user-data-dir=/home/9 --app="data:text/html,<html><body><script>window.moveTo(310,220);window.resizeTo(300,200);window.location='https://t.co/NqqtmH6FjY';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 7
 google-chrome --user-data-dir=/home/10 --app="data:text/html,<html><body><script>window.moveTo(930,440);window.resizeTo(300,200);window.location='https://t.co/NqqtmH6FjY';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 3
-google-chrome --user-data-dir=/home/11--app="data:text/html,<html><body><script>window.moveTo(620,440);window.resizeTo(300,200);window.location='https://t.co/NqqtmH6FjY';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 3
+google-chrome --user-data-dir=/home/11 --app="data:text/html,<html><body><script>window.moveTo(620,440);window.resizeTo(300,200);window.location='https://t.co/NqqtmH6FjY';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 3
 google-chrome --user-data-dir=/home/12 --app="data:text/html,<html><body><script>window.moveTo(310,440);window.resizeTo(300,200);window.location='https://t.co/NqqtmH6FjY';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 210
 killall chrome
 killall chrome
