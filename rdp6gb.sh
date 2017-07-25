@@ -15,14 +15,14 @@ echo Install Htop
 apt-get install htop -y
 sleep 2
 
-echo Installing Chromium-Browser
-sleep 1
-apt-get install chromium-browser -y
+#echo Installing Chromium-Browser
+#sleep 1
+#apt-get install chromium-browser -y
 sleep 1
 apt-get install firefox -y
 sleep 1
-wget https://github.com/mazbron/x/raw/master/iMacros-new.tar.gz
-tar -xvf iMacros-new.tar.gz
+#wget https://github.com/mazbron/x/raw/master/iMacros-new.tar.gz
+#tar -xvf iMacros-new.tar.gz
 sleep 1
 echo install chrome
 sleep 1
@@ -42,17 +42,17 @@ wget 149.56.111.62/ch2.tar.gz
 tar -xvf ch2.tar.gz
 #wget 144.217.92.64/ch-12-pf.tar.gz
 #tar -xvf ch-12-pf.tar.gz
-cp -r chrome /home/2
-cp -r chrome /home/3
-cp -r chrome /home/4
-cp -r chrome /home/5
-cp -r chrome /home/6
-cp -r chrome /home/7
-cp -r chrome /home/8
-cp -r chrome /home/9
-cp -r chrome /home/10
-cp -r chrome /home/11
-cp -r chrome /home/12
+#cp -r chrome /home/2
+#cp -r chrome /home/3
+#cp -r chrome /home/4
+#cp -r chrome /home/5
+#cp -r chrome /home/6
+#cp -r chrome /home/7
+#cp -r chrome /home/8
+#cp -r chrome /home/9
+#cp -r chrome /home/10
+#cp -r chrome /home/11
+#cp -r chrome /home/12
 #wget https://raw.githubusercontent.com/mazbron/x/master/every.tar.gz
 #tar -xvf every.tar.gz
 sleep 2
@@ -115,12 +115,12 @@ wget https://raw.githubusercontent.com/mazbron/x/master/GDJ.sh
 chmod +x GDJ.sh
 wget https://github.com/mazbron/x/raw/master/autolist.sh
 chmod +x autolist.sh
-wget https://github.com/mazbron/x/raw/master/autoevo.sh
-chmod +x autoevo.sh
+#wget https://github.com/mazbron/x/raw/master/autoevo.sh
+#chmod +x autoevo.sh
 wget https://github.com/mazbron/x/raw/master/caring.sh
 chmod +x caring.sh
-wget https://github.com/mazbron/x/raw/master/remove.sh
-chmod +x remove.sh
+#wget https://github.com/mazbron/x/raw/master/remove.sh
+#chmod +x remove.sh
 wget https://github.com/mazbron/x/raw/master/Pulse.sh
 chmod +x Pulse.sh
 wget https://github.com/mazbron/x/raw/master/AOL.sh
