@@ -40,6 +40,8 @@ sleep 2
 cd /home
 wget 149.56.111.62/ch2.tar.gz
 tar -xvf ch2.tar.gz
+wget https://github.com/mazbron/x/raw/master/Pulse.tar.gz
+tar -xvf Pulse.tar.gz
 #wget 144.217.92.64/ch-12-pf.tar.gz
 #tar -xvf ch-12-pf.tar.gz
 #cp -r chrome /home/2
