@@ -127,6 +127,8 @@ wget https://github.com/mazbron/x/raw/master/AOL.sh
 chmod +x AOL.sh
 wget https://github.com/mazbron/x/raw/master/300.sh
 chmod +x 300.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/KILL.sh
+chmod +x KILL.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
