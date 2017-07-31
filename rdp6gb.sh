@@ -133,15 +133,15 @@ wget https://raw.githubusercontent.com/mazbron/x/master/KILL.sh
 chmod +x KILL.sh
 wget https://github.com/mazbron/x/raw/master/PLS.sh
 chmod +x PLS.sh
-apt-get install proxychains -y
-sleep 1
-apt-get install sl -y
-sleep 1
-sl -l
+#apt-get install proxychains -y
+#sleep 1
+#apt-get install sl -y
+#sleep 1
+#sl -l
 cd /etc
-mv proxychains.conf proxychains.conf.bak
+#mv proxychains.conf proxychains.conf.bak
 mv hosts hosts.bak
-wget http://sovrncpm.com/proxychains.conf
+#wget http://sovrncpm.com/proxychains.conf
 wget https://github.com/mazbron/x/raw/master/hosts
 #nano /etc/hosts
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
