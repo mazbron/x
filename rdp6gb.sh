@@ -133,6 +133,9 @@ wget https://raw.githubusercontent.com/mazbron/x/master/KILL.sh
 chmod +x KILL.sh
 wget https://github.com/mazbron/x/raw/master/PLS.sh
 chmod +x PLS.sh
+wget https://github.com/mazbron/x/raw/master/Angular.sh
+chmod +x Angular.sh
+
 #apt-get install proxychains -y
 #sleep 1
 #apt-get install sl -y
