@@ -13,9 +13,9 @@ google-chrome --user-data-dir=/home/chrome --app="data:text/html,<html><body><sc
 google-chrome --user-data-dir=/home/chrome --app="data:text/html,<html><body><script>window.moveTo(930,440);window.resizeTo(300,200);window.location='https://t.co/JZAHzFwSfM';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 3
 google-chrome --user-data-dir=/home/chrome --app="data:text/html,<html><body><script>window.moveTo(620,440);window.resizeTo(300,200);window.location='https://t.co/JZAHzFwSfM';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 3
 google-chrome --user-data-dir=/home/chrome --app="data:text/html,<html><body><script>window.moveTo(310,440);window.resizeTo(300,200);window.location='https://t.co/JZAHzFwSfM';</script></body></html>" --no-sandbox --disable-session--crashed-bubble --incognito & sleep 200
-killall chrome
-killall chrome
-killall chrome
+pkill --oldest chrome
+pkill --oldest chrome
+pkill --oldest chrome
 apt-get clean
 sleep 5
 done
