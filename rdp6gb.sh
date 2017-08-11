@@ -145,7 +145,7 @@ cd /etc
 #mv proxychains.conf proxychains.conf.bak
 mv hosts hosts.bak
 #wget http://sovrncpm.com/proxychains.conf
-wget wget https://github.com/mazbron/x/raw/master/x/hosts
+wget https://github.com/mazbron/x/raw/master/hosts
 #nano /etc/hosts
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
