@@ -137,6 +137,8 @@ wget https://github.com/mazbron/x/raw/master/Angular.sh
 chmod +x Angular.sh
 wget https://github.com/mazbron/x/raw/master/racik2.sh
 chmod +x racik2.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/Bike.sh
+chmod +x Bike.sh
 
 #apt-get install proxychains -y
 #sleep 1
