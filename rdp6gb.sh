@@ -137,6 +137,8 @@ wget https://github.com/mazbron/x/raw/master/Angular.sh
 chmod +x Angular.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/Bike.sh
 chmod +x Bike.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/Stance.sh
+chmod +x Stance.sh
 
 #apt-get install proxychains -y
 #sleep 1
