@@ -38,10 +38,13 @@ tar -xvf install_flash_player_11_linux.x86_64.tar.gz
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins
 sleep 2
 cd /home
-wget 149.56.111.62/ch2.tar.gz
-tar -xvf ch2.tar.gz
-wget https://github.com/mazbron/x/raw/master/Pulse.tar.gz
-tar -xvf Pulse.tar.gz
+#chrome dan ff di ovh2
+wget 144.217.92.64/chr-ff.tar.gz
+tar -xvf chr-ff.tar.gz
+#wget 149.56.111.62/ch2.tar.gz
+#tar -xvf ch2.tar.gz
+#wget https://github.com/mazbron/x/raw/master/Pulse.tar.gz
+#tar -xvf Pulse.tar.gz
 #wget 144.217.92.64/ch-12-pf.tar.gz
 #tar -xvf ch-12-pf.tar.gz
 #cp -r chrome /home/2
@@ -93,34 +96,34 @@ wget https://raw.githubusercontent.com/mazbron/x/master/left.sh
 chmod +x left.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/asia.sh
 chmod +x asia.sh
-wget https://github.com/mazbron/x/raw/master/dna.sh
-chmod +x dna.sh
+#wget https://github.com/mazbron/x/raw/master/dna.sh
+#chmod +x dna.sh
 #wget https://github.com/mazbron/x/raw/master/eka.sh
 #chmod +x eka.sh
 #wget https://github.com/mazbron/x/raw/master/boys.sh
 #chmod +x boys.sh
-wget https://github.com/mazbron/x/raw/master/Smash.sh
-chmod +x Smash.sh
+#wget https://github.com/mazbron/x/raw/master/Smash.sh
+#chmod +x Smash.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/smash.sh
 #chmod +x smash.sh
-wget https://github.com/mazbron/x/raw/master/Thecraftedlife.sh
-chmod +x Thecraftedlife.sh
+#wget https://github.com/mazbron/x/raw/master/Thecraftedlife.sh
+#chmod +x Thecraftedlife.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/thecraft.sh
 #chmod +x thecraft.sh
-wget https://github.com/mazbron/x/raw/master/pb.sh
-chmod +x pb.sh
-wget https://github.com/mazbron/x/raw/master/inspiration.sh
-chmod +x inspiration.sh
-wget https://github.com/mazbron/x/raw/master/gm.sh
-chmod +x gm.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/GDJ.sh
-chmod +x GDJ.sh
+#wget https://github.com/mazbron/x/raw/master/pb.sh
+#chmod +x pb.sh
+#wget https://github.com/mazbron/x/raw/master/inspiration.sh
+#chmod +x inspiration.sh
+#wget https://github.com/mazbron/x/raw/master/gm.sh
+#chmod +x gm.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/GDJ.sh
+#chmod +x GDJ.sh
 wget https://github.com/mazbron/x/raw/master/autolist.sh
 chmod +x autolist.sh
 #wget https://github.com/mazbron/x/raw/master/autoevo.sh
 #chmod +x autoevo.sh
-wget https://github.com/mazbron/x/raw/master/caring.sh
-chmod +x caring.sh
+#wget https://github.com/mazbron/x/raw/master/caring.sh
+#chmod +x caring.sh
 #wget https://github.com/mazbron/x/raw/master/remove.sh
 #chmod +x remove.sh
 wget https://github.com/mazbron/x/raw/master/Pulse.sh
@@ -133,13 +136,14 @@ wget https://raw.githubusercontent.com/mazbron/x/master/KILL.sh
 chmod +x KILL.sh
 wget https://github.com/mazbron/x/raw/master/PLS.sh
 chmod +x PLS.sh
-wget https://github.com/mazbron/x/raw/master/Angular.sh
-chmod +x Angular.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/Bike.sh
-chmod +x Bike.sh
+#wget https://github.com/mazbron/x/raw/master/Angular.sh
+#chmod +x Angular.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/Bike.sh
+#chmod +x Bike.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/Stance.sh
 chmod +x Stance.sh
-
+wget https://raw.githubusercontent.com/mazbron/x/master/AOL2.sh
+chmod +x AOL2.sh
 #apt-get install proxychains -y
 #sleep 1
 #apt-get install sl -y
