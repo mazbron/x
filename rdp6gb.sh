@@ -39,8 +39,13 @@ sudo cp libflashplayer.so /usr/lib/mozilla/plugins
 sleep 2
 cd /home
 #chrome dan ff di ovh2
-wget 144.217.92.64/chr-ff.tar.gz
-tar -xvf chr-ff.tar.gz
+wget https://github.com/mazbron/x/raw/master/chrome.tar.gz
+tar -xvf chrome.tar.gz
+cp -r chrome chrome2
+sleep 2
+cp -r chrome chrome3
+sleep 2
+cp -r chrome chrome4
 #wget 149.56.111.62/ch2.tar.gz
 #tar -xvf ch2.tar.gz
 #wget https://github.com/mazbron/x/raw/master/Pulse.tar.gz
@@ -144,6 +149,8 @@ wget https://raw.githubusercontent.com/mazbron/x/master/Stance.sh
 chmod +x Stance.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/AOL2.sh
 chmod +x AOL2.sh
+wget https://github.com/mazbron/x/raw/master/HW.sh
+chmod +x HW.sh
 apt-get install proxychains -y
 #sleep 1
 #apt-get install sl -y
@@ -152,9 +159,9 @@ apt-get install proxychains -y
 cd /etc
 #mv proxychains.conf proxychains.conf.bak
 mv hosts hosts.bak
-#wget http://sovrncpm.com/proxychains.conf
+https://github.com/mazbron/x/raw/master/proxychains.conf
 wget https://github.com/mazbron/x/raw/master/hosts
-#nano /etc/hosts
+nano /etc/hosts
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
-echo updated 26/07/2017
+echo updated 26/07/2017 == 30/05/2019
