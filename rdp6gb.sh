@@ -144,7 +144,7 @@ wget https://raw.githubusercontent.com/mazbron/x/master/Stance.sh
 chmod +x Stance.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/AOL2.sh
 chmod +x AOL2.sh
-#apt-get install proxychains -y
+apt-get install proxychains -y
 #sleep 1
 #apt-get install sl -y
 #sleep 1
