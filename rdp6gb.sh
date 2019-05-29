@@ -157,9 +157,9 @@ apt-get install proxychains -y
 #sleep 1
 #sl -l
 cd /etc
-#mv proxychains.conf proxychains.conf.bak
 mv hosts hosts.bak
-https://github.com/mazbron/x/raw/master/proxychains.conf
+mv proxychains.conf proxychains.conf.bak
+wget https://github.com/mazbron/x/raw/master/proxychains.conf
 wget https://github.com/mazbron/x/raw/master/hosts
 nano /etc/hosts
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
