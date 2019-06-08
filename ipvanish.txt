@@ -1,0 +1,31 @@
+iad.ipvanish.com:1080
+atl.ipvanish.com:1080
+chi.ipvanish.com:1080
+dal.ipvanish.com:1080
+las.ipvanish.com:1080
+lax.ipvanish.com:1080
+mia.ipvanish.com:1080
+nyc.ipvanish.com:1080
+phx.ipvanish.com:1080
+sjc.ipvanish.com:1080
+sea.ipvanish.com:1080
+
+lon.ipvanish.com:1080
+tor.ipvanish.com:1080
+syd.ipvanish.com:1080
+
+Username: scMGJtMisr
+Password:  6xmzuju2Eccj
+
+socks5	iad.ipvanish.com	1080	W9tQ9f3c9nI	swVD1zaow
+socks5	atl.ipvanish.com	1080	W9tQ9f3c9nI	swVD1zaow
+socks5	chi.ipvanish.com	1080	W9tQ9f3c9nI	swVD1zaow
+socks5	dal.ipvanish.com	1080	W9tQ9f3c9nI	swVD1zaow
+socks5	las.ipvanish.com	1080	W9tQ9f3c9nI	swVD1zaow
+socks5	lax.ipvanish.com	1080	W9tQ9f3c9nI	swVD1zaow
+socks5	mia.ipvanish.com	1080	W9tQ9f3c9nI	swVD1zaow
+socks5	nyc.ipvanish.com	1080	W9tQ9f3c9nI	swVD1zaow
+socks5	phx.ipvanish.com	1080	W9tQ9f3c9nI	swVD1zaow
+socks5	sjc.ipvanish.com	1080	W9tQ9f3c9nI	swVD1zaow
+socks5	sea.ipvanish.com	1080	W9tQ9f3c9nI	swVD1zaow
+socks5	ttn.ipvanish.com	1080	W9tQ9f3c9nI	swVD1zaow
