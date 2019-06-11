@@ -10,7 +10,9 @@ sleep 5
 sudo apt-get remove xrdp vnc4server tightvncserver -y
 sudo apt-get install tightvncserver -y
 apt-get install xrdp=0.6.1-2 -y
-service xrdp restart
+sleep 2
+sudio service xrdp restart
+sleep 2
 echo Removing Screensaver
 apt-get remove xscreensaver -y
 
