@@ -7,6 +7,8 @@ sleep 3
 apt-get install xorg xrdp lxde -y
 apt-get install nano -y
 sleep 5
+sudo apt-get remove xrdp vnc4server tightvncserver -y
+sudo apt-get install tightvncserver -y
 
 echo Removing Screensaver
 apt-get remove xscreensaver -y
