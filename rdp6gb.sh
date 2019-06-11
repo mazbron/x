@@ -9,7 +9,7 @@ apt-get install nano -y
 sleep 5
 sudo apt-get remove xrdp vnc4server tightvncserver -y
 sudo apt-get install tightvncserver -y
-apt-get install xrdp=0.6.1-2
+apt-get install xrdp=0.6.1-2 -y
 service xrdp restart
 echo Removing Screensaver
 apt-get remove xscreensaver -y
