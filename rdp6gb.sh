@@ -11,8 +11,7 @@ sudo apt-get remove xrdp vnc4server tightvncserver -y
 sudo apt-get install tightvncserver -y
 apt-get install xrdp=0.6.1-2 -y
 sleep 2
-sudio service xrdp restart
-sleep 2
+
 echo Removing Screensaver
 apt-get remove xscreensaver -y
 
@@ -166,8 +165,10 @@ mv hosts hosts.bak
 mv proxychains.conf proxychains.conf.bak
 wget https://github.com/mazbron/x/raw/master/proxychains.conf
 wget https://github.com/mazbron/x/raw/master/hosts
-nano /etc/hosts
 echo "root:gl0d4kgl0d4k" | sudo chpasswd
+nano /etc/hosts
+sudio service xrdp restart
+sleep 2
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
 echo updated 26/07/2017 == 30/05/2019
