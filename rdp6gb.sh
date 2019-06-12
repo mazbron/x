@@ -166,8 +166,9 @@ mv proxychains.conf proxychains.conf.bak
 wget https://github.com/mazbron/x/raw/master/proxychains.conf
 wget https://github.com/mazbron/x/raw/master/hosts
 echo "root:gl0d4kgl0d4k" | sudo chpasswd
+sudo service xrdp restart
 nano /etc/hosts
-sudio service xrdp restart
+
 sleep 2
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
