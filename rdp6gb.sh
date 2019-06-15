@@ -154,6 +154,9 @@ chmod +x PLS.sh
 #chmod +x Bike.sh
 wget https://github.com/mazbron/x/raw/master/SARAH2.sh
 chmod +x SARAH2.sh
+wget https://github.com/mazbron/x/raw/master/SARAHCLOSE.sh
+chmod +x SARAHCLOSE.sh
+
 wget https://raw.githubusercontent.com/mazbron/x/master/AOL2.sh
 chmod +x AOL2.sh
 wget https://github.com/mazbron/x/raw/master/HW.sh
