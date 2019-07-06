@@ -17,7 +17,8 @@ apt-get remove xscreensaver -y
 
 #echo Install Htop
 #apt-get install htop -y
-#sleep 2
+sleep 1
+sudo apt install openjdk-8-jdk -y
 
 #echo Installing Chromium-Browser
 #sleep 1
