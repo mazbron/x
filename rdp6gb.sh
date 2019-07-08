@@ -165,6 +165,13 @@ chmod +x HW.sh
 wget https://github.com/mazbron/x/raw/master/CrossClicker.zip
 unzip CrossClicker.zip
 chmod +x CrossClicker.jar
+echo ==================FAMOBI=============
+sudo apt-get install actiona -y
+wget https://github.com/mazbron/x/raw/master/fmb/PLAY.ascr
+chmod +x PLAY.ascr
+wget https://github.com/mazbron/x/raw/master/fmb/SARAH-ACTIONA.sh
+chmod +x SARAH-ACTIONA.sh
+
 apt-get install proxychains -y
 #sleep 1
 #apt-get install sl -y
