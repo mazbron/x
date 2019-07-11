@@ -72,7 +72,11 @@ cp -r chrome chrome4
 #tar -xvf every.tar.gz
 wget http://173.212.241.46/sarah.tar.gz
 tar -xvf sarah.tar.gz && mv chrome sarah
-
+mv sarah chrome
+sleep 1
+cd chrome
+wget 82.163.73.24/profile-chrome.zip
+unzip chrome-profile.zip
 sleep 2
 cd
 mkdir Desktop
