@@ -76,7 +76,8 @@ mv sarah chrome
 sleep 1
 cd chrome
 wget 82.163.73.24/profile-chrome.zip
-unzip chrome-profile.zip
+rm -rf Default
+unzip profile-chrome.zip
 sleep 2
 cd
 mkdir Desktop
