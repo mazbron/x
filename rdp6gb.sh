@@ -8,6 +8,8 @@ sleep 3
 apt-get install xrdp -y
 sudo apt install xserver-xorg-core -y
 sudo apt install xorgxrdp -y
+sleep 1
+apt-get install zip
 
 apt-get install nano -y
 sleep 5
