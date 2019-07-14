@@ -4,7 +4,11 @@ apt-get update
 sleep 2
 echo Installing desktop #(xrdp)
 sleep 3
-apt-get install xorg xrdp lxde -y
+#apt-get install xorg xrdp lxde -y
+apt-get install xrdp -y
+sudo apt install xserver-xorg-core -y
+sudo apt install xorgxrdp -y
+
 apt-get install nano -y
 sleep 5
 #sudo apt-get remove xrdp vnc4server tightvncserver -y
