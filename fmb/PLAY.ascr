@@ -72,7 +72,7 @@
             <exception id="2" action="1" line=""/>
             <exception id="1" action="0" line=""/>
             <parameter name="duration">
-                <subParameter name="value" code="0">12</subParameter>
+                <subParameter name="value" code="0">20</subParameter>
             </parameter>
             <parameter name="unit">
                 <subParameter name="value" code="0">seconds</subParameter>
