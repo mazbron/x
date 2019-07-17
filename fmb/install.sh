@@ -7,7 +7,7 @@ sleep 3
 apt-get install xorg xrdp lxde -y
 sleep 1
 apt-get install zip -y
-
+apt install unzip -y
 apt-get install nano -y
 sleep 5
 sudo apt-get remove xrdp vnc4server tightvncserver -y
