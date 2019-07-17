@@ -65,7 +65,8 @@ wget https://github.com/mazbron/x/raw/master/fmb/PLAY.ascr
 chmod +x PLAY.ascr
 wget https://github.com/mazbron/x/raw/master/fmb/SARAH-ACTIONA.sh
 chmod +x SARAH-ACTIONA.sh
-cd /home/
+cd /home/chrome
+rm -rf Default
 wget https://github.com/mazbron/x/raw/master/fmb/fmb-profile.tar.gz
 tar -xvf fmb-profile.tar.gz
 
