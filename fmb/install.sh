@@ -69,7 +69,9 @@ cd /home/chrome
 rm -rf Default
 wget https://github.com/mazbron/x/raw/master/fmb/fmb-profile.tar.gz
 tar -xvf fmb-profile.tar.gz
-
+echo =======4J========
+wget https://github.com/mazbron/x/raw/master/fmb/4J.sh
+chmod +x 4J.sh
 apt-get install proxychains -y
 #sleep 1
 #apt-get install sl -y
