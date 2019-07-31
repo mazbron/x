@@ -2,7 +2,7 @@
 printf '\033]2;helpbot\a'
 while :
 do
-proxychains chromium-browser --user-data-dir=/home/chrome2 --force-android-app-mode --app=http://halloween.wtf/4J.php --window-size=390,650 --window-position=1299,1 --no-sandbox --incognito & sleep 1
+proxychains chromium-browser --user-data-dir=/home/chrome --force-android-app-mode --app=http://halloween.wtf/4J.php --window-size=390,650 --window-position=1299,1 --no-sandbox --incognito & sleep 1
 clear
 sleep 17
 clear
