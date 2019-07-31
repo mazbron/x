@@ -14,5 +14,5 @@ apt-get autoclean
 clear
 sleep 3
 /usr/games/sl -l
-sleep 2
+sleep 1
 done
