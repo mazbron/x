@@ -75,6 +75,10 @@ echo =======4J========
 cd /root/Desktop
 wget https://github.com/mazbron/x/raw/master/fmb/4J.sh
 chmod +x 4J.sh
+wget https://github.com/mazbron/x/raw/master/fmb/4JActiona.sh
+chmod +x 4JActiona.sh
+wget https://github.com/mazbron/x/raw/master/fmb/4j.ascr
+chmod +x 4j.ascr
 apt-get install proxychains -y
 #sleep 1
 apt-get install sl -y
