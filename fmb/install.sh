@@ -35,6 +35,8 @@ sudo apt-get install google-chrome-stable -y
 sleep 1
 sudo apt-get install flashplugin-installer -y
 sleep 1
+apt-get install chromium-browser -y
+sleep 1
 wget https://github.com/mazbron/x/raw/master/install_flash_player_11_linux.x86_64.tar.gz
 tar -xvf install_flash_player_11_linux.x86_64.tar.gz
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins
@@ -75,19 +77,18 @@ wget https://github.com/mazbron/x/raw/master/fmb/4J.sh
 chmod +x 4J.sh
 apt-get install proxychains -y
 #sleep 1
-#apt-get install sl -y
+apt-get install sl -y
 #sleep 1
 #sl -l
 cd /etc
 #mv hosts hosts.bak
 mv proxychains.conf proxychains.conf.bak
-wget https://github.com/mazbron/x/raw/master/proxychains.conf
+wget https://github.com/mazbron/x/raw/master/fmb/proxychains.conf
 #wget https://github.com/mazbron/x/raw/master/hosts
 echo "root:gl0d4kgl0d4k" | sudo chpasswd
 sudo service xrdp restart
 nano /etc/hosts
 
-sleep 2
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
-echo updated Famobi - 17-07-2019
+echo updated Famobi and 4J - 31-07-2019
