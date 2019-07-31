@@ -7,7 +7,7 @@ clear
 sleep 17
 clear
 echo start helpbot
-actiona -s -C -Q -e -x /root/Desktop/lib/4j.ascr
+actiona -s -C -Q -e -x 4j.ascr
 sleep 7
 killall chromium-browser
 apt-get autoclean
