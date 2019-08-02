@@ -60,7 +60,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -95,7 +95,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -119,7 +119,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -154,7 +154,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -178,7 +178,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -213,7 +213,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -248,7 +248,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -283,7 +283,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -318,7 +318,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -342,7 +342,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -366,7 +366,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -390,7 +390,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -425,7 +425,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -449,7 +449,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -473,7 +473,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -497,7 +497,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -521,7 +521,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -545,7 +545,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -580,7 +580,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -604,7 +604,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -628,7 +628,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -652,7 +652,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -687,7 +687,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -711,7 +711,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -735,7 +735,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -759,7 +759,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -783,7 +783,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -818,7 +818,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -842,7 +842,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -866,7 +866,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -890,7 +890,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -925,7 +925,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -949,7 +949,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -973,7 +973,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -1008,7 +1008,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
@@ -1032,7 +1032,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="button">
-                <subParameter name="value" code="0">left</subParameter>
+                <subParameter name="value" code="0">right</subParameter>
             </parameter>
             <parameter name="positionOffset">
                 <subParameter name="unit" code="0">0</subParameter>
