@@ -42,6 +42,7 @@ sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable
 sudo apt-get update -y
 sudo apt-get install google-chrome-stable -y
 sleep 1
+apt-get install chromium-browser -y
 sudo apt-get install flashplugin-installer -y
 sleep 1
 wget https://github.com/mazbron/x/raw/master/install_flash_player_11_linux.x86_64.tar.gz
@@ -81,9 +82,9 @@ tar -xvf sarah.tar.gz && mv chrome sarah
 mv sarah chrome
 sleep 1
 cd /home/chrome
-#wget https://www.googleapis.com/drive/v3/files/1_iODWQ23thDrmit8iWVfR65P7V6Jtzle?alt=media&key=AIzaSyAh1_vrmX1z-6W7hXQDsArVhc4UJVkkfo4
-#rm -rf Default
-#unzip profile-chrome.zip
+wget --no-check-certificate 'https://www.googleapis.com/drive/v3/files/1_iODWQ23thDrmit8iWVfR65P7V6Jtzle?alt=media&key=AIzaSyAh1_vrmX1z-6W7hXQDsArVhc4UJVkkfo4' -O profile-chrome.zip
+rm -rf Default
+unzip profile-chrome.zip
 sleep 2
 cd
 mkdir Desktop
