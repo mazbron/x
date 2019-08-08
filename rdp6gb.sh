@@ -192,7 +192,7 @@ apt-get install proxychains -y
 cd /etc
 mv hosts hosts.bak
 mv proxychains.conf proxychains.conf.bak
-wget https://github.com/mazbron/x/raw/master/proxychains.conf
+wget https://github.com/mazbron/x/raw/master/fmb/proxychains.conf
 wget https://github.com/mazbron/x/raw/master/hosts
 echo "root:gl0d4kgl0d4k" | sudo chpasswd
 sudo service xrdp restart
