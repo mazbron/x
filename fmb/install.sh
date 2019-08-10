@@ -79,6 +79,13 @@ wget https://github.com/mazbron/x/raw/master/fmb/4JActiona.sh
 chmod +x 4JActiona.sh
 wget https://github.com/mazbron/x/raw/master/fmb/4j.ascr
 chmod +x 4j.ascr
+echo =======GD========
+wget https://github.com/mazbron/x/raw/master/fmb/GD.sh
+chmod +x GD.sh
+wget https://github.com/mazbron/x/raw/master/fmb/GD.ascr
+chmod +x GD.ascr
+wget https://github.com/mazbron/x/raw/master/fmb/chameleon_1565469756518.json
+
 apt-get install proxychains -y
 #sleep 1
 apt-get install sl -y
