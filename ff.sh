@@ -4,7 +4,7 @@ do
 /root/firefox/firefox -P default -no-remote imacros://run/?m=sarah.iim & sleep 55
 killall firefox
 sleep 5
-/root/firefox/firefox -P COMCAST -no-remote imacros://run/?m=85ideas.iim & sleep 55
+/root/firefox/firefox -P COMCAST -no-remote imacros://run/?m=sarah.iim & sleep 55
 killall firefox
 sleep 5
 done
