@@ -34,7 +34,10 @@ sleep 1
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 sudo apt-get update -y
-sudo apt-get install google-chrome-stable -y
+#sudo apt-get install google-chrome-stable -y
+wget http://128.199.103.32/x/chrome60.deb
+sudo dpkg -i chrome60.deb
+
 sleep 1
 sudo apt-get install flashplugin-installer -y
 sleep 1
@@ -51,6 +54,9 @@ wget 82.163.73.24/profile-chrome.zip
 sleep 2
 wget https://github.com/mazbron/x/raw/master/chrome.tar.gz
 tar -xvf chrome.tar.gz
+sleep 1
+wget http://128.199.103.32/x/chrome60.tar.gz
+tar -xvf chrome60.tar.gz
 cd
 mkdir Desktop
 cd Desktop
@@ -88,6 +94,11 @@ chmod +x GD.sh
 wget https://github.com/mazbron/x/raw/master/fmb/GD.ascr
 chmod +x GD.ascr
 wget https://github.com/mazbron/x/raw/master/fmb/chameleon_1565469756518.json
+echo =======DG=============
+wget https://github.com/mazbron/x/raw/master/DG/DG.ascr
+chmod +x DG.ascr
+wget https://github.com/mazbron/x/raw/master/DG/DG.sh
+chmod +x DG.sh
 
 apt-get install proxychains -y
 #sleep 1
