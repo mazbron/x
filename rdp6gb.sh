@@ -37,10 +37,10 @@ sleep 1
 sleep 1
 echo install chrome
 sleep 1
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-sudo apt-get update -y
-sudo apt-get install google-chrome-stable -y
+#wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+#sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+#sudo apt-get update -y
+#sudo apt-get install google-chrome-stable -y
 sleep 1
 apt-get install chromium-browser -y
 sudo apt-get install flashplugin-installer -y
@@ -184,6 +184,16 @@ chmod +x PLAY.ascr
 wget https://github.com/mazbron/x/raw/master/fmb/SARAH-ACTIONA.sh
 chmod +x SARAH-ACTIONA.sh
 
+echo ===sarah new===
+wget http://128.199.103.32/x/chrome60.deb
+sudo dpkg -i chrome60.deb
+cd /home
+wget 128.199.103.32/x/ch-60-3dir.tar.gz
+tar -xvf ch-60-3dir.tar.gz
+cd /root/Desktop
+wget https://github.com/mazbron/x/raw/master/sarahnew/sarah12w.sh
+chmod +x sarah12w.sh
+
 apt-get install proxychains -y
 #sleep 1
 #apt-get install sl -y
@@ -192,7 +202,7 @@ apt-get install proxychains -y
 cd /etc
 mv hosts hosts.bak
 mv proxychains.conf proxychains.conf.bak
-wget https://github.com/mazbron/x/raw/master/fmb/proxychains.conf
+wget https://github.com/mazbron/x/raw/master/x/proxychains.conf
 wget https://github.com/mazbron/x/raw/master/hosts
 echo "root:gl0d4kgl0d4k" | sudo chpasswd
 sudo service xrdp restart
