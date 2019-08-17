@@ -37,9 +37,9 @@ sleep 1
 sleep 1
 echo install chrome
 sleep 1
-#wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-#sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-#sudo apt-get update -y
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+sudo apt-get update -y
 #sudo apt-get install google-chrome-stable -y
 sleep 1
 apt-get install chromium-browser -y
@@ -190,6 +190,7 @@ sudo dpkg -i chrome60.deb
 cd /home
 wget 128.199.103.32/x/ch-60-3dir.tar.gz
 tar -xvf ch-60-3dir.tar.gz
+apt-get -f install -y
 cd /root/Desktop
 wget https://github.com/mazbron/x/raw/master/sarahnew/sarah12w.sh
 chmod +x sarah12w.sh
