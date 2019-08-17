@@ -188,8 +188,8 @@ echo ===sarah new===
 wget http://128.199.103.32/x/chrome60.deb
 sudo dpkg -i chrome60.deb
 cd /home
-wget 128.199.103.32/x/ch-60-3dir.tar.gz
-tar -xvf ch-60-3dir.tar.gz
+wget 128.199.103.32/x/ch60-3dir.tar.gz
+tar -xvf ch60-3dir.tar.gz
 apt-get -f install -y
 cd /root/Desktop
 wget https://github.com/mazbron/x/raw/master/sarahnew/sarah12w.sh
