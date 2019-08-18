@@ -7,12 +7,12 @@ pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
-proxychains google-chrome --user-data-dir=/home/chrome2 --force-android-app-mode --app=http://localhost --window-size=854,480 --window-position=1299,1 --no-sandbox --incognito & sleep 1
+proxychains google-chrome --user-data-dir=/home/chrome2 --force-android-app-mode --app=http://bestonlinegames.website/ninja --window-size=854,480 --window-position=1299,1 --no-sandbox --incognito & sleep 1
 clear
 sleep 15
 clear
 echo start helpbot
-actiona -s -C -Q -e -x /root/Desktop/lib/stick.ascr
+actiona -s -C -Q -e -x stick.ascr
 sleep 3
 pkill --oldest chrome
 pkill --oldest chrome
@@ -23,5 +23,5 @@ apt-get autoclean
 clear
 sleep 1
 /usr/games/sl -l
-sleep 3
+sleep 1
 done
