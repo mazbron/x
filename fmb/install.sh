@@ -88,6 +88,10 @@ wget https://github.com/mazbron/x/raw/master/fmb/4JActiona.sh
 chmod +x 4JActiona.sh
 wget https://github.com/mazbron/x/raw/master/fmb/4j.ascr
 chmod +x 4j.ascr
+wget https://github.com/mazbron/x/raw/master/fmb/4JStick.sh
+chmod +x 4JStick.sh
+wget https://github.com/mazbron/x/raw/master/fmb/stick.ascr
+chmod +x stick.ascr
 echo =======GD========
 wget https://github.com/mazbron/x/raw/master/fmb/GD.sh
 chmod +x GD.sh
