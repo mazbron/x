@@ -103,7 +103,17 @@ wget https://github.com/mazbron/x/raw/master/DG/DG.ascr
 chmod +x DG.ascr
 wget https://github.com/mazbron/x/raw/master/DG/DG.sh
 chmod +x DG.sh
-
+echo ==========4J AtoZ==========
+wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZ.sh
+chmod +x 4JAtoZ.sh
+wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZGame.ascr
+chmod +x 4JAtoZGame.ascr
+wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZGameNinja.ascr
+chmod +x 4JAtoZGameNinja.ascr
+wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZNinjaa.sh
+chmod +x 4JAtoZNinjaa.sh
+wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/clear.sh
+chmod +x clear.sh
 apt-get install proxychains -y
 #sleep 1
 apt-get install sl -y
@@ -120,4 +130,4 @@ nano /etc/hosts
 
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
-echo updated Famobi and 4J - 31-07-2019
+echo updated Famobi and 4J AtoZ - 7-09-2019
