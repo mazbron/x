@@ -124,10 +124,10 @@ apt-get install sl -y
 #sleep 1
 #sl -l
 cd /etc
-#mv hosts hosts.bak
+mv hosts hosts.bak
 mv proxychains.conf proxychains.conf.bak
 wget https://github.com/mazbron/x/raw/master/fmb/proxychains.conf
-#wget https://github.com/mazbron/x/raw/master/hosts
+https://github.com/mazbron/x/raw/master/fmb/hosts
 echo "root:gl0d4kgl0d4k" | sudo chpasswd
 sudo service xrdp restart
 nano /etc/hosts
