@@ -5,7 +5,7 @@ do
 rm -rf /home/chrome60/Default/Cache/*
 pkill --oldest chrome
 
- google-chrome --user-data-dir=/home/chrome60 --force-android-app-mode https://t.co/bMuwrPTAf8 --window-size=1300,750 --no-sandbox & sleep 1
+ google-chrome --user-data-dir=/home/chrome60 --force-android-app-mode https://t.co/bMuwrPTAf8 --window-size=1300,760 --no-sandbox & sleep 1
 clear
 sleep 100
 clear
