@@ -5,7 +5,7 @@ do
 echo clear data chrome
 rm -rf /home/chrome60/Default/Cache/*
 sleep 1
-echo clear done
+echo clear_done
 pkill --oldest chrome
 clear
  google-chrome --user-data-dir=/home/chrome60 --force-android-app-mode https://t.co/bMuwrPTAf8 --window-size=1300,760 --no-sandbox & sleep 1
