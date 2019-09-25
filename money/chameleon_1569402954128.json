@@ -1,0 +1,119 @@
+{
+  "excluded": {
+    "win": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    "mac": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "linux": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "ios": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "android": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "all": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "headers": {
+    "blockEtag": false,
+    "disableAuth": false,
+    "disableRef": false,
+    "enableDNT": false,
+    "rangeFrom": "99.0.1.1",
+    "rangeTo": "99.75.255.255",
+    "refererXorigin": 0,
+    "refererTrimming": 0,
+    "spoofAccept": false,
+    "spoofAcceptLang": true,
+    "spoofAcceptLangValue": "en-US,en;q=0.5",
+    "spoofSourceRef": false,
+    "spoofIP": true,
+    "spoofIPValue": "1",
+    "upgradeInsecureRequests": true,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+  },
+  "ipRules": [],
+  "settings": {
+    "customScreen": "",
+    "enableScriptInjection": true,
+    "interval": 1,
+    "kbDelay": 0,
+    "limitHistory": false,
+    "minInterval": null,
+    "maxInterval": null,
+    "notificationsEnabled": true,
+    "protectKeyboardFingerprint": false,
+    "protectWinName": false,
+    "screenSize": "profile",
+    "spoofAudioContext": false,
+    "spoofClientRects": false,
+    "timeZone": "default",
+    "useragent": "mac2",
+    "useragentValue": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+    "webSockets": "allow_all"
+  },
+  "version": "0.12.17",
+  "whitelist": {
+    "enabled": false,
+    "enabledContextMenu": false,
+    "defaultProfile": "none",
+    "urlList": []
+  }
+}
