@@ -1,7 +1,8 @@
 #!/bin/bash
 while :
 do
-pkill --oldest firefoxfirefox http://play.sarahvilo.id & sleep 3
+pkill --oldest firefox
+firefox http://play.sarahvilo.id & sleep 3
 echo START ACTIONA
 actiona -s -C -Q -e -x GD.ascr
 sleep 3
