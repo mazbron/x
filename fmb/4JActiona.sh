@@ -8,7 +8,8 @@ pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
-proxychains google-chrome --user-data-dir=/home/chrome60 --force-android-app-mode --app=http://halloween.wtf/4J.php --window-size=390,650 --window-position=1299,1 --no-sandbox --incognito & sleep 1
+proxychains google-chrome --user-data-dir=/home/chrome60 --force-android-app-mode --app=http://halloween.wtf/4J.php --window-size=390,650 --window-position=875,1 --no-sandbox --incognito & sleep 3
+proxychains google-chrome --user-data-dir=/home/chrome602 --force-android-app-mode --app=http://halloween.wtf/4J.php --window-size=390,650 --window-position=1299,1 --no-sandbox --incognito & sleep 1
 clear
 sleep 17
 clear
