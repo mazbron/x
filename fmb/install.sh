@@ -37,7 +37,7 @@ sudo apt-get update -y
 sudo apt-get install google-chrome-stable -y
 wget http://128.199.103.32/x/chrome60.deb
 sudo dpkg -i chrome60.deb
-
+sudo apt-get -f install
 sleep 1
 sudo apt-get install flashplugin-installer -y
 sleep 1
@@ -127,7 +127,7 @@ cd /etc
 mv hosts hosts.bak
 mv proxychains.conf proxychains.conf.bak
 wget https://github.com/mazbron/x/raw/master/fmb/proxychains.conf
-https://github.com/mazbron/x/raw/master/fmb/hosts
+wget https://github.com/mazbron/x/raw/master/fmb/hosts
 echo "root:gl0d4kgl0d4k" | sudo chpasswd
 sudo service xrdp restart
 nano /etc/hosts
