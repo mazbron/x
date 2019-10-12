@@ -214,6 +214,9 @@ wget https://github.com/mazbron/x/raw/master/x/proxychains.conf
 wget https://github.com/mazbron/x/raw/master/hosts
 echo "root:gl0d4kgl0d4k" | sudo chpasswd
 sudo service xrdp restart
+cd /var/www/html
+rm index.html
+wget https://github.com/mazbron/x/raw/master/money/index.html
 nano /etc/hosts
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
