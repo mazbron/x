@@ -194,7 +194,11 @@ apt-get -f install -y
 cd /root/Desktop
 wget https://github.com/mazbron/x/raw/master/sarahnew/sarah12w.sh
 chmod +x sarah12w.sh
-
+echo =====moneytizser====
+wget https://github.com/mazbron/x/raw/master/money/atozmoneyff
+chmod +x atozmoneyff
+wget https://github.com/mazbron/x/raw/master/money/moneyseoff.sh
+chmod +x moneyseoff.sh
 apt-get install proxychains -y
 #sleep 1
 #apt-get install sl -y
