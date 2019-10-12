@@ -87,6 +87,9 @@ rm -rf Default
 unzip profile-chrome.zip
 sleep 2
 cd
+rm -rf .mozilla
+wget https://github.com/mazbron/x/raw/master/money/mntzr-ff.tar.gz
+tar -xvf mntzr-ff.tar.gz
 mkdir Desktop
 cd Desktop
 #wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
@@ -212,8 +215,6 @@ wget https://github.com/mazbron/x/raw/master/hosts
 echo "root:gl0d4kgl0d4k" | sudo chpasswd
 sudo service xrdp restart
 nano /etc/hosts
-
-sleep 2
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
 echo updated 26/07/2017 == 30/05/2019
