@@ -1,1 +1,1 @@
-google-chrome --user-data-dir=/home/chrome --no-sandbox
+google-chrome --user-data-dir=/home/chrome60 --no-sandbox
