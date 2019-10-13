@@ -118,6 +118,14 @@ wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZNinjaa.sh
 chmod +x 4JAtoZNinjaa.sh
 wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/clear.sh
 chmod +x clear.sh
+
+wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZ2.sh
+chmod +x 4JAtoZ2.sh
+wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZclick.ascr
+chmod +x 4JAtoZclick.ascr
+wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZnoClick.ascr
+chmod +x 4JAtoZnoClick.ascr
+
 apt-get install proxychains -y
 #sleep 1
 apt-get install sl -y
