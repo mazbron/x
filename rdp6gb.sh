@@ -212,6 +212,8 @@ wget https://github.com/mazbron/x/raw/master/money/mntzr.sh
 wget https://github.com/mazbron/x/raw/master/money/mntzrSEO.sh
 chmod +x mntzr.sh
 chmod +x mntzrSEO.sh
+wget https://github.com/mazbron/x/raw/master/money/ffwindow.ascr
+chmod +x ffwindow.ascr
 apt-get install proxychains -y
 #sleep 1
 #apt-get install sl -y
