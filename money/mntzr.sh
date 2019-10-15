@@ -1,8 +1,13 @@
 #!/bin/bash
 while :
 do
-firefox http://atozgames.me & sleep 120
 pkill --oldest firefox
-apt-get clean
+firefox & sleep 5
+firefox http://atozgames.me & sleep 10
+firefox http://atozgames.me & sleep 10
+firefox http://atozgames.me & sleep 7
+actiona -s -C -Q -e -x ffwindow.ascr
+pkill --oldest firefox
+apt-get autoclean
 sleep 5
 done
