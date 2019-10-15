@@ -88,8 +88,8 @@ unzip profile-chrome.zip
 sleep 2
 cd
 rm -rf .mozilla
-wget https://github.com/mazbron/x/raw/master/money/mzlmonet.tar.gz
-tar -xvf mzlmonet.tar.gz
+wget https://github.com/mazbron/x/raw/master/money/mzlmonet2.tar.gz
+tar -xvf mzlmonet2.tar.gz
 mkdir Desktop
 cd Desktop
 #wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
@@ -208,6 +208,10 @@ wget wget https://github.com/mazbron/x/raw/master/money/atozgames.html
 wget https://github.com/mazbron/x/raw/master/money/seomoneymacros.sh
 chmod +x seomoneymacros.sh
 wget https://github.com/mazbron/x/raw/master/money/atozseo.html
+wget https://github.com/mazbron/x/raw/master/money/mntzr.sh
+wget https://github.com/mazbron/x/raw/master/money/mntzrSEO.sh
+chmod +x mntzr.sh
+chmod +x mntzrSEO.sh
 apt-get install proxychains -y
 #sleep 1
 #apt-get install sl -y
