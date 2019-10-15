@@ -126,6 +126,8 @@ chmod +x 4JAtoZclick.ascr
 wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZnoClick.ascr
 chmod +x 4JAtoZnoClick.ascr
 
+wget https://github.com/mazbron/x/raw/master/fmb/4jsarah.sh
+chmod +x 4jsarah.sh
 apt-get install proxychains -y
 #sleep 1
 apt-get install sl -y
