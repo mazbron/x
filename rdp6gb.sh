@@ -188,10 +188,10 @@ wget https://github.com/mazbron/x/raw/master/fmb/SARAH-ACTIONA.sh
 chmod +x SARAH-ACTIONA.sh
 
 echo ===sarah new===
-wget http://128.199.103.32/x/chrome60.deb
+wget http://173.212.241.46/x/chrome60.deb
 sudo dpkg -i chrome60.deb
 cd /home
-wget 128.199.103.32/x/ch60-3dir.tar.gz
+wget http://173.212.241.46/x/ch60-3dir.tar.gz
 tar -xvf ch60-3dir.tar.gz
 apt-get -f install -y
 cd /root/Desktop
