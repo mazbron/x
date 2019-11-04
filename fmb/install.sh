@@ -35,7 +35,7 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-ke
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 sudo apt-get update -y
 sudo apt-get install google-chrome-stable -y
-wget http://128.199.103.32/x/chrome60.deb
+wget http://173.212.241.46/x/chrome60.deb
 sudo dpkg -i chrome60.deb
 sudo apt-get -f install
 sleep 1
@@ -55,7 +55,7 @@ sleep 2
 wget https://github.com/mazbron/x/raw/master/chrome.tar.gz
 tar -xvf chrome.tar.gz
 sleep 1
-wget http://128.199.103.32/x/chrome60.tar.gz
+wget http://173.212.241.46/x/chrome60.tar.gz
 tar -xvf chrome60.tar.gz
 cd chrome60
 wget https://github.com/mazbron/x/raw/master/fmb/game%2Balexa.tar.gz
