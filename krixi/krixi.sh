@@ -3,9 +3,9 @@ printf '\033]2;helpbot\a'
 while :
 do
 pkill --oldest chrome
- google-chrome --user-data-dir=/home/chrome60 https://krixi.com/4j.html --no-sandbox & sleep 1
+ google-chrome --user-data-dir=/home/chrome60 https://krixi.co/4j.html --no-sandbox & sleep 1
 clear
-sleep 70
+sleep 75
 #clear
 #echo start helpbot
 #actiona -s -C -Q -e -x 4JAtoZGame.ascr
