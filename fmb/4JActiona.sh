@@ -2,7 +2,6 @@
 printf '\033]2;helpbot\a'
 while :
 do
-do
 pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
@@ -16,7 +15,6 @@ clear
 echo start helpbot
 actiona -s -C -Q -e -x 4j.ascr
 sleep 5
-do
 pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
