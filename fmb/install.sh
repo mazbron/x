@@ -36,8 +36,8 @@ sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable
 sudo apt-get update -y
 sudo apt-get install google-chrome-stable -y
 wget http://173.212.241.46/x/chrome60.deb
-sudo dpkg -i chrome60.deb
-sudo apt-get -f install
+sudo dpkg -i chrome60.deb -y
+sudo apt-get -f install -y
 sleep 1
 sudo apt-get install flashplugin-installer -y
 sleep 1
@@ -57,6 +57,7 @@ tar -xvf chrome.tar.gz
 sleep 1
 wget http://173.212.241.46/x/chrome60.tar.gz
 tar -xvf chrome60.tar.gz
+sleep 1
 cd chrome60
 wget https://github.com/mazbron/x/raw/master/fmb/game%2Balexa.tar.gz
 rm -rf Default
