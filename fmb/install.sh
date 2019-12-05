@@ -57,10 +57,12 @@ tar -xvf chrome.tar.gz
 sleep 1
 wget http://173.212.241.46/x/chrome60.tar.gz
 tar -xvf chrome60.tar.gz
-sleep 1
+sleep 3
 cd chrome60
 wget https://github.com/mazbron/x/raw/master/fmb/game%2Balexa.tar.gz
+sleep 3
 rm -rf Default
+sleep 3
 tar -xvf game+alexa.tar.gz
 cd
 mkdir Desktop
