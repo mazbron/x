@@ -7,9 +7,9 @@ pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
-proxychains google-chrome --user-data-dir=/home/chrome2 --force-android-app-mode --app=http://bestonlinegames.website/ninja --window-size=854,480 --window-position=1299,1 --no-sandbox --incognito & sleep 1
+proxychains google-chrome --user-data-dir=/home/chrome60 --force-android-app-mode --app=http://bestonlinegames.website/ninja --window-size=854,480 --window-position=1299,1 --no-sandbox --incognito & sleep 1
 clear
-sleep 15
+sleep 17
 clear
 echo start helpbot
 actiona -s -C -Q -e -x stick.ascr
