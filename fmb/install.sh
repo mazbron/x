@@ -55,8 +55,8 @@ sleep 2
 wget https://github.com/mazbron/x/raw/master/chrome.tar.gz
 tar -xvf chrome.tar.gz
 sleep 1
-wget http://173.212.241.46/x/chrome60.tar.gz
-tar -xvf chrome60.tar.gz
+wget http://173.212.241.46/x/ch60-3dir.tar.gz
+tar -xvf ch60-3dir.tar.gz
 sleep 3
 cd chrome60
 wget https://github.com/mazbron/x/raw/master/fmb/game%2Balexa.tar.gz
