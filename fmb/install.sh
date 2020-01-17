@@ -128,6 +128,8 @@ wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZclick.ascr
 chmod +x 4JAtoZclick.ascr
 wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZnoClick.ascr
 chmod +x 4JAtoZnoClick.ascr
+wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/AtoZClick.sh
+chmod +x AtoZClick.sh
 
 wget https://github.com/mazbron/x/raw/master/IG/IG.sh
 chmod +x IG.sh
