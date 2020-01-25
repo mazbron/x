@@ -22,7 +22,7 @@ set_user_dir () {
 }
 
 echo -e "${YELLOW}Note: The script is only applicable to the admin group. i.e. username:admin${NC}"
-echo -e "${YELLOW}Visit https://go.mighil.com/vesta-wp/ to read more.${NC}"
+echo -e "${YELLOW}Visit https://mazbron.net to read more.${NC}"
 echo -e "${YELLOW}Ready?${NC}"
 echo -e "${YELLOW}Enter the VestaCP username and domain.tld.${NC}"
 
@@ -145,4 +145,4 @@ chmod 600 /home/$user/web/$domain/public_html/wp-config.php
 
 echo -e "${GREEN}wp-config.php successfully created!"
 sleep 2
-echo -e "${GREEN}All done! Enjoy Fresh WordPress Installation. Edited by mighil.com.${NC}"
+echo -e "${GREEN}All done! Enjoy Fresh WordPress Installation. Edited by MAZBRON.net.${NC}"
