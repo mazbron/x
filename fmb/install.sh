@@ -58,6 +58,7 @@ sleep 1
 wget http://173.212.241.46/x/ch60-3dir.tar.gz
 tar -xvf ch60-3dir.tar.gz
 sleep 3
+mv chrome chrome60
 cd chrome60
 wget https://github.com/mazbron/x/raw/master/fmb/game%2Balexa.tar.gz
 sleep 3
