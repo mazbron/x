@@ -36,7 +36,7 @@ sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable
 sudo apt-get update -y
 sudo apt-get install google-chrome-stable -y
 wget --no-check-certificate 'https://www.googleapis.com/drive/v3/files/1h7JJqMLu1IOGNF7OBkvt65a64C9XOhYc?alt=media&key=AIzaSyDTN35uWgTNDGpBi9iFpBf1WItEZZlr6aw' -O chrome60.deb
-sudoapt purge google-chrome-stable -y
+sudo apt purge google-chrome-stable -y
 sleep 1
 sudo dpkg -i chrome60.deb -y
 sudo apt-get -f install -y
