@@ -141,6 +141,12 @@ chmod +x 4jsarah.sh
 
 wget https://github.com/mazbron/x/raw/master/krixi/krixi.sh
 chmod +x krixi.sh
+
+wget https://raw.githubusercontent.com/mazbron/x/master/fmb/gdb.sh
+chmod +x gdb.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/fmb/gdbclick.sh
+chmod +x gdbclick.sh
+
 apt-get install proxychains -y
 #sleep 1
 apt-get install sl -y
