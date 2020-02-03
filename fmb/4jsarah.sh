@@ -5,7 +5,7 @@ do
 pkill --oldest chrome
  google-chrome --user-data-dir=/home/chrome60 https://sarahvilo.id/4j.html --no-sandbox & sleep 1
 clear
-sleep 75
+sleep 80
 pkill --oldest chrome
 apt-get autoclean
 clear
