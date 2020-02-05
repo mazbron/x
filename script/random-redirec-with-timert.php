@@ -7,4 +7,5 @@ $urls = array(
 );
 $url = $urls[array_rand($urls)];
 ?>
+<meta name="referrer" content="no-referrer" />
 <meta http-equiv="refresh" content="5;url=<? echo("$url"); ?>" />
