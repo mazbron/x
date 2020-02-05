@@ -62,11 +62,13 @@ tar -xvf ch60-3dir.tar.gz
 sleep 3
 mv chrome chrome60
 cd chrome60
-wget https://github.com/mazbron/x/raw/master/fmb/game%2Balexa.tar.gz
+#wget https://github.com/mazbron/x/raw/master/fmb/game%2Balexa.tar.gz
+wget https://github.com/mazbron/x/raw/master/default.tar.gz
 sleep 3
 rm -rf Default
 sleep 3
-tar -xvf game+alexa.tar.gz
+#tar -xvf game+alexa.tar.gz
+tar -xvf default.tar.gz
 cd
 mkdir Desktop
 cd Desktop
