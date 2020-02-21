@@ -98,10 +98,10 @@ cd Desktop
 #chmod +x expert.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/85.sh
 #chmod +x 85.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/drive2.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/drive.sh
-chmod +x drive.sh
-chmod +x drive2.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/drive2.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/drive.sh
+#chmod +x drive.sh
+#chmod +x drive2.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/tek.sh
 #chmod +x tek.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/allsov.sh
@@ -116,14 +116,14 @@ wget https://raw.githubusercontent.com/mazbron/x/master/chr.sh
 chmod +x chr.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/automo.sh
 #chmod +x automo.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/nomadic.sh
-chmod +x nomadic.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/hipi.sh
-chmod +x hipi.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/left.sh
-chmod +x left.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/asia.sh
-chmod +x asia.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/nomadic.sh
+#chmod +x nomadic.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/hipi.sh
+#chmod +x hipi.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/left.sh
+#chmod +x left.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/asia.sh
+#chmod +x asia.sh
 #wget https://github.com/mazbron/x/raw/master/dna.sh
 #chmod +x dna.sh
 #wget https://github.com/mazbron/x/raw/master/eka.sh
@@ -146,54 +146,54 @@ chmod +x asia.sh
 #chmod +x gm.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/GDJ.sh
 #chmod +x GDJ.sh
-wget https://github.com/mazbron/x/raw/master/autolist.sh
-chmod +x autolist.sh
+#wget https://github.com/mazbron/x/raw/master/autolist.sh
+#chmod +x autolist.sh
 #wget https://github.com/mazbron/x/raw/master/autoevo.sh
 #chmod +x autoevo.sh
 #wget https://github.com/mazbron/x/raw/master/caring.sh
 #chmod +x caring.sh
 #wget https://github.com/mazbron/x/raw/master/remove.sh
 #chmod +x remove.sh
-wget https://github.com/mazbron/x/raw/master/Pulse.sh
-chmod +x Pulse.sh
-wget https://github.com/mazbron/x/raw/master/AOL.sh
-chmod +x AOL.sh
-wget https://github.com/mazbron/x/raw/master/300.sh
-chmod +x 300.sh
+#wget https://github.com/mazbron/x/raw/master/Pulse.sh
+#chmod +x Pulse.sh
+#wget https://github.com/mazbron/x/raw/master/AOL.sh
+#chmod +x AOL.sh
+#wget https://github.com/mazbron/x/raw/master/300.sh
+#chmod +x 300.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/KILL.sh
 chmod +x KILL.sh
-wget https://github.com/mazbron/x/raw/master/PLS.sh
-chmod +x PLS.sh
+#wget https://github.com/mazbron/x/raw/master/PLS.sh
+#chmod +x PLS.sh
 #wget https://github.com/mazbron/x/raw/master/Angular.sh
 #chmod +x Angular.sh
 #wget https://raw.githubusercontent.com/mazbron/x/master/Bike.sh
 #chmod +x Bike.sh
-wget https://github.com/mazbron/x/raw/master/SARAH2.sh
-chmod +x SARAH2.sh
-wget https://github.com/mazbron/x/raw/master/SARAHCLOSE.sh
-chmod +x SARAHCLOSE.sh
+#wget https://github.com/mazbron/x/raw/master/SARAH2.sh
+#chmod +x SARAH2.sh
+#wget https://github.com/mazbron/x/raw/master/SARAHCLOSE.sh
+#chmod +x SARAHCLOSE.sh
 
 wget https://raw.githubusercontent.com/mazbron/x/master/AOL2.sh
 chmod +x AOL2.sh
-wget https://github.com/mazbron/x/raw/master/HW.sh
-chmod +x HW.sh
+#wget https://github.com/mazbron/x/raw/master/HW.sh
+#chmod +x HW.sh
 wget https://github.com/mazbron/x/raw/master/CrossClicker.zip
 unzip CrossClicker.zip
 chmod +x CrossClicker.jar
-echo ==================FAMOBI=============
-sudo apt-get install actiona -y
-wget https://github.com/mazbron/x/raw/master/fmb/PLAY.ascr
-chmod +x PLAY.ascr
-wget https://github.com/mazbron/x/raw/master/fmb/SARAH-ACTIONA.sh
-chmod +x SARAH-ACTIONA.sh
+#echo ==================FAMOBI=============
+#sudo apt-get install actiona -y
+#wget https://github.com/mazbron/x/raw/master/fmb/PLAY.ascr
+#chmod +x PLAY.ascr
+#wget https://github.com/mazbron/x/raw/master/fmb/SARAH-ACTIONA.sh
+#chmod +x SARAH-ACTIONA.sh
 
 echo ===sarah new===
-wget http://173.212.241.46/x/chrome60.deb
-sudo dpkg -i chrome60.deb
-cd /home
-wget http://173.212.241.46/x/ch60-3dir.tar.gz
-tar -xvf ch60-3dir.tar.gz
-apt-get -f install -y
+#wget http://173.212.241.46/x/chrome60.deb
+#sudo dpkg -i chrome60.deb
+#cd /home
+#wget http://173.212.241.46/x/ch60-3dir.tar.gz
+#tar -xvf ch60-3dir.tar.gz
+#apt-get -f install -y
 cd /root/Desktop
 wget https://github.com/mazbron/x/raw/master/sarahnew/sarah12w.sh
 chmod +x sarah12w.sh
@@ -215,6 +215,21 @@ chmod +x mntzrSEO.sh
 wget https://github.com/mazbron/x/raw/master/money/ffwindow.ascr
 chmod +x ffwindow.ascr
 apt-get install proxychains -y
+====
+wget https://github.com/mazbron/x/raw/master/money/chromium/mntzrclick.sh
+chmod +x mntzrclick.sh
+wget https://github.com/mazbron/x/raw/master/money/chromium/mntznoclick.sh
+chmod +x mntznoclick.sh
+wget https://github.com/mazbron/x/raw/master/money/chromium/mntzrclick.ascr
+chmod +x mntzrclick.ascr
+wget https://github.com/mazbron/x/raw/master/money/chromium/scroll.ascr
+chmod +x scroll.ascr
+
+cd /root/home/chrome
+rm -rf Default
+wget https://github.com/mazbron/x/raw/master/money/chromium/chromium.tar.gz
+tar -xvf chromium.tar.gz
+====
 #sleep 1
 #apt-get install sl -y
 #sleep 1
