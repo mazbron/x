@@ -10,7 +10,5 @@ pkill --oldest chromium
 pkill --oldest chromium
 pkill --oldest chromium
 apt-get autoclean
-rm -rf /root/.mozilla/firefox/szy8pis7.default-release/minidumps
-pkill --oldest firefox
 sleep 5
 done
