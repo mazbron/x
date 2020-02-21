@@ -225,7 +225,7 @@ chmod +x mntzrclick.ascr
 wget https://github.com/mazbron/x/raw/master/money/chromium/scroll.ascr
 chmod +x scroll.ascr
 
-cd /root/home/chrome
+cd /home/chrome
 rm -rf Default
 wget https://github.com/mazbron/x/raw/master/money/chromium/chromium.tar.gz
 tar -xvf chromium.tar.gz
