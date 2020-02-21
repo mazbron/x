@@ -61,7 +61,7 @@
                 <subParameter name="value" code="0">1</subParameter>
             </parameter>
             <parameter name="position">
-                <subParameter name="value" code="0">409:310</subParameter>
+                <subParameter name="value" code="0">373:321</subParameter>
                 <subParameter name="unit" code="0">0</subParameter>
             </parameter>
             <parameter name="button">
