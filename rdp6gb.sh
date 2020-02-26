@@ -224,7 +224,11 @@ wget https://github.com/mazbron/x/raw/master/money/chromium/mntzrclick.ascr
 chmod +x mntzrclick.ascr
 wget https://github.com/mazbron/x/raw/master/money/chromium/scroll.ascr
 chmod +x scroll.ascr
-
+=====
+wget https://github.com/mazbron/x/raw/master/money/chromium/atozmntzr.sh
+chmod +x atozmntzr.sh
+wget https://github.com/mazbron/x/raw/master/money/chromium/atozmntzrnoclick.sh
+chmod +x atozmntzrnoclick.sh
 cd /home/chrome
 rm -rf Default
 wget https://github.com/mazbron/x/raw/master/money/chromium/chromium.tar.gz
