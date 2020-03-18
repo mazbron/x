@@ -204,7 +204,7 @@ wget https://github.com/mazbron/x/raw/master/money/moneyseoff.sh
 chmod +x moneyseoff.sh
 wget https://github.com/mazbron/x/raw/master/money/atozmoneymacros.sh
 chmod +x atozmoneymacros.sh
-wget wget https://github.com/mazbron/x/raw/master/money/atozgames.html
+wget https://github.com/mazbron/x/raw/master/money/atozgames.html
 wget https://github.com/mazbron/x/raw/master/money/seomoneymacros.sh
 chmod +x seomoneymacros.sh
 wget https://github.com/mazbron/x/raw/master/money/atozseo.html
