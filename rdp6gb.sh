@@ -229,6 +229,11 @@ wget https://github.com/mazbron/x/raw/master/money/chromium/atozmntzr.sh
 chmod +x atozmntzr.sh
 wget https://github.com/mazbron/x/raw/master/money/chromium/atozmntzrnoclick.sh
 chmod +x atozmntzrnoclick.sh
+wget https://github.com/mazbron/x/raw/master/money/chromium/gug.sh
+chmod +x gug.sh
+wget https://github.com/mazbron/x/raw/master/money/chromium/gugnoclick.sh
+chmod +x gugnoclick.sh
+
 cd /home/chrome
 rm -rf Default
 wget https://github.com/mazbron/x/raw/master/money/chromium/chromium.tar.gz
