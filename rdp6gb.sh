@@ -88,8 +88,10 @@ unzip profile-chrome.zip
 sleep 2
 cd
 rm -rf .mozilla
-wget https://github.com/mazbron/x/raw/master/money/mzlmonet2.tar.gz
-tar -xvf mzlmonet2.tar.gz
+#wget https://github.com/mazbron/x/raw/master/money/mzlmonet2.tar.gz
+#tar -xvf mzlmonet2.tar.gz
+wget https://github.com/mazbron/x/raw/master/money/ff/FF032020.tar.gz
+tar -xvf FF032020.tar.gz
 mkdir Desktop
 cd Desktop
 #wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
@@ -160,8 +162,8 @@ chmod +x chr.sh
 #chmod +x AOL.sh
 #wget https://github.com/mazbron/x/raw/master/300.sh
 #chmod +x 300.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/KILL.sh
-chmod +x KILL.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/KILL.sh
+#chmod +x KILL.sh
 #wget https://github.com/mazbron/x/raw/master/PLS.sh
 #chmod +x PLS.sh
 #wget https://github.com/mazbron/x/raw/master/Angular.sh
@@ -177,9 +179,9 @@ wget https://raw.githubusercontent.com/mazbron/x/master/AOL2.sh
 chmod +x AOL2.sh
 #wget https://github.com/mazbron/x/raw/master/HW.sh
 #chmod +x HW.sh
-wget https://github.com/mazbron/x/raw/master/CrossClicker.zip
-unzip CrossClicker.zip
-chmod +x CrossClicker.jar
+#wget https://github.com/mazbron/x/raw/master/CrossClicker.zip
+#unzip CrossClicker.zip
+#chmod +x CrossClicker.jar
 #echo ==================FAMOBI=============
 #sudo apt-get install actiona -y
 #wget https://github.com/mazbron/x/raw/master/fmb/PLAY.ascr
@@ -195,25 +197,25 @@ echo ===sarah new===
 #tar -xvf ch60-3dir.tar.gz
 #apt-get -f install -y
 cd /root/Desktop
-wget https://github.com/mazbron/x/raw/master/sarahnew/sarah12w.sh
-chmod +x sarah12w.sh
+#wget https://github.com/mazbron/x/raw/master/sarahnew/sarah12w.sh
+#chmod +x sarah12w.sh
 echo =====moneytizser====
-wget https://github.com/mazbron/x/raw/master/money/atozmoneyff
-chmod +x atozmoneyff
-wget https://github.com/mazbron/x/raw/master/money/moneyseoff.sh
-chmod +x moneyseoff.sh
-wget https://github.com/mazbron/x/raw/master/money/atozmoneymacros.sh
-chmod +x atozmoneymacros.sh
-wget https://github.com/mazbron/x/raw/master/money/atozgames.html
-wget https://github.com/mazbron/x/raw/master/money/seomoneymacros.sh
-chmod +x seomoneymacros.sh
-wget https://github.com/mazbron/x/raw/master/money/atozseo.html
-wget https://github.com/mazbron/x/raw/master/money/mntzr.sh
-wget https://github.com/mazbron/x/raw/master/money/mntzrSEO.sh
-chmod +x mntzr.sh
-chmod +x mntzrSEO.sh
-wget https://github.com/mazbron/x/raw/master/money/ffwindow.ascr
-chmod +x ffwindow.ascr
+#wget https://github.com/mazbron/x/raw/master/money/atozmoneyff
+#chmod +x atozmoneyff
+#wget https://github.com/mazbron/x/raw/master/money/moneyseoff.sh
+#chmod +x moneyseoff.sh
+#wget https://github.com/mazbron/x/raw/master/money/atozmoneymacros.sh
+#chmod +x atozmoneymacros.sh
+#wget https://github.com/mazbron/x/raw/master/money/atozgames.html
+#wget https://github.com/mazbron/x/raw/master/money/seomoneymacros.sh
+#chmod +x seomoneymacros.sh
+#wget https://github.com/mazbron/x/raw/master/money/atozseo.html
+#wget https://github.com/mazbron/x/raw/master/money/mntzr.sh
+#wget https://github.com/mazbron/x/raw/master/money/mntzrSEO.sh
+#chmod +x mntzr.sh
+#chmod +x mntzrSEO.sh
+#wget https://github.com/mazbron/x/raw/master/money/ffwindow.ascr
+#chmod +x ffwindow.ascr
 apt-get install proxychains -y
 ====
 wget https://github.com/mazbron/x/raw/master/money/chromium/mntzrclick.sh
@@ -233,6 +235,28 @@ wget https://github.com/mazbron/x/raw/master/money/chromium/gug.sh
 chmod +x gug.sh
 wget https://github.com/mazbron/x/raw/master/money/chromium/gugnoclick.sh
 chmod +x gugnoclick.sh
+=======
+echo NEW FF
+sleep 2
+wget https://github.com/mazbron/x/raw/master/money/ff/mntzrclickFF.sh
+chmod +x mntzrclickFF.sh
+wget https://github.com/mazbron/x/raw/master/money/ff/mntzrnoclickFF.sh
+chmod +x mntzrnoclickFF.sh
+wget https://github.com/mazbron/x/raw/master/money/ff/click.ascr
+chmod +x click.ascr
+wget https://github.com/mazbron/x/raw/master/money/ff/scroll2.ascr
+chmod +x scroll2.ascr
+wget https://github.com/mazbron/x/raw/master/money/ff/seoFF.sh
+chmod +x seoFF.sh
+wget https://github.com/mazbron/x/raw/master/money/ff/seonoclickFF.sh
+chmod +x seonoclickFF.sh
+wget https://github.com/mazbron/x/raw/master/money/ff/gugclickFF.sh
+chmod +x gugclickFF.sh
+wget https://github.com/mazbron/x/raw/master/money/ff/gunoclickFF.sh
+chmod +x gunoclickFF.sh
+
+
+wget https://github.com/mazbron/x/blob/master/money/ff/FoxyProxy%20Standard_2020-03-08.json
 
 cd /home/chrome
 rm -rf Default
