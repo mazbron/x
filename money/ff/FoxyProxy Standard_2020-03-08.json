@@ -1,0 +1,54 @@
+{
+  "4opccj1583637151300": {
+    "type": 3,
+    "color": "#66cc66",
+    "title": "chi.socks.ipvanish.com",
+    "active": true,
+    "address": "chi.socks.ipvanish.com",
+    "port": 1080,
+    "proxyDNS": false,
+    "username": "rinEa0rwR",
+    "password": "Tqqhl09soOmm",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "atozgames.me",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "atozseotools.co",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "sarahvilo.id",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      }
+    ],
+    "blackPatterns": [],
+    "pacURL": "",
+    "index": 9007199254740990
+  },
+  "logging": {
+    "size": 100,
+    "active": false
+  },
+  "mode": "4opccj1583637151300",
+  "browserVersion": "73.0.1",
+  "foxyProxyVersion": "7.4.3",
+  "foxyProxyEdition": "standard"
+}
