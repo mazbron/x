@@ -2,7 +2,7 @@
 while :
 do
 firefox & sleep 2
-firefox http://google.com & sleep 27
+firefox https://t.co/c2mF0GUeg9?amp=1 & sleep 27
 actiona -s -C -Q -e -x click.ascr
 clear
 apt-get autoclean
