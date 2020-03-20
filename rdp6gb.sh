@@ -254,7 +254,10 @@ wget https://github.com/mazbron/x/raw/master/money/ff/gugclickFF.sh
 chmod +x gugclickFF.sh
 wget https://github.com/mazbron/x/raw/master/money/ff/gunoclickFF.sh
 chmod +x gunoclickFF.sh
-
+wget https://github.com/mazbron/x/raw/master/money/ff/autofisFF.sh
+chmod +x autofisFF.sh
+wget https://github.com/mazbron/x/raw/master/money/ff/autofisnoFF.sh
+chmod +x autofisnoFF.sh
 
 wget https://github.com/mazbron/x/blob/master/money/ff/FoxyProxy%20Standard_2020-03-08.json
 
