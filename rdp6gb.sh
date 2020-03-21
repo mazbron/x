@@ -258,7 +258,7 @@ wget https://github.com/mazbron/x/raw/master/money/ff/autofisFF.sh
 chmod +x autofisFF.sh
 wget https://github.com/mazbron/x/raw/master/money/ff/autofisnoFF.sh
 chmod +x autofisnoFF.sh
-wgte https://github.com/mazbron/x/raw/master/money/ff/sarahFF.sh
+wget https://github.com/mazbron/x/raw/master/money/ff/sarahFF.sh
 chmod +x sarahFF.sh
 wget https://github.com/mazbron/x/raw/master/money/ff/sarahnoFF.sh
 chmod +x sarahnoFF.sh
