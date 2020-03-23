@@ -288,7 +288,9 @@ apt install apache2 -y
 apt install php libapache2-mod-php php-mysql -y
 cd /etc/apache2
 rm apache2.conf
+rm apache2.conf
 wget https://github.com/mazbron/x/raw/master/apache2.conf
+
 cd /var/www/html
 rm index.html
 wget https://github.com/mazbron/x/raw/master/money/google.zip
