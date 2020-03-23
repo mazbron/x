@@ -293,7 +293,7 @@ cd /var/www/html
 rm index.html
 wget https://github.com/mazbron/x/raw/master/money/google.zip
 unzip google.zip
-#wget https://github.com/mazbron/x/raw/master/money/index.html
+wget https://github.com/mazbron/x/raw/master/money/atozg.html
 nano /etc/hosts
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
