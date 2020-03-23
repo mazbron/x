@@ -93,7 +93,7 @@ rm -rf .mozilla
 #wget https://github.com/mazbron/x/raw/master/money/ff/FF032020.tar.gz
 #tar -xvf FF032020.tar.gz
 wget https://github.com/mazbron/x/raw/master/money/ff/mzlnewUA.tar.gz
-mzlnewUA.tar.gz
+tar -xvf mzlnewUA.tar.gz
 mkdir Desktop
 cd Desktop
 #wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
