@@ -1095,7 +1095,7 @@
             <exception id="2" action="1" line=""/>
             <exception id="32" action="0" line=""/>
             <parameter name="intensity">
-                <subParameter name="value" code="0">43</subParameter>
+                <subParameter name="value" code="0">-43</subParameter>
             </parameter>
         </action>
         <action name="ActionPause" color="#ff00ff">
