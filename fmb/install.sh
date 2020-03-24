@@ -72,7 +72,7 @@ tar -xvf default.tar.gz
 cd
 mkdir Desktop
 cd Desktop
-wget https://raw.githubusercontent.com/mazbron/x/master/chr.sh
+wget https://github.com/mazbron/x/raw/master/fmb/chr.sh
 chmod +x chr.sh
 wget https://github.com/mazbron/x/raw/master/SARAH2.sh
 chmod +x SARAH2.sh
