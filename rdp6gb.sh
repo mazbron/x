@@ -264,8 +264,10 @@ wget https://github.com/mazbron/x/raw/master/money/ff/sarahFF.sh
 chmod +x sarahFF.sh
 wget https://github.com/mazbron/x/raw/master/money/ff/sarahnoFF.sh
 chmod +x sarahnoFF.sh
-
-
+wget https://github.com/mazbron/x/raw/master/money/ff/mohNo.sh
+chmod +x mohNo.sh
+wget https://github.com/mazbron/x/raw/master/money/ff/moh.sh
+chmod +x moh.sh
 wget https://github.com/mazbron/x/blob/master/money/ff/FoxyProxy%20Standard_2020-03-08.json
 
 cd /home/chrome
