@@ -297,6 +297,7 @@ wget https://github.com/mazbron/x/raw/master/money/google.zip
 unzip google.zip
 cd /etc/xrdp
 rm xrdp.ini
+service xrdp restart
 wget https://github.com/mazbron/x/raw/master/xrdp.ini
 wget https://github.com/mazbron/x/raw/master/money/atozg.html
 nano /etc/hosts
