@@ -2,9 +2,9 @@
 while :
 do
 firefox & sleep 2
-firefox http://wwww.google.com/seo.php & sleep 7
-firefox http://wwww.google.com/seo.php & sleep 7
-firefox http://wwww.google.com/seo.php & sleep 7
+firefox http://www.google.com/seo.php & sleep 7
+firefox http://www.google.com/seo.php & sleep 7
+firefox http://www.google.com/seo.php & sleep 7
 clear
 actiona -s -C -Q -e -x scroll2.ascr
 sleep 1
