@@ -75,8 +75,8 @@ cd /home
 #cp -r chrome /home/10
 #cp -r chrome /home/11
 #cp -r chrome /home/12
-#wget https://raw.githubusercontent.com/mazbron/x/master/every.tar.gz
-#tar -xvf every.tar.gz
+wget https://raw.githubusercontent.com/mazbron/x/master/every.tar.gz
+tar -xvf every.tar.gz
 cd /home/chrome
 wget --no-check-certificate 'https://www.googleapis.com/drive/v3/files/1_iODWQ23thDrmit8iWVfR65P7V6Jtzle?alt=media&key=AIzaSyAh1_vrmX1z-6W7hXQDsArVhc4UJVkkfo4' -O profile-chrome.zip
 rm -rf Default
