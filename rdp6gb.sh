@@ -51,13 +51,13 @@ sudo cp libflashplayer.so /usr/lib/mozilla/plugins
 sleep 2
 cd /home
 #chrome dan ff di ovh2
-wget https://github.com/mazbron/x/raw/master/chrome.tar.gz
-tar -xvf chrome.tar.gz
-cp -r chrome chrome2
-sleep 2
-cp -r chrome chrome3
-sleep 2
-cp -r chrome chrome4
+#wget https://github.com/mazbron/x/raw/master/chrome.tar.gz
+#tar -xvf chrome.tar.gz
+#cp -r chrome chrome2
+#sleep 2
+#cp -r chrome chrome3
+#sleep 2
+#cp -r chrome chrome4
 #wget 149.56.111.62/ch2.tar.gz
 #tar -xvf ch2.tar.gz
 #wget https://github.com/mazbron/x/raw/master/Pulse.tar.gz
@@ -77,10 +77,6 @@ cp -r chrome chrome4
 #cp -r chrome /home/12
 #wget https://raw.githubusercontent.com/mazbron/x/master/every.tar.gz
 #tar -xvf every.tar.gz
-wget http://173.212.241.46/sarah.tar.gz
-tar -xvf sarah.tar.gz && mv chrome sarah
-mv sarah chrome
-sleep 1
 cd /home/chrome
 wget --no-check-certificate 'https://www.googleapis.com/drive/v3/files/1_iODWQ23thDrmit8iWVfR65P7V6Jtzle?alt=media&key=AIzaSyAh1_vrmX1z-6W7hXQDsArVhc4UJVkkfo4' -O profile-chrome.zip
 rm -rf Default
@@ -92,8 +88,10 @@ rm -rf .mozilla
 #tar -xvf mzlmonet2.tar.gz
 #wget https://github.com/mazbron/x/raw/master/money/ff/FF032020.tar.gz
 #tar -xvf FF032020.tar.gz
-wget https://github.com/mazbron/x/raw/master/money/ff/mzlnewUA.tar.gz
-tar -xvf mzlnewUA.tar.gz
+#wget https://github.com/mazbron/x/raw/master/money/ff/mzlnewUA.tar.gz
+#tar -xvf mzlnewUA.tar.gz
+wget https://github.com/mazbron/x/raw/master/money/ff/mzlR1.tar.gz
+tar -xvf mzlR1.tar.gz
 mkdir Desktop
 cd Desktop
 #wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
