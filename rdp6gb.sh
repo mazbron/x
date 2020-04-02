@@ -51,8 +51,8 @@ sudo cp libflashplayer.so /usr/lib/mozilla/plugins
 sleep 2
 cd /home
 #chrome dan ff di ovh2
-#wget https://github.com/mazbron/x/raw/master/chrome.tar.gz
-#tar -xvf chrome.tar.gz
+wget https://github.com/mazbron/x/raw/master/chrome.tar.gz
+tar -xvf chrome.tar.gz
 #cp -r chrome chrome2
 #sleep 2
 #cp -r chrome chrome3
@@ -75,12 +75,12 @@ cd /home
 #cp -r chrome /home/10
 #cp -r chrome /home/11
 #cp -r chrome /home/12
-wget https://raw.githubusercontent.com/mazbron/x/master/every.tar.gz
-tar -xvf every.tar.gz
-cd /home/chrome
-wget --no-check-certificate 'https://www.googleapis.com/drive/v3/files/1_iODWQ23thDrmit8iWVfR65P7V6Jtzle?alt=media&key=AIzaSyAh1_vrmX1z-6W7hXQDsArVhc4UJVkkfo4' -O profile-chrome.zip
-rm -rf Default
-unzip profile-chrome.zip
+#wget https://raw.githubusercontent.com/mazbron/x/master/every.tar.gz
+#tar -xvf every.tar.gz
+#cd /home/chrome
+#wget --no-check-certificate 'https://www.googleapis.com/drive/v3/files/1_iODWQ23thDrmit8iWVfR65P7V6Jtzle?alt=media&key=AIzaSyAh1_vrmX1z-6W7hXQDsArVhc4UJVkkfo4' -O profile-chrome.zip
+#rm -rf Default
+#unzip profile-chrome.zip
 sleep 2
 cd
 rm -rf .mozilla
