@@ -34,7 +34,7 @@
                 <subParameter name="value" code="0">move</subParameter>
             </parameter>
             <parameter name="title">
-                <subParameter name="value" code="0">x - Chromium</subParameter>
+                <subParameter name="value" code="0">* - Chromium</subParameter>
             </parameter>
         </action>
         <action name="ActionPause">
