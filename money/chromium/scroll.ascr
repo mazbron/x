@@ -18,7 +18,7 @@
             <exception id="33" action="0" line=""/>
             <exception id="32" action="0" line=""/>
             <parameter name="title">
-                <subParameter name="value" code="0">x - Chromium</subParameter>
+                <subParameter name="value" code="0">* - Chromium</subParameter>
             </parameter>
             <parameter name="movePosition">
                 <subParameter name="value" code="0">309:0</subParameter>
