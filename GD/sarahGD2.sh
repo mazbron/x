@@ -7,7 +7,7 @@ echo scroll
 firefox -P p1 & sleep 4
 firefox -P p1 https://mazbron.net/sarah/sarah.html & sleep 10
 actiona -s -C -Q -e -x GD2.ascr
-sleep 55
+sleep 30
 #sleep 3
 #clear
 #firefox -P p2 & sleep 4
