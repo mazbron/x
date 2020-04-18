@@ -80,6 +80,17 @@
                 <subParameter name="value" code="0">-46</subParameter>
             </parameter>
         </action>
+                <action name="ActionPause">
+            <exception id="2" action="1" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
         <action name="ActionWheel" pauseBefore="600" pauseAfter="600" timeout="3300">
             <exception id="2" action="1" line=""/>
             <exception id="32" action="0" line=""/>
