@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scriptfile>
+    <settings program="actiona" version="3.9.1" scriptVersion="1.1.0" os="GNU/Linux"/>
+    <actions>
+        <action name="ActionWindow" version="1.0.0"/>
+        <action name="ActionMoveCursor" version="1.0.0"/>
+        <action name="ActionWheel" version="1.0.0"/>
+        <action name="ActionPause" version="1.0.0"/>
+    </actions>
+    <parameters/>
+    <resources/>
+    <script pauseBefore="0" pauseAfter="0">
+        <action name="ActionPause">
+            <exception id="2" action="1" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">5</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionWindow" pauseBefore="500" pauseAfter="500">
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="1" line=""/>
+            <exception id="33" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <parameter name="title">
+                <subParameter name="value" code="0">* - Mozilla Firefox</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">maximize</subParameter>
+            </parameter>
+            <parameter name="movePosition">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="resizeWidth">
+                <subParameter name="value" code="0">0</subParameter>
+            </parameter>
+            <parameter name="useBorders">
+                <subParameter name="value" code="0">true</subParameter>
+            </parameter>
+            <parameter name="resizeHeight">
+                <subParameter name="value" code="0">0</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause">
+            <exception id="2" action="1" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">5</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionMoveCursor" pauseBefore="400" pauseAfter="400" timeout="500">
+            <exception id="2" action="1" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <parameter name="positionOffset">
+                <subParameter name="value" code="0"></subParameter>
+                <subParameter name="unit" code="0">0</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="value" code="0">1279:494</subParameter>
+                <subParameter name="unit" code="0">0</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionWheel" pauseBefore="600" pauseAfter="600" timeout="3300">
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <parameter name="intensity">
+                <subParameter name="value" code="0">-46</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionWheel" pauseBefore="600" pauseAfter="600" timeout="3300">
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <parameter name="intensity">
+                <subParameter name="value" code="0">46</subParameter>
+            </parameter>
+        </action>
+    </script>
+</scriptfile>
