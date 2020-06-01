@@ -94,15 +94,17 @@ wget https://github.com/mazbron/x/raw/master/fmb/fmb-profile.tar.gz
 tar -xvf fmb-profile.tar.gz
 echo =======4J========
 cd /root/Desktop
-wget https://github.com/mazbron/x/raw/master/fmb/4J.sh
-chmod +x 4J.sh
-wget https://github.com/mazbron/x/raw/master/fmb/4JActiona.sh
-chmod +x 4JActiona.sh
-wget https://github.com/mazbron/x/raw/master/fmb/4j.ascr
-chmod +x 4j.ascr
-wget https://github.com/mazbron/x/raw/master/fmb/4JStick.sh
+wget https://github.com/mazbron/x/raw/master/fmb/best/4Jbest.sh
+wget https://github.com/mazbron/x/raw/master/fmb/best/4JStick.sh
+wget https://github.com/mazbron/x/raw/master/fmb/best/4JbestClick.sh
+wget https://github.com/mazbron/x/raw/master/fmb/best/4j.ascr
+wget https://github.com/mazbron/x/raw/master/fmb/best/4jc.ascr
+wget https://github.com/mazbron/x/raw/master/fmb/best/stick.ascr
+chmod +x 4Jbest.sh
 chmod +x 4JStick.sh
-wget https://github.com/mazbron/x/raw/master/fmb/stick.ascr
+chmod +x 4JbestClick.sh
+chmod +x 4j.ascr
+chmod +x 4jc.ascr
 chmod +x stick.ascr
 echo =======GD========
 wget https://github.com/mazbron/x/raw/master/fmb/GD.sh
