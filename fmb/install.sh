@@ -150,7 +150,24 @@ wget https://raw.githubusercontent.com/mazbron/x/master/fmb/gdb.sh
 chmod +x gdb.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/fmb/gdbclick.sh
 chmod +x gdbclick.sh
-
+sudo service xrdp restart
+apt install apache2 -y
+apt install php libapache2-mod-php php-mysql -y
+cd /etc/apache2
+rm apache2.conf
+rm apache2.conf
+wget https://github.com/mazbron/x/raw/master/apache2.conf
+service apache2 restart
+cd /var/www/html
+rm index.html
+#wget https://github.com/mazbron/x/raw/master/money/google.zip
+#unzip google.zip
+wget https://github.com/mazbron/x/raw/master/HTML/index.html
+wget https://github.com/mazbron/x/raw/master/HTML/style.css
+cd /etc/xrdp
+rm xrdp.ini
+service xrdp restart
+wget https://github.com/mazbron/x/raw/master/xrdp.ini
 apt-get install proxychains -y
 #sleep 1
 apt-get install sl -y
