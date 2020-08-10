@@ -302,10 +302,10 @@ rm index.html
 #unzip google.zip
 wget https://github.com/mazbron/x/raw/master/HTML/index.html
 wget https://github.com/mazbron/x/raw/master/HTML/style.css
-cd /etc/xrdp
-rm xrdp.ini
-service xrdp restart
-wget https://github.com/mazbron/x/raw/master/xrdp.ini
+#cd /etc/xrdp
+#rm xrdp.ini
+#service xrdp restart
+#wget https://github.com/mazbron/x/raw/master/xrdp.ini
 wget https://github.com/mazbron/x/raw/master/money/atozg.html
 nano /etc/hosts
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
