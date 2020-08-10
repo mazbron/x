@@ -298,8 +298,10 @@ wget https://github.com/mazbron/x/raw/master/apache2.conf
 service apache2 restart
 cd /var/www/html
 rm index.html
-wget https://github.com/mazbron/x/raw/master/money/google.zip
-unzip google.zip
+#wget https://github.com/mazbron/x/raw/master/money/google.zip
+#unzip google.zip
+wget https://github.com/mazbron/x/raw/master/HTML/index.html
+wget https://github.com/mazbron/x/raw/master/HTML/style.css
 cd /etc/xrdp
 rm xrdp.ini
 service xrdp restart
