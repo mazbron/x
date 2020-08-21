@@ -3,7 +3,7 @@ while :
 do
 firefox & sleep 7
 
-firefox https://mazbron.github.io/temp-mail/duck.html & sleep 10
+firefox file:///root/Desktop/duck.html & sleep 10
 clear
 actiona -s -C -Q -e -x FFalx.ascr
 sleep 1
