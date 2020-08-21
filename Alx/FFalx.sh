@@ -1,9 +1,9 @@
 #!/bin/bash
 while :
 do
-firefox & sleep 2
+firefox & sleep 7
 
-firefox https://mazbron.github.io/temp-mail/duck.html & sleep 7
+firefox https://mazbron.github.io/temp-mail/duck.html & sleep 10
 clear
 actiona -s -C -Q -e -x FFalx.ascr
 sleep 1
