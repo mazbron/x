@@ -2,7 +2,7 @@
 while :
 do
 firefox & sleep 2
-firefox http://autofis.com & sleep 7
+firefox http://autofis.com/go.php & sleep 7
 firefox http://autofis.com/go.php & sleep 7
 firefox http://autofis.com/go.php & sleep 7
 clear
