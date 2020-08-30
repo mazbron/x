@@ -5,7 +5,7 @@ do
 pkill --oldest chrome
  google-chrome --start-maximized --user-data-dir=/home/chrome60 https://www.gamesdb.co/4j.html --no-sandbox & sleep 1
 clear
-sleep 75
+sleep 85
 pkill --oldest chrome
 apt-get autoclean
 clear
