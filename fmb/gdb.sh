@@ -3,7 +3,7 @@ printf '\033]2;helpbot\a'
 while :
 do
 pkill --oldest chrome
- google-chrome --start-maximized --user-data-dir=/home/chrome60 https://gamesdb.co/4j.html --no-sandbox & sleep 1
+ google-chrome --start-maximized --user-data-dir=/home/chrome60 https://www.gamesdb.co/4j.html --no-sandbox & sleep 1
 clear
 sleep 75
 pkill --oldest chrome
