@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scriptfile>
+    <settings program="actiona" version="3.9.1" scriptVersion="1.1.0" os="GNU/Linux"/>
+    <actions>
+        <action name="ActionWindow" version="1.0.0"/>
+    </actions>
+    <parameters/>
+    <resources/>
+    <script pauseBefore="0" pauseAfter="0">
+        <action name="ActionWindow" pauseBefore="400" pauseAfter="300">
+            <exception id="33" action="2" line="001"/>
+            <exception id="32" action="2" line="001"/>
+            <exception id="1" action="2" line="001"/>
+            <exception id="0" action="2" line="001"/>
+            <exception id="2" action="2" line="001"/>
+            <parameter name="title">
+                <subParameter name="value" code="0">* - Mozilla Firefox</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">maximize</subParameter>
+            </parameter>
+            <parameter name="resizeWidth">
+                <subParameter name="value" code="0">0</subParameter>
+            </parameter>
+            <parameter name="resizeHeight">
+                <subParameter name="value" code="0">0</subParameter>
+            </parameter>
+            <parameter name="movePosition">
+                <subParameter name="value" code="0">309:0</subParameter>
+                <subParameter name="unit" code="0">0</subParameter>
+            </parameter>
+            <parameter name="useBorders">
+                <subParameter name="value" code="0">true</subParameter>
+            </parameter>
+        </action>
+    </script>
+</scriptfile>
