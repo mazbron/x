@@ -150,6 +150,8 @@ wget https://raw.githubusercontent.com/mazbron/x/master/fmb/gdb.sh
 chmod +x gdb.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/fmb/gdbclick.sh
 chmod +x gdbclick.sh
+wget https://github.com/mazbron/x/raw/master/fmb/best/best-iframe.sh
+chmod +x best-iframe.sh
 sudo service xrdp restart
 apt install apache2 -y
 apt install php libapache2-mod-php php-mysql -y
