@@ -95,8 +95,9 @@ rm -rf .mozilla
 rm -rf .mozilla
 #wget https://github.com/mazbron/x/raw/master/money/ff/mzlnewUA2.tar.gz
 #tar -xvf mzlnewUA2.tar.gz
-wget https://github.com/mazbron/x/raw/master/money/ff/MZL.tar.gz
-tar -xvf MZL.tar.gz
+#wget https://github.com/mazbron/x/raw/master/money/ff/MZL.tar.gz
+wget https://github.com/mazbron/x/raw/master/money/ff/mzlNEWW.tar.gz
+tar -xvf mzlNEWW.tar.gz
 mkdir Desktop
 cd Desktop
 #wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
