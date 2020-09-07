@@ -272,6 +272,11 @@ chmod +x mohNo.sh
 wget https://github.com/mazbron/x/raw/master/money/ff/moh.sh
 chmod +x moh.sh
 wget https://github.com/mazbron/x/blob/master/money/ff/FoxyProxy%20Standard_2020-03-08.json
+#HF
+wget https://github.com/mazbron/x/raw/master/money/ff/gphf.sh
+chmod +x gphf.sh
+wget https://github.com/mazbron/x/raw/master/money/ff/maxff.ascr
+chmod +x maxff.ascr
 
 cd /home/chrome
 rm -rf Default
