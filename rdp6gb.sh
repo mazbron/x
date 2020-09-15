@@ -278,7 +278,7 @@ wget https://github.com/mazbron/x/raw/master/money/ff/gphf.sh
 chmod +x gphf.sh
 wget https://github.com/mazbron/x/raw/master/money/ff/maxff.ascr
 chmod +x maxff.ascr
-
+wget https://github.com/mazbron/x/raw/master/money/ff/gphf.html
 cd /home/chrome
 rm -rf Default
 wget https://github.com/mazbron/x/raw/master/money/chromium/chromium.tar.gz
