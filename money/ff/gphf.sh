@@ -1,7 +1,7 @@
 #!/bin/bash
 while :
 do
-firefox & sleep 2
+firefox & sleep 5
 firefox file:///root/Desktop/gphf.html & sleep 5
 actiona -s -C -Q -e -x maxff.ascr
 clear
