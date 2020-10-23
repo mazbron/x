@@ -1,7 +1,7 @@
 #!/bin/bash
 while :
 do
-firefox & sleep 2
+firefox & sleep 5
 firefox http://www.google.com & sleep 7
 firefox http://www.google.com & sleep 7
 firefox http://www.google.com & sleep 7
