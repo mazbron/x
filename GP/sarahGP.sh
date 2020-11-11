@@ -2,10 +2,10 @@
 while :
 do
 firefox https://sarahvilo.id/gp.html & sleep 3
-firefox https://sarahvilo.id/gp.php & sleep 5
-firefox https://sarahvilo.id/gp.php & sleep 5
-firefox https://sarahvilo.id/gp.php & sleep 5
-firefox https://sarahvilo.id/gp.php & sleep 5
+firefox http://www.google.com & sleep 5
+firefox http://www.google.com & sleep 5
+firefox http://www.google.com & sleep 5
+firefox http://www.google.com & sleep 5
 
 clear
 actiona -s -C -Q -e -x fs.ascr
