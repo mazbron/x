@@ -2,8 +2,8 @@
 while :
 do
 
-firefox -P click & sleep 5
-firefox -P click https://sarahvilo.id/gpclick.html & sleep 7
+firefox & sleep 5
+firefox https://sarahvilo.id/gpclick.html & sleep 7
 clear
 actiona -s -C -Q -e -x click.ascr
 sleep 1
