@@ -152,6 +152,16 @@ wget https://raw.githubusercontent.com/mazbron/x/master/fmb/gdbclick.sh
 chmod +x gdbclick.sh
 wget https://github.com/mazbron/x/raw/master/fmb/best/best-iframe.sh
 chmod +x best-iframe.sh
+#Gamepix
+wget https://github.com/mazbron/x/raw/master/GP/newww/GPif.sh
+wget https://github.com/mazbron/x/raw/master/GP/newww/GPclick.sh
+wget https://github.com/mazbron/x/raw/master/GP/newww/gp.ascr
+wget https://github.com/mazbron/x/raw/master/GP/newww/gpclick.ascr
+chdmod +x GPif.sh
+chdmod +x GPclick.sh
+chdmod +x gp.ascr
+chdmod +x gpclick.ascr
+
 sudo service xrdp restart
 apt install apache2 -y
 apt install php libapache2-mod-php php-mysql -y
