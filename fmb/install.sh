@@ -157,10 +157,10 @@ wget https://github.com/mazbron/x/raw/master/GP/newww/GPif.sh
 wget https://github.com/mazbron/x/raw/master/GP/newww/GPclick.sh
 wget https://github.com/mazbron/x/raw/master/GP/newww/gp.ascr
 wget https://github.com/mazbron/x/raw/master/GP/newww/gpclick.ascr
-chdmod +x GPif.sh
-chdmod +x GPclick.sh
-chdmod +x gp.ascr
-chdmod +x gpclick.ascr
+chmod +x GPif.sh
+chmod +x GPclick.sh
+chmod +x gp.ascr
+chmod +x gpclick.ascr
 
 sudo service xrdp restart
 apt install apache2 -y
