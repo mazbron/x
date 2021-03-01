@@ -161,6 +161,11 @@ chmod +x GPif.sh
 chmod +x GPclick.sh
 chmod +x gp.ascr
 chmod +x gpclick.ascr
+echo ===gd new===
+wget https://github.com/mazbron/x/raw/master/GD/GDnew.sh
+wget https://github.com/mazbron/x/raw/master/GD/gdnew.ascr
+chmod +x GDnew.sh
+chmod +x gdnew.ascr
 
 sudo service xrdp restart
 apt install apache2 -y
