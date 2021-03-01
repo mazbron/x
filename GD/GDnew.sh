@@ -20,7 +20,7 @@ clear
 sleep 10
 clear
 echo start helpbot
-actiona -s -C -Q -e -x /root/Desktop/gm.ascr
+actiona -s -C -Q -e -x /root/Desktop/gdnew.ascr
 sleep 10
 pkill --oldest chrome
 pkill --oldest chrome
