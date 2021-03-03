@@ -50,25 +50,27 @@ tar -xvf install_flash_player_11_linux.x86_64.tar.gz
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins
 sleep 2
 cd /home
-wget 82.163.73.24/profile-chrome.zip
+#wget 82.163.73.24/profile-chrome.zip
+##rm -rf Default
+##unzip profile-chrome.zip
+#sleep 2
+#wget https://github.com/mazbron/x/raw/master/chrome.tar.gz
+#tar -xvf chrome.tar.gz
+#sleep 1
+#wget http://173.212.241.46/x/ch60-3dir.tar.gz
+#tar -xvf ch60-3dir.tar.gz
+#sleep 3
+#mv chrome chrome60
+#cd chrome60
+##wget https://github.com/mazbron/x/raw/master/fmb/game%2Balexa.tar.gz
+#wget https://github.com/mazbron/x/raw/master/default.tar.gz
+#sleep 3
 #rm -rf Default
-#unzip profile-chrome.zip
-sleep 2
-wget https://github.com/mazbron/x/raw/master/chrome.tar.gz
-tar -xvf chrome.tar.gz
-sleep 1
-wget http://173.212.241.46/x/ch60-3dir.tar.gz
-tar -xvf ch60-3dir.tar.gz
-sleep 3
-mv chrome chrome60
-cd chrome60
-#wget https://github.com/mazbron/x/raw/master/fmb/game%2Balexa.tar.gz
-wget https://github.com/mazbron/x/raw/master/default.tar.gz
-sleep 3
-rm -rf Default
-sleep 3
-#tar -xvf game+alexa.tar.gz
-tar -xvf default.tar.gz
+#sleep 3
+##tar -xvf game+alexa.tar.gz
+#tar -xvf default.tar.gz
+wget https://mazbron.net/chrome4.tar.gz
+tar -xvf chrome4.tar.gz
 cd
 mkdir Desktop
 cd Desktop
