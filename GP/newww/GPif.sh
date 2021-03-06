@@ -2,17 +2,20 @@
 printf '\033]2;helpbot\a'
 while :
 do
-pkill --oldest chrome
- google-chrome --start-maximized --user-data-dir=/home/chrome60 https://sarahvilo.id/gpiframe.html --no-sandbox & sleep 1
+proxychains google-chrome --user-data-dir=/home/chrome60 --start-maximized --no-sandbox --incognito & sleep 3
+proxychains google-chrome --user-data-dir=/home/chrome60 https://www.sarahvilo.id --start-maximized --no-sandbox --incognito & sleep 1
 clear
-sleep 85
+sleep 10
+clear
+echo start helpbot
+actiona -s -C -Q -e -x /root/Desktop/gpclick.ascr
+sleep 30
+pkill --oldest chrome
+pkill --oldest chrome
 pkill --oldest chrome
 apt-get autoclean
 clear
-sleep 2
-rm -rf /home/chrome60/Default/Cache/*
-rm /home/chrome60/Default/History 
-rm /home/chrome60/Default/Cookies
+sleep 3
 /usr/games/sl -l
 sleep 2
 done
