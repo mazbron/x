@@ -8,8 +8,8 @@ clear
 sleep 10
 clear
 echo start helpbot
-actiona -s -C -Q -e -x /root/Desktop/gpclick.ascr
-sleep 30
+actiona -s -C -Q -e -x /root/Desktop/gp.ascr
+sleep 50
 pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
