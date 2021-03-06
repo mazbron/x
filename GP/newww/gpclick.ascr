@@ -96,6 +96,10 @@
                 <subParameter name="value" code="0"></subParameter>
             </parameter>
             <parameter name="position">
+                <subParameter name="value" code="0">133:338</subParameter>
+                <subParameter name="unit" code="0">0</subParameter>
+            </parameter>
+            <parameter name="position">
                 <subParameter name="value" code="0">419:116</subParameter>
                 <subParameter name="unit" code="0">0</subParameter>
             </parameter>
