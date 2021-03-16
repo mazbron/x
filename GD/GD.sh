@@ -1,14 +1,39 @@
 #!/bin/bash
+printf '\033]2;helpbot\a'
 while :
 do
-pkill --oldest firefox
-firefox http://play.sarahvilo.id & sleep 1
+pkill --oldest chrome
+pkill --oldest chrome
+pkill --oldest chrome
+pkill --oldest chrome
+sleep 1
+pkill --oldest chrome
+pkill --oldest chrome
+pkill --oldest chrome
+pkill --oldest chrome
+google-chrome --user-data-dir=/home/chrome60 --app="data:text/html,<html><body><script>window.moveTo(1,1);window.resizeTo(700,450);window.location='http://sarahvilo.id/';</script></body></html>" --no-sandbox --incognito & sleep 3
+google-chrome --user-data-dir=/home/chrome602 --app="data:text/html,<html><body><script>window.moveTo(700,1);window.resizeTo(700,450);window.location='http://sarahvilo.id/';</script></body></html>" --no-sandbox --incognito & sleep 3
+google-chrome --user-data-dir=/home/chrome603 --app="data:text/html,<html><body><script>window.moveTo(1,450);window.resizeTo(700,450);window.location='http://sarahvilo.id/';</script></body></html>" --no-sandbox --incognito & sleep 3
+google-chrome --user-data-dir=/home/chrome604 --app="data:text/html,<html><body><script>window.moveTo(700,450);window.resizeTo(700,450);window.location='http://sarahvilo.id';</script></body></html>" --no-sandbox --incognito & sleep 3
+
 clear
-sleep 5
-echo START ACTIONA
-actiona -s -C -Q -e -x GD.ascr
-sleep 3
-pkill --oldest firefox
-apt-get clean
-sleep 5
+sleep 10
+clear
+echo start helpbot
+actiona -s -C -Q -e -x /root/Desktop/gdnew.ascr
+sleep 10
+pkill --oldest chrome
+pkill --oldest chrome
+pkill --oldest chrome
+pkill --oldest chrome
+sleep 1
+pkill --oldest chrome
+pkill --oldest chrome
+pkill --oldest chrome
+pkill --oldest chrome
+apt-get autoclean
+clear
+sleep 1
+/usr/games/sl -l
+sleep 2
 done
