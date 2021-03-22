@@ -109,8 +109,7 @@ chmod +x 4j.ascr
 chmod +x 4jc.ascr
 chmod +x stick.ascr
 echo =======GD========
-wget https://github.com/mazbron/x/raw/master/GD/GD.sh
-chmod +x GD.sh
+
 wget https://github.com/mazbron/x/raw/master/fmb/GD.ascr
 chmod +x GD.ascr
 wget https://github.com/mazbron/x/raw/master/fmb/chameleon_1565469756518.json
@@ -168,7 +167,10 @@ wget https://github.com/mazbron/x/raw/master/GD/GDnew.sh
 wget https://github.com/mazbron/x/raw/master/GD/gdnew.ascr
 chmod +x GDnew.sh
 chmod +x gdnew.ascr
-
+==gd sarah==
+wget https://github.com/mazbron/x/raw/master/GD/GD.sh
+chmod +x GD.sh
+====
 sudo service xrdp restart
 apt install apache2 -y
 apt install php libapache2-mod-php php-mysql -y
