@@ -97,8 +97,10 @@ rm -rf .mozilla
 #tar -xvf mzlnewUA2.tar.gz
 #wget https://github.com/mazbron/x/raw/master/money/ff/MZL.tar.gz
 #wget https://github.com/mazbron/x/raw/master/money/ff/mzlNEWW.tar.gz
-wget https://github.com/mazbron/x/raw/master/money/ff/mzl1020.tar.gz
-tar -xvf mzl1020.tar.gz
+###wget https://github.com/mazbron/x/raw/master/money/ff/mzl1020.tar.gz
+###tar -xvf mzl1020.tar.gz
+wget mazbron.net/ff10p.tar.gz
+tar -xvf ff10p.tar.gz
 mkdir Desktop
 cd Desktop
 #wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
@@ -182,8 +184,8 @@ chmod +x chr.sh
 #wget https://github.com/mazbron/x/raw/master/SARAHCLOSE.sh
 #chmod +x SARAHCLOSE.sh
 
-wget https://raw.githubusercontent.com/mazbron/x/master/AOL2.sh
-chmod +x AOL2.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/AOL2.sh
+#chmod +x AOL2.sh
 #wget https://github.com/mazbron/x/raw/master/HW.sh
 #chmod +x HW.sh
 #wget https://github.com/mazbron/x/raw/master/CrossClicker.zip
@@ -225,61 +227,65 @@ echo =====moneytizser====
 #chmod +x ffwindow.ascr
 apt-get install proxychains -y
 ====
-wget https://github.com/mazbron/x/raw/master/money/chromium/mntzrclick.sh
-chmod +x mntzrclick.sh
-wget https://github.com/mazbron/x/raw/master/money/chromium/mntznoclick.sh
-chmod +x mntznoclick.sh
-wget https://github.com/mazbron/x/raw/master/money/chromium/mntzrclick.ascr
-chmod +x mntzrclick.ascr
+#wget https://github.com/mazbron/x/raw/master/money/chromium/mntzrclick.sh
+#chmod +x mntzrclick.sh
+#wget https://github.com/mazbron/x/raw/master/money/chromium/mntznoclick.sh
+#chmod +x mntznoclick.sh
+#wget https://github.com/mazbron/x/raw/master/money/chromium/mntzrclick.ascr
+#chmod +x mntzrclick.ascr
 wget https://github.com/mazbron/x/raw/master/money/chromium/scroll.ascr
 chmod +x scroll.ascr
 =====
-wget https://github.com/mazbron/x/raw/master/money/chromium/atozmntzr.sh
-chmod +x atozmntzr.sh
-wget https://github.com/mazbron/x/raw/master/money/chromium/atozmntzrnoclick.sh
-chmod +x atozmntzrnoclick.sh
-wget https://github.com/mazbron/x/raw/master/money/chromium/gug.sh
-chmod +x gug.sh
-wget https://github.com/mazbron/x/raw/master/money/chromium/gugnoclick.sh
-chmod +x gugnoclick.sh
+#wget https://github.com/mazbron/x/raw/master/money/chromium/atozmntzr.sh
+#chmod +x atozmntzr.sh
+#wget https://github.com/mazbron/x/raw/master/money/chromium/atozmntzrnoclick.sh
+#chmod +x atozmntzrnoclick.sh
+#wget https://github.com/mazbron/x/raw/master/money/chromium/gug.sh
+#chmod +x gug.sh
+#wget https://github.com/mazbron/x/raw/master/money/chromium/gugnoclick.sh
+#chmod +x gugnoclick.sh
 =======
 echo NEW FF
 sleep 2
-wget https://github.com/mazbron/x/raw/master/money/ff/mntzrclickFF.sh
-chmod +x mntzrclickFF.sh
-wget https://github.com/mazbron/x/raw/master/money/ff/mntzrnoclickFF.sh
-chmod +x mntzrnoclickFF.sh
-wget https://github.com/mazbron/x/raw/master/money/ff/click.ascr
-chmod +x click.ascr
-wget https://github.com/mazbron/x/raw/master/money/ff/scroll2.ascr
-chmod +x scroll2.ascr
-wget https://github.com/mazbron/x/raw/master/money/ff/seoFF.sh
-chmod +x seoFF.sh
-wget https://github.com/mazbron/x/raw/master/money/ff/seonoclickFF.sh
-chmod +x seonoclickFF.sh
-wget https://github.com/mazbron/x/raw/master/money/ff/gugclickFF.sh
-chmod +x gugclickFF.sh
-wget https://github.com/mazbron/x/raw/master/money/ff/gunoclickFF.sh
-chmod +x gunoclickFF.sh
-wget https://github.com/mazbron/x/raw/master/money/ff/autofisFF.sh
-chmod +x autofisFF.sh
-wget https://github.com/mazbron/x/raw/master/money/ff/autofisnoFF.sh
-chmod +x autofisnoFF.sh
-wget https://github.com/mazbron/x/raw/master/money/ff/sarahFF.sh
-chmod +x sarahFF.sh
-wget https://github.com/mazbron/x/raw/master/money/ff/sarahnoFF.sh
-chmod +x sarahnoFF.sh
-wget https://github.com/mazbron/x/raw/master/money/ff/mohNo.sh
-chmod +x mohNo.sh
-wget https://github.com/mazbron/x/raw/master/money/ff/moh.sh
-chmod +x moh.sh
-wget https://github.com/mazbron/x/blob/master/money/ff/FoxyProxy%20Standard_2020-03-08.json
-#HF
-wget https://github.com/mazbron/x/raw/master/money/ff/gphf.sh
-chmod +x gphf.sh
-wget https://github.com/mazbron/x/raw/master/money/ff/maxff.ascr
+#wget https://github.com/mazbron/x/raw/master/money/ff/mntzrclickFF.sh
+#chmod +x mntzrclickFF.sh
+#wget https://github.com/mazbron/x/raw/master/money/ff/mntzrnoclickFF.sh
+#chmod +x mntzrnoclickFF.sh
+#wget https://github.com/mazbron/x/raw/master/money/ff/click.ascr
+#chmod +x click.ascr
+#wget https://github.com/mazbron/x/raw/master/money/ff/scroll2.ascr
+#chmod +x scroll2.ascr
+#wget https://github.com/mazbron/x/raw/master/money/ff/seoFF.sh
+#chmod +x seoFF.sh
+#wget https://github.com/mazbron/x/raw/master/money/ff/seonoclickFF.sh
+#chmod +x seonoclickFF.sh
+#wget https://github.com/mazbron/x/raw/master/money/ff/gugclickFF.sh
+#chmod +x gugclickFF.sh
+#wget https://github.com/mazbron/x/raw/master/money/ff/gunoclickFF.sh
+#chmod +x gunoclickFF.sh
+#wget https://github.com/mazbron/x/raw/master/money/ff/autofisFF.sh
+#chmod +x autofisFF.sh
+#wget https://github.com/mazbron/x/raw/master/money/ff/autofisnoFF.sh
+#chmod +x autofisnoFF.sh
+#wget https://github.com/mazbron/x/raw/master/money/ff/sarahFF.sh
+#chmod +x sarahFF.sh
+#wget https://github.com/mazbron/x/raw/master/money/ff/sarahnoFF.sh
+#chmod +x sarahnoFF.sh
+#wget https://github.com/mazbron/x/raw/master/money/ff/mohNo.sh
+#chmod +x mohNo.sh
+#wget https://github.com/mazbron/x/raw/master/money/ff/moh.sh
+#chmod +x moh.sh
+#wget https://github.com/mazbron/x/blob/master/money/ff/FoxyProxy%20Standard_2020-03-08.json
+##HF
+#wget https://github.com/mazbron/x/raw/master/money/ff/gphf.sh
+#chmod +x gphf.sh
+#wget https://github.com/mazbron/x/raw/master/money/ff/maxff.ascr
+#chmod +x maxff.ascr
+#wget https://github.com/mazbron/x/raw/master/money/ff/gphf.html
+wget https://github.com/mazbron/x/raw/master/automor.sh
+chmod +x automor.sh
+wget https://github.com/mazbron/x/raw/master/maxff.ascr
 chmod +x maxff.ascr
-wget https://github.com/mazbron/x/raw/master/money/ff/gphf.html
 cd /home/chrome
 rm -rf Default
 wget https://github.com/mazbron/x/raw/master/money/chromium/chromium.tar.gz
@@ -313,7 +319,7 @@ wget https://github.com/mazbron/x/raw/master/HTML/style.css
 #rm xrdp.ini
 #service xrdp restart
 #wget https://github.com/mazbron/x/raw/master/xrdp.ini
-wget https://github.com/mazbron/x/raw/master/money/atozg.html
+#wget https://github.com/mazbron/x/raw/master/money/atozg.html
 nano /etc/hosts
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
