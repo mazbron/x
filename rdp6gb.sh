@@ -24,7 +24,7 @@ apt-get remove xscreensaver -y
 #echo Install Htop
 #apt-get install htop -y
 sleep 1
-sudo apt install openjdk-8-jdk -y
+#sudo apt install openjdk-8-jdk -y
 
 #echo Installing Chromium-Browser
 #sleep 1
@@ -42,7 +42,7 @@ sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable
 sudo apt-get update -y
 #sudo apt-get install google-chrome-stable -y
 sleep 1
-apt-get install chromium-browser -y
+#apt-get install chromium-browser -y
 sudo apt-get install flashplugin-installer -y
 sleep 1
 wget https://github.com/mazbron/x/raw/master/install_flash_player_11_linux.x86_64.tar.gz
@@ -83,7 +83,7 @@ tar -xvf chrome.tar.gz
 #unzip profile-chrome.zip
 sleep 2
 cd
-rm -rf .mozilla
+#rm -rf .mozilla
 #wget https://github.com/mazbron/x/raw/master/money/mzlmonet2.tar.gz
 #tar -xvf mzlmonet2.tar.gz
 #wget https://github.com/mazbron/x/raw/master/money/ff/FF032020.tar.gz
@@ -302,19 +302,19 @@ wget https://github.com/mazbron/x/raw/master/x/proxychains.conf
 wget https://github.com/mazbron/x/raw/master/hosts
 echo "root:gl0d4kgl0d4k" | sudo chpasswd
 sudo service xrdp restart
-apt install apache2 -y
-apt install php libapache2-mod-php php-mysql -y
-cd /etc/apache2
-rm apache2.conf
-rm apache2.conf
-wget https://github.com/mazbron/x/raw/master/apache2.conf
-service apache2 restart
-cd /var/www/html
-rm index.html
+#apt install apache2 -y
+#apt install php libapache2-mod-php php-mysql -y
+#cd /etc/apache2
+#rm apache2.conf
+#rm apache2.conf
+#wget https://github.com/mazbron/x/raw/master/apache2.conf
+#service apache2 restart
+#cd /var/www/html
+#rm index.html
 #wget https://github.com/mazbron/x/raw/master/money/google.zip
 #unzip google.zip
-wget https://github.com/mazbron/x/raw/master/HTML/index.html
-wget https://github.com/mazbron/x/raw/master/HTML/style.css
+#wget https://github.com/mazbron/x/raw/master/HTML/index.html
+#wget https://github.com/mazbron/x/raw/master/HTML/style.css
 #cd /etc/xrdp
 #rm xrdp.ini
 #service xrdp restart
