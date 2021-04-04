@@ -1,7 +1,7 @@
 #!/bin/bash
 while :
 do
-firefox -P "$(((RANDOM % 10) + 1))" & sleep 5
+firefox -P "$(((RANDOM % 19) + 1))" & sleep 5
 clear
 actiona -s -C -Q -e -x maxff.ascr
 clear
