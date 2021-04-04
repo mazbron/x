@@ -99,8 +99,8 @@ rm -rf .mozilla
 #wget https://github.com/mazbron/x/raw/master/money/ff/mzlNEWW.tar.gz
 ###wget https://github.com/mazbron/x/raw/master/money/ff/mzl1020.tar.gz
 ###tar -xvf mzl1020.tar.gz
-wget mazbron.net/ff10p.tar.gz
-tar -xvf ff10p.tar.gz
+wget mazbron.net/ff19p.tar.gz
+tar -xvf ff19p.tar.gz
 mkdir Desktop
 cd Desktop
 #wget https://raw.githubusercontent.com/mazbron/x/master/ff.sh
