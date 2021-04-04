@@ -288,8 +288,8 @@ wget https://github.com/mazbron/x/raw/master/maxff.ascr
 chmod +x maxff.ascr
 wget https://github.com/mazbron/x/raw/master/dc.sh
 chmod +x dc.sh
-wget https://github.com/mazbron/x/raw/master/dxmax.ascr
-chmod +x dxmax.ascr
+wget https://github.com/mazbron/x/raw/master/dcmax.ascr
+chmod +x dcmax.ascr
 cd /home/chrome
 rm -rf Default
 wget https://github.com/mazbron/x/raw/master/money/chromium/chromium.tar.gz
