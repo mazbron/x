@@ -73,9 +73,10 @@ wget https://mazbron.net/chrome4.tar.gz
 tar -xvf chrome4.tar.gz
 sleep 1
 mkdir nl
+cd nl
 wget mazbron.net/gilingan/NL.tar.gz
 tar -xvf NL.tar.gz
-cd ..
+cd /home
 mkdir de
 cd de
 wget wget mazbron.net/gilingan/DE.tar.gz
