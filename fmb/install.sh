@@ -73,13 +73,13 @@ wget https://mazbron.net/chrome4.tar.gz
 tar -xvf chrome4.tar.gz
 sleep 1
 mkdir nl
-wget mazbron.net/NL.tar/gz
-tar -hvf NL.tar.gz
+wget mazbron.net/NL.tar.gz
+tar -xvf NL.tar.gz
 cd ..
 mkdir de
 cd de
-wget wget mazbron.net/DE.tar/gz
-tar -hvf NL.tar.gz
+wget wget mazbron.net/DE.tar.gz
+tar -xvf NL.tar.gz
 cd
 mkdir Desktop
 cd Desktop
