@@ -77,7 +77,7 @@
             <exception id="32" action="0" line=""/>
             <exception id="0" action="0" line=""/>
             <parameter name="text">
-                <subParameter name="value" code="0">https://sarahvilo.id/</subParameter>
+                <subParameter name="value" code="0">http://l.facebook.com/l.php</subParameter>
             </parameter>
             <parameter name="pause">
                 <subParameter name="value" code="0">0</subParameter>
