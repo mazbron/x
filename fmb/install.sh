@@ -24,9 +24,13 @@ sudo apt install openjdk-8-jdk -y
 sleep 1
 apt-get install firefox -y
 sleep 1
-rm -rf .moazilla
-wget https://github.com/mazbron/x/raw/master/fmb/mzlgame.tar.gz
-tar -xvf mzlgame.tar.gz
+#rm -rf .moazilla
+#wget https://github.com/mazbron/x/raw/master/fmb/mzlgame.tar.gz
+#tar -xvf mzlgame.tar.gz
+rm -rf .mozilla
+wget mazbron.net/ff19ipflood.tar.gz
+tar -xvf ff19ipflood.tar.gz
+ 
 
 sleep 1
 echo install chrome
@@ -181,6 +185,16 @@ chmod +x gdnew.ascr
 wget https://github.com/mazbron/x/raw/master/GD/GD.sh
 chmod +x GD.sh
 ====
+#GPdhammaci
+wget https://github.com/mazbron/x/raw/master/GP/ff/dc.sh
+wget https://github.com/mazbron/x/raw/master/GP/ff/gp2.ascr
+wget https://github.com/mazbron/x/raw/master/GP/ff/dcclick.sh
+wget https://github.com/mazbron/x/raw/master/GP/ff/gpclick2.ascr
+chmod +x dc.sh
+chmod +x gp2.ascr
+chmod +x dcclick.sh
+chmod +x gpclick2.ascr 
+
 sudo service xrdp restart
 apt install apache2 -y
 apt install php libapache2-mod-php php-mysql -y
