@@ -85,7 +85,7 @@
                 <subParameter name="value" code="0">0</subParameter>
             </parameter>
             <parameter name="text">
-                <subParameter name="value" code="0">https://sarahvilo.id/</subParameter>
+                <subParameter name="value" code="0">http://l.facebook.com/l.php</subParameter>
             </parameter>
         </action>
         <action name="ActionClick" pauseAfter="500">
