@@ -194,7 +194,10 @@ chmod +x dc.sh
 chmod +x gp2.ascr
 chmod +x dcclick.sh
 chmod +x gpclick2.ascr 
-
+wget https://github.com/mazbron/x/raw/master/GP/newww/GP2.sh
+wget https://github.com/mazbron/x/raw/master/GP/newww/GP2c.sh
+chmod +x GP2.sh
+chmod +x GP2c.sh
 sudo service xrdp restart
 apt install apache2 -y
 apt install php libapache2-mod-php php-mysql -y
