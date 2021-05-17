@@ -3,7 +3,7 @@ printf '\033]2;helpbot\a'
 while :
 do
 proxychains google-chrome --user-data-dir=/home/chrome60 --start-maximized --no-sandbox --incognito & sleep 3
-proxychains google-chrome --user-data-dir=/home/chrome60  googleads.g.doubleclick.net --start-maximized --no-sandbox --incognito & sleep 1
+proxychains google-chrome --user-data-dir=/home/chrome60  www.bing.com --start-maximized --no-sandbox --incognito & sleep 1
 clear
 sleep 17
 clear
