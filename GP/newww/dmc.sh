@@ -3,7 +3,7 @@ printf '\033]2;Dhammaci\a'
 while :
 do
  google-chrome --user-data-dir=/home/chrome60 --start-maximized --no-sandbox --incognito & sleep 3
- google-chrome --user-data-dir=/home/chrome60 http://l.facebook.com --start-maximized --no-sandbox --incognito & sleep 1
+ google-chrome --user-data-dir=/home/chrome60 http://l.facebook.com/l.php --start-maximized --no-sandbox --incognito & sleep 1
 clear
 sleep 10
 clear
