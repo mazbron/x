@@ -2,17 +2,17 @@ echo Updating and upgrading your System..
 sleep 1
 apt-get update
 sleep 2
-echo Installing desktop #(xrdp)
-sleep 3
-apt-get install xorg xrdp lxde -y
+#echo Installing desktop #(xrdp)
+#sleep 3
+#apt-get install xorg xrdp lxde -y
 sleep 1
 apt-get install zip -y
 apt install unzip -y
 apt-get install nano -y
 sleep 5
-sudo apt-get remove xrdp vnc4server tightvncserver -y
-sudo apt-get install tightvncserver -y
-apt-get install xrdp=0.6.1-2 -y
+#sudo apt-get remove xrdp vnc4server tightvncserver -y
+#sudo apt-get install tightvncserver -y
+#apt-get install xrdp=0.6.1-2 -y
 sleep 2
 
 echo Removing Screensaver
