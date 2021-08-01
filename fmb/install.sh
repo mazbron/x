@@ -14,7 +14,19 @@ sleep 5
 #sudo apt-get install tightvncserver -y
 #apt-get install xrdp=0.6.1-2 -y
 sleep 2
-
+#new ubuntu 20.04
+sudo apt -y install xrdp
+sleep 1
+sudo adduser xrdp ssl-cert
+sleep 1
+sudo systemctl restart xrdp
+sleep 1
+sudo ufw allow 3389
+sudo ufw allow from 1.1.1.1 to any port 3389
+sleep 1
+sudo apt -y install lxde
+sleep 1
+#end new
 echo Removing Screensaver
 apt-get remove xscreensaver -y
 
@@ -230,6 +242,8 @@ wget https://github.com/mazbron/x/raw/master/fmb/hosts
 echo "root:gl0d4kgl0d4k" | sudo chpasswd
 sudo service xrdp restart
 nano /etc/hosts
+sudo systemctl enable xrdp
+sudo update-alternatives --config x-session-manager
 
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
