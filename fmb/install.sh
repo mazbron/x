@@ -55,6 +55,7 @@ wget --no-check-certificate 'https://www.googleapis.com/drive/v3/files/1h7JJqMLu
 sudo apt purge google-chrome-stable -y
 sleep 1
 sudo dpkg -i chrome60.deb -y
+sleep 1
 sudo apt-get -f install -y
 sleep 1
 sudo apt-get install flashplugin-installer -y
