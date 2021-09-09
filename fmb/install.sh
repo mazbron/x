@@ -203,6 +203,11 @@ wget https://github.com/mazbron/x/raw/master/GP/newww/chiki.sh
 wget https://github.com/mazbron/x/raw/master/GP/newww/chikiclick.sh
 chmod +x chiki.sh
 chmod +x chikiclick.sh
+==random===
+wget https://github.com/mazbron/x/raw/master/GP/newww/rndgp.sh
+wget https://github.com/mazbron/x/raw/master/GP/newww/rndgpc.sh
+chmod +x rndgp.sh
+chmod +x rndgpc.sh
 sudo service xrdp restart
 apt install apache2 -y
 apt install php libapache2-mod-php php-mysql -y
