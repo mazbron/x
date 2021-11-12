@@ -213,6 +213,10 @@ wget https://github.com/mazbron/x/raw/master/adop/adopFF.sh
 wget https://github.com/mazbron/x/raw/master/adop/scroll2.ascr
 chmod +x adopFF.sh
 chmod +x scroll2.ascr
+===
+GG
+wget https://github.com/mazbron/x/raw/master/GP/newww/GG.sh
+chmod +x GG.sh
 sudo service xrdp restart
 apt install apache2 -y
 apt install php libapache2-mod-php php-mysql -y
