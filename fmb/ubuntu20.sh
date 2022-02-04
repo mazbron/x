@@ -1,6 +1,6 @@
 echo Updating and upgrading your System..
 sleep 1
-apt-get update
+#apt-get update
 sleep 2
 #echo Installing desktop #(xrdp)
 sleep 3
