@@ -103,28 +103,6 @@ mkdir Desktop
 cd Desktop
 wget https://github.com/mazbron/x/raw/master/fmb/chr.sh
 chmod +x chr.sh
-wget https://github.com/mazbron/x/raw/master/SARAH2.sh
-chmod +x SARAH2.sh
-
-wget https://github.com/mazbron/x/raw/master/HW.sh
-chmod +x HW.sh
-wget https://github.com/mazbron/x/raw/master/CrossClicker.zip
-unzip CrossClicker.zip
-chmod +x CrossClicker.jar
-echo ==================FAMOBI=============
-sudo apt-get install actiona -y
-wget https://github.com/mazbron/x/raw/master/fmb/PLAY.ascr
-chmod +x PLAY.ascr
-wget https://github.com/mazbron/x/raw/master/fmb/SARAH-ACTIONA.sh
-chmod +x SARAH-ACTIONA.sh
-cd /home/chrome
-rm -rf Default
-wget https://github.com/mazbron/x/raw/master/fmb/fmb-profile.tar.gz
-tar -xvf fmb-profile.tar.gz
-echo =======4J========
-cd /root/Desktop
-wget https://github.com/mazbron/x/raw/master/fmb/chr.sh
-chmod +x chr.sh
 wget https://github.com/anangpurnama/anang/raw/main/gp.ascr
 wget https://github.com/anangpurnama/anang/raw/main/gpclick.ascr
 chmod +x gp.ascr
