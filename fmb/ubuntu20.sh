@@ -24,7 +24,7 @@ sleep 1
 sudo ufw allow 3389
 sudo ufw allow from 1.1.1.1 to any port 3389
 sleep 1
-sudo apt -y install lxde
+sudo apt install lxde -y 
 sleep 1
 #end new
 echo Removing Screensaver
