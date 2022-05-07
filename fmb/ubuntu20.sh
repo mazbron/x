@@ -15,7 +15,7 @@ sleep 5
 #apt-get install xrdp=0.6.1-2 -y
 sleep 2
 #new ubuntu 20.04
-sudo apt -y install xrdp
+sudo apt install xrdp -y 
 sleep 1
 sudo adduser xrdp ssl-cert
 sleep 1
