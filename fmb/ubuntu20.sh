@@ -14,12 +14,7 @@ sleep 5
 #sudo apt-get install tightvncserver -y
 #apt-get install xrdp=0.6.1-2 -y
 sleep 2
-#new ubuntu 20.04
 
-sleep 1
-#end new
-echo Removing Screensaver
-apt-get remove xscreensaver -y
 
 sleep 1
 sudo apt install openjdk-8-jdk -y
@@ -256,6 +251,12 @@ sudo ufw allow 3389
 sudo ufw allow from 1.1.1.1 to any port 3389
 sleep 1
 sudo apt install lxde -y 
+#new ubuntu 20.04
+
+sleep 1
+#end new
+echo Removing Screensaver
+apt-get remove xscreensaver -y
 sudo service xrdp restart
 nano /etc/hosts
 sudo systemctl enable xrdp
