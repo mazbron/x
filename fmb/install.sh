@@ -219,6 +219,14 @@ chmod +x scroll2.ascr
 GG
 wget https://github.com/mazbron/x/raw/master/GP/newww/GG.sh
 chmod +x GG.sh
+==GD 2022==
+wget https://github.com/mazbron/x/raw/master/GD/new22/GDNew.sh
+wget https://github.com/mazbron/x/raw/master/GD/new22/FI.ascr
+wget https://github.com/mazbron/x/raw/master/GD/new22/play.png
+chmod +x GDNew.sh
+chmod +x FI.ascr
+chmod +x play.png
+
 sudo service xrdp restart
 apt install apache2 -y
 apt install php libapache2-mod-php php-mysql -y
