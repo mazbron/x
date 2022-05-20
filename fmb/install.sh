@@ -18,7 +18,7 @@ echo Removing Screensaver
 apt-get remove xscreensaver -y
 
 sleep 1
-sudo apt install openjdk-8-jdk -y
+#sudo apt install openjdk-8-jdk -y
 
 sleep 1
 apt-get install firefox -y
