@@ -3,7 +3,7 @@ printf '\033]2;helpbot\a'
 while :
 do
 proxychains google-chrome --user-data-dir=/home/chrome60 --start-maximized --no-sandbox --incognito & sleep 3
-proxychains google-chrome --user-data-dir=/home/chrome60 https://sarahvilo.id --start-maximized --no-sandbox --incognito & sleep 1
+proxychains google-chrome --user-data-dir=/home/chrome60 https://mazbron.net/gp.php --start-maximized --no-sandbox --incognito & sleep 1
 clear
 sleep 17
 clear
