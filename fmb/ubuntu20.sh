@@ -213,6 +213,11 @@ wget https://github.com/mazbron/x/raw/master/GD/new22/play.png
 chmod +x GDNew.sh
 chmod +x FI.ascr
 chmod +x play.png
+echo ==GD2==
+wget https://raw.githubusercontent.com/mazbron/x/master/GD/new22/GG2.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/GD/new22/FI2.ascr
+chmod +x GG2.sh
+chmod +x FI2.ascr
 
 sudo service xrdp restart
 apt install apache2 -y
