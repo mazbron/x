@@ -206,6 +206,8 @@ chmod +x chikiclick.sh
 GG
 wget https://github.com/mazbron/x/raw/master/GP/newww/GG.sh
 chmod +x GG.sh
+wget https://github.com/mazbron/x/raw/master/GP/newww/GGnew.sh
+chmod +x https://github.com/mazbron/x/raw/master/GP/newww/GGnew.sh
 ==GD 2022==
 wget https://github.com/mazbron/x/raw/master/GD/new22/GDNew.sh
 wget https://github.com/mazbron/x/raw/master/GD/new22/FI.ascr
