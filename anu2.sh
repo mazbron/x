@@ -1,4 +1,56 @@
-
+echo install chrome
+sleep 1
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+sudo apt-get update -y
+sudo apt-get install google-chrome-stable -y
+wget --no-check-certificate 'https://www.googleapis.com/drive/v3/files/1h7JJqMLu1IOGNF7OBkvt65a64C9XOhYc?alt=media&key=AIzaSyDTN35uWgTNDGpBi9iFpBf1WItEZZlr6aw' -O chrome60.deb
+sudo apt purge google-chrome-stable -y
+sleep 1
+sudo dpkg -i chrome60.deb
+sleep 1
+sudo apt-get -f install -y
+sleep 1
+sudo apt-get install flashplugin-installer -y
+sleep 1
+apt-get install chromium-browser -y
+sleep 1
+wget https://github.com/mazbron/x/raw/master/install_flash_player_11_linux.x86_64.tar.gz
+tar -xvf install_flash_player_11_linux.x86_64.tar.gz
+sudo cp libflashplayer.so /usr/lib/mozilla/plugins
+sleep 2
+cd /home
+#wget 82.163.73.24/profile-chrome.zip
+##rm -rf Default
+##unzip profile-chrome.zip
+#sleep 2
+#wget https://github.com/mazbron/x/raw/master/chrome.tar.gz
+#tar -xvf chrome.tar.gz
+#sleep 1
+#wget http://173.212.241.46/x/ch60-3dir.tar.gz
+#tar -xvf ch60-3dir.tar.gz
+#sleep 3
+#mv chrome chrome60
+#cd chrome60
+##wget https://github.com/mazbron/x/raw/master/fmb/game%2Balexa.tar.gz
+#wget https://github.com/mazbron/x/raw/master/default.tar.gz
+#sleep 3
+#rm -rf Default
+#sleep 3
+##tar -xvf game+alexa.tar.gz
+#tar -xvf default.tar.gz
+wget https://mazbron.net/chrome4.tar.gz
+tar -xvf chrome4.tar.gz
+sleep 1
+mkdir nl
+cd nl
+wget mazbron.net/gilingan/NL.tar.gz
+tar -xvf NL.tar.gz
+cd /home
+mkdir de
+cd de
+wget wget mazbron.net/gilingan/DE.tar.gz
+tar -xvf DE.tar.gz
 cd
 mkdir Desktop
 cd Desktop
