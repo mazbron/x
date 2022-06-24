@@ -1,9 +1,4 @@
-cd /home
-mkdir de
-cd de
-wget wget mazbron.net/gilingan/DE.tar.gz
-tar -xvf DE.tar.gz
-cd
+
 mkdir Desktop
 cd Desktop
 wget https://github.com/mazbron/x/raw/master/fmb/chr.sh
