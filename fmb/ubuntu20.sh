@@ -215,6 +215,12 @@ wget https://github.com/mazbron/x/raw/master/GD/new22/play.png
 chmod +x GDNew.sh
 chmod +x FI.ascr
 chmod +x play.png
+wget https://github.com/mazbron/x/raw/master/GD/new22/gg/FIgggd.ascr
+wget https://github.com/mazbron/x/raw/master/GD/new22/gg/GGGD.sh
+wget https://github.com/mazbron/x/raw/master/GD/new22/gg/gggdlink.sh
+chmod +x FIgggd.ascr
+chmod +x GGGD.sh
+chmod +x gggdlink.sh
 echo ==GD2==
 wget https://raw.githubusercontent.com/mazbron/x/master/GD/new22/GG2.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/GD/new22/FI2.ascr
