@@ -226,7 +226,15 @@ wget https://raw.githubusercontent.com/mazbron/x/master/GD/new22/GG2.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/GD/new22/FI2.ascr
 chmod +x GG2.sh
 chmod +x FI2.ascr
-
+echo ==nyobi==
+wget https://github.com/mazbron/x/raw/master/GP/newww/nm.sh
+wget https://github.com/mazbron/x/raw/master/GP/newww/nmGP.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/GP/newww/nyobiGP.ascr
+wget https://raw.githubusercontent.com/mazbron/x/master/GP/newww/okplay.png
+chmod +x nm.sh
+chmod +x nmGP.sh
+chmod +x nyobiGP.ascr
+chmod +x okplay.png
 sudo service xrdp restart
 apt install apache2 -y
 apt install php libapache2-mod-php php-mysql -y
