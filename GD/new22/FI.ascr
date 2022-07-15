@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scriptfile>
-    <settings program="actiona" version="3.10.1" scriptVersion="1.1.0" os="GNU/Linux"/>
+    <settings program="actiona" version="3.10.0" scriptVersion="1.1.0" os="Windows"/>
     <actions>
+        <action name="ActionCommand" version="1.0.0"/>
         <action name="ActionClick" version="1.0.0"/>
         <action name="ActionFindImage" version="1.1.0"/>
         <action name="ActionPause" version="1.0.0"/>
@@ -103,6 +104,47 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
+        <action name="ActionCommand">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="command">
+                <subParameter name="value" code="0">/root/Desktop/link.sh</subParameter>
+            </parameter>
+            <parameter name="errorOutput">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="exitCode">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="exitStatus">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="output">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="parameters">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="processId">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="workingDirectory">
+                <subParameter name="value" code="0">/root/Desktop</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">3</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
         <action name="ActionFindImage" color="#55ff00" timeout="2000">
             <exception id="0" action="1" line=""/>
             <exception id="1" action="1" line=""/>
@@ -194,6 +236,47 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
+        <action name="ActionCommand">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="command">
+                <subParameter name="value" code="0">/root/Desktop/link.sh</subParameter>
+            </parameter>
+            <parameter name="errorOutput">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="exitCode">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="exitStatus">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="output">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="parameters">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="processId">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="workingDirectory">
+                <subParameter name="value" code="0">/root/Desktop</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">5</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
         <action name="ActionFindImage" color="#ff00ff" timeout="2000">
             <exception id="0" action="1" line=""/>
             <exception id="1" action="1" line=""/>
@@ -272,6 +355,47 @@
             </parameter>
             <parameter name="restoreCursorPosition">
                 <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">5</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCommand">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="command">
+                <subParameter name="value" code="0">/root/Desktop/link.sh</subParameter>
+            </parameter>
+            <parameter name="errorOutput">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="exitCode">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="exitStatus">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="output">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="parameters">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="processId">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="workingDirectory">
+                <subParameter name="value" code="0">/root/Desktop</subParameter>
             </parameter>
         </action>
         <action name="ActionPause">
