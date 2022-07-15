@@ -235,6 +235,8 @@ chmod +x nm.sh
 chmod +x nmGP.sh
 chmod +x nyobiGP.ascr
 chmod +x okplay.png
+wget https://github.com/mazbron/x/raw/master/GP/newww/GP2new.sh
+chmod +x GP2new.sh
 sudo service xrdp restart
 apt install apache2 -y
 apt install php libapache2-mod-php php-mysql -y
