@@ -212,9 +212,11 @@ chmod +x GGnew.sh
 wget https://github.com/mazbron/x/raw/master/GD/new22/GDNew.sh
 wget https://github.com/mazbron/x/raw/master/GD/new22/FI.ascr
 wget https://github.com/mazbron/x/raw/master/GD/new22/play.png
+wget https://github.com/mazbron/x/raw/master/GD/new22/link.sh
 chmod +x GDNew.sh
 chmod +x FI.ascr
 chmod +x play.png
+chmod +x link.sh
 wget https://github.com/mazbron/x/raw/master/GD/new22/gg/FIgggd.ascr
 wget https://github.com/mazbron/x/raw/master/GD/new22/gg/GGGD.sh
 wget https://github.com/mazbron/x/raw/master/GD/new22/gg/gggdlink.sh
