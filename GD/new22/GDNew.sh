@@ -11,7 +11,7 @@ sleep 5
 clear
 echo start helpbot
 actiona -s -C -Q -e -x /root/Desktop/FI.ascr
-sleep 40
+termdown 20
 pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
