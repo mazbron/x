@@ -74,22 +74,22 @@ cd /home
 #tar -xvf default.tar.gz
 wget https://mazbron.net/chrome4.tar.gz
 tar -xvf chrome4.tar.gz
-#sleep 1
-#mkdir nl
-#cd nl
-#wget mazbron.net/gilingan/NL.tar.gz
-#tar -xvf NL.tar.gz
-#cd /home
-#mkdir de
-#cd de
-#wget wget mazbron.net/gilingan/DE.tar.gz
-#tar -xvf DE.tar.gz
-#2022 update profile chrome60
-cd chrome60
-rm -rf Default
 sleep 1
-wget https://github.com/mazbron/x/raw/master/Default.zip
-unzip Default.zip
+mkdir nl
+cd nl
+wget mazbron.net/gilingan/NL.tar.gz
+tar -xvf NL.tar.gz
+cd /home
+mkdir de
+cd de
+wget wget mazbron.net/gilingan/DE.tar.gz
+tar -xvf DE.tar.gz
+#2022 update profile chrome60
+$cd chrome60
+$rm -rf Default
+$sleep 1
+$wget https://github.com/mazbron/x/raw/master/Default.zip
+$unzip Default.zip
 
 cd
 mkdir Desktop
