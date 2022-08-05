@@ -247,19 +247,19 @@ chmod +x okplay.png
 wget https://github.com/mazbron/x/raw/master/GP/newww/GP2new.sh
 chmod +x GP2new.sh
 sudo service xrdp restart
-apt install apache2 -y
-apt install php libapache2-mod-php php-mysql -y
-cd /etc/apache2
-rm apache2.conf
-rm apache2.conf
-wget https://github.com/mazbron/x/raw/master/apache2.conf
-service apache2 restart
-cd /var/www/html
-rm index.html
-#wget https://github.com/mazbron/x/raw/master/money/google.zip
-#unzip google.zip
-wget https://github.com/mazbron/x/raw/master/HTML/index.html
-wget https://github.com/mazbron/x/raw/master/HTML/style.css
+#apt install apache2 -y
+#apt install php libapache2-mod-php php-mysql -y
+#cd /etc/apache2
+#rm apache2.conf
+#rm apache2.conf
+#wget https://github.com/mazbron/x/raw/master/apache2.conf
+#service apache2 restart
+#cd /var/www/html
+#rm index.html
+##wget https://github.com/mazbron/x/raw/master/money/google.zip
+##unzip google.zip
+#wget https://github.com/mazbron/x/raw/master/HTML/index.html
+#wget https://github.com/mazbron/x/raw/master/HTML/style.css
 apt-get install proxychains -y
 #sleep 1
 apt-get install sl -y
