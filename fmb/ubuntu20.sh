@@ -284,7 +284,7 @@ sudo ufw allow from 1.1.1.1 to any port 3389
 sleep 1
 sudo apt install lxde -y 
 #new ubuntu 20.04
-
+apt install net-tools -y
 sleep 1
 #end new
 echo Removing Screensaver
