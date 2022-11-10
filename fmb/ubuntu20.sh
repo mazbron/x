@@ -48,7 +48,7 @@ sudo apt-get -f install -y
 sleep 1
 sudo apt-get install flashplugin-installer -y
 sleep 1
-apt-get install chromium-browser -y
+#apt-get install chromium-browser -y
 sleep 1
 wget https://github.com/mazbron/x/raw/master/install_flash_player_11_linux.x86_64.tar.gz
 tar -xvf install_flash_player_11_linux.x86_64.tar.gz
