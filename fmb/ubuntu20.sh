@@ -74,8 +74,10 @@ cd /home
 #sleep 3
 ##tar -xvf game+alexa.tar.gz
 #tar -xvf default.tar.gz
-wget https://mazbron.net/chrome4.tar.gz
-tar -xvf chrome4.tar.gz
+#wget https://mazbron.net/chrome4.tar.gz
+#tar -xvf chrome4.tar.gz
+wget mazbron.net/chprof22.zip
+unzip chprof22.zip
 sleep 1
 mkdir nl
 cd nl
