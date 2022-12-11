@@ -257,6 +257,8 @@ unzip ff.zip
 cd Desktop
 wget http://mazbron.net/2022ff/GPFF.sh
 chmod +x GPFF.sh
+wget https://github.com/mazbron/x/raw/master/GP/newww/GP234.sh
+chmod +x GP234.sh
 sleep 1
 sudo service xrdp restart
 #apt install apache2 -y
