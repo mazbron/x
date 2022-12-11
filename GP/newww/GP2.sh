@@ -2,6 +2,8 @@
 printf '\033]2;helpbot\a'
 while :
 do
+rm -rf /home/chrome60/Default/Cache/*
+rm -rf /root/Downloads/*
  google-chrome --user-data-dir=/home/chrome60 --start-maximized --no-sandbox --incognito & sleep 3
  google-chrome --user-data-dir=/home/chrome60  gamesdb.co --start-maximized --no-sandbox --incognito & sleep 1
 clear
