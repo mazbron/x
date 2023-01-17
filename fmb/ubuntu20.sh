@@ -261,7 +261,7 @@ wget https://github.com/mazbron/x/raw/master/GP/newww/GP234.sh
 chmod +x GP234.sh
 sleep 1
 sudo service xrdp restart
-#apt install apache2 -y
+apt install apache2 -y
 #apt install php libapache2-mod-php php-mysql -y
 #cd /etc/apache2
 #rm apache2.conf
