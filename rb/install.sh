@@ -91,6 +91,7 @@ $unzip Default.zip
 cd
 mkdir Desktop
 cd Desktop
+wget https://github.com/mazbron/x/raw/master/chr.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/br/FIGP.ascr
 wget https://github.com/mazbron/x/raw/master/br/GPNew.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/br/linkFIGP.sh
@@ -99,6 +100,7 @@ wget https://raw.githubusercontent.com/mazbron/x/master/br/playgp2.png
 chmod +x FIGP.ascr
 chmod +x GPNew.sh
 chmod +x linkFIGP.sh
+chmod +x chr.sh
 sleep 1
 sudo service xrdp restart
 apt install apache2 -y
