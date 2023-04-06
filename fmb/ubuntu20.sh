@@ -259,6 +259,14 @@ wget http://mazbron.net/2022ff/GPFF.sh
 chmod +x GPFF.sh
 wget https://github.com/mazbron/x/raw/master/GP/newww/GP234.sh
 chmod +x GP234.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/GP/newww/2023/FIGP.ascr
+wget https://github.com/mazbron/x/raw/master/GP/newww/2023/GPNew.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/GP/newww/2023/linkFIGP.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/GP/newww/2023/playgp.png
+wget https://raw.githubusercontent.com/mazbron/x/master/GP/newww/2023/playgp2.png
+chmod +x FIGP.ascr
+chmod +x GPNew.sh
+chmod +x linkFIGP.sh
 sleep 1
 sudo service xrdp restart
 apt install apache2 -y
