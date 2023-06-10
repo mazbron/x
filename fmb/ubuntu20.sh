@@ -287,7 +287,7 @@ apt-get install proxychains -y
 apt-get install sl -y
 #sleep 1
 #sl -l
-snap install termdown
+pip install termdown
 cd /etc
 mv hosts hosts.bakk
 mv proxychains.conf proxychains.conf.bak
