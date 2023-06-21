@@ -92,11 +92,11 @@ cd
 mkdir Desktop
 cd Desktop
 wget https://github.com/mazbron/x/raw/master/chr.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/br/FIGP.ascr
+wget https://raw.githubusercontent.com/mazbron/x/master/rb/FIGP.ascr
 wget https://github.com/mazbron/x/raw/master/br/GPNew.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/br/linkFIGP.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/br/playgp.png
-wget https://raw.githubusercontent.com/mazbron/x/master/br/playgp2.png
+wget https://raw.githubusercontent.com/mazbron/x/master/rb/linkFIGP.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/rb/playgp.png
+wget https://raw.githubusercontent.com/mazbron/x/master/rb/playgp2.png
 chmod +x FIGP.ascr
 chmod +x GPNew.sh
 chmod +x linkFIGP.sh
