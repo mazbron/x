@@ -91,7 +91,7 @@ $unzip Default.zip
 cd
 mkdir Desktop
 cd Desktop
-wget https://github.com/mazbron/x/raw/master/chr.sh
+wget https://github.com/mazbron/x/raw/master/fmb/chr.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/rb/FIGP.ascr
 wget https://github.com/mazbron/x/raw/master/br/GPNew.sh
 wget https://raw.githubusercontent.com/mazbron/x/master/rb/linkFIGP.sh
