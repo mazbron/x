@@ -15,6 +15,7 @@ sleep 5
 #apt-get install xrdp=0.6.1-2 -y
 sleep 2
 
+sudo apt-get install actiona -y
 
 sleep 1
 sudo apt install openjdk-8-jdk -y
@@ -128,7 +129,7 @@ mv proxychains.conf proxychains.conf.bak
 wget https://github.com/mazbron/x/raw/master/fmb/proxychains.conf
 #wget https://github.com/mazbron/x/raw/master/fmb/hosts
 #cp hosts hosts.bak
-
+pip install termdown
 sudo apt install xrdp -y 
 sleep 1
 sudo adduser xrdp ssl-cert
