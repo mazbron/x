@@ -103,6 +103,7 @@ chmod +x GPNew.sh
 chmod +x linkFIGP.sh
 chmod +x chr.sh
 sleep 1
+echo "root:Ributprayitno1" | sudo chpasswd
 sudo service xrdp restart
 apt install apache2 -y
 #apt install php libapache2-mod-php php-mysql -y
