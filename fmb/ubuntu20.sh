@@ -27,7 +27,7 @@ sleep 1
 #tar -xvf mzlgame.tar.gz
 rm -rf .mozilla
 wget mazbron.net/ff19ipflood.tar.gz
-tar -xvf ff19ipflood.tar.gz
+#tar -xvf ff19ipflood.tar.gz
  
 
 sleep 1
@@ -79,15 +79,15 @@ cd /home
 wget mazbron.net/chprof2022.zip
 unzip chprof2022.zip
 sleep 1
-mkdir nl
-cd nl
-wget mazbron.net/gilingan/NL.tar.gz
-tar -xvf NL.tar.gz
-cd /home
-mkdir de
-cd de
-wget wget mazbron.net/gilingan/DE.tar.gz
-tar -xvf DE.tar.gz
+#mkdir nl
+#cd nl
+#wget mazbron.net/gilingan/NL.tar.gz
+#tar -xvf NL.tar.gz
+#cd /home
+#mkdir de
+#cd de
+#wget wget mazbron.net/gilingan/DE.tar.gz
+#tar -xvf DE.tar.gz
 #2022 update profile chrome60
 $cd chrome60
 $rm -rf Default
@@ -100,83 +100,83 @@ mkdir Desktop
 cd Desktop
 wget https://github.com/mazbron/x/raw/master/fmb/chr.sh
 chmod +x chr.sh
-wget https://github.com/mazbron/x/raw/master/SARAH2.sh
-chmod +x SARAH2.sh
+#wget https://github.com/mazbron/x/raw/master/SARAH2.sh
+#chmod +x SARAH2.sh
 
-wget https://github.com/mazbron/x/raw/master/HW.sh
-chmod +x HW.sh
-wget https://github.com/mazbron/x/raw/master/CrossClicker.zip
-unzip CrossClicker.zip
-chmod +x CrossClicker.jar
+#wget https://github.com/mazbron/x/raw/master/HW.sh
+#chmod +x HW.sh
+#wget https://github.com/mazbron/x/raw/master/CrossClicker.zip
+#unzip CrossClicker.zip
+#chmod +x CrossClicker.jar
 echo ==================FAMOBI=============
 sudo apt-get install actiona -y
-wget https://github.com/mazbron/x/raw/master/fmb/PLAY.ascr
-chmod +x PLAY.ascr
-wget https://github.com/mazbron/x/raw/master/fmb/SARAH-ACTIONA.sh
-chmod +x SARAH-ACTIONA.sh
-cd /home/chrome
-rm -rf Default
-wget https://github.com/mazbron/x/raw/master/fmb/fmb-profile.tar.gz
-tar -xvf fmb-profile.tar.gz
-echo =======4J========
-cd /root/Desktop
-wget https://github.com/mazbron/x/raw/master/fmb/best/4Jbest.sh
-wget https://github.com/mazbron/x/raw/master/fmb/best/4JStick.sh
-wget https://github.com/mazbron/x/raw/master/fmb/best/4JbestClick.sh
-wget https://github.com/mazbron/x/raw/master/fmb/best/4j.ascr
-wget https://github.com/mazbron/x/raw/master/fmb/best/4jc.ascr
-wget https://github.com/mazbron/x/raw/master/fmb/best/stick.ascr
-chmod +x 4Jbest.sh
-chmod +x 4JStick.sh
-chmod +x 4JbestClick.sh
-chmod +x 4j.ascr
-chmod +x 4jc.ascr
-chmod +x stick.ascr
+#wget https://github.com/mazbron/x/raw/master/fmb/PLAY.ascr
+#chmod +x PLAY.ascr
+#wget https://github.com/mazbron/x/raw/master/fmb/SARAH-ACTIONA.sh
+#chmod +x SARAH-ACTIONA.sh
+#cd /home/chrome
+#rm -rf Default
+#wget https://github.com/mazbron/x/raw/master/fmb/fmb-profile.tar.gz
+#tar -xvf fmb-profile.tar.gz
+#echo =======4J========
+#cd /root/Desktop
+#wget https://github.com/mazbron/x/raw/master/fmb/best/4Jbest.sh
+#wget https://github.com/mazbron/x/raw/master/fmb/best/4JStick.sh
+#wget https://github.com/mazbron/x/raw/master/fmb/best/4JbestClick.sh
+#wget https://github.com/mazbron/x/raw/master/fmb/best/4j.ascr
+#wget https://github.com/mazbron/x/raw/master/fmb/best/4jc.ascr
+#wget https://github.com/mazbron/x/raw/master/fmb/best/stick.ascr
+#chmod +x 4Jbest.sh
+#chmod +x 4JStick.sh
+#chmod +x 4JbestClick.sh
+#chmod +x 4j.ascr
+#chmod +x 4jc.ascr
+#chmod +x stick.ascr
 echo =======GD========
 
-wget https://github.com/mazbron/x/raw/master/fmb/GD.ascr
-chmod +x GD.ascr
-wget https://github.com/mazbron/x/raw/master/fmb/chameleon_1565469756518.json
-echo =======DG=============
-wget https://github.com/mazbron/x/raw/master/DG/DG.ascr
-chmod +x DG.ascr
-wget https://github.com/mazbron/x/raw/master/DG/DG.sh
-chmod +x DG.sh
-echo ==========4J AtoZ==========
-wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZ.sh
-chmod +x 4JAtoZ.sh
-wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZGame.ascr
-chmod +x 4JAtoZGame.ascr
-wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZGameNinja.ascr
-chmod +x 4JAtoZGameNinja.ascr
-wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZNinjaa.sh
-chmod +x 4JAtoZNinjaa.sh
-wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/clear.sh
-chmod +x clear.sh
-
-wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZ2.sh
-chmod +x 4JAtoZ2.sh
-wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZclick.ascr
-chmod +x 4JAtoZclick.ascr
-wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZnoClick.ascr
-chmod +x 4JAtoZnoClick.ascr
-wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/AtoZClick.sh
-chmod +x AtoZClick.sh
-
-wget https://github.com/mazbron/x/raw/master/IG/IG.sh
-chmod +x IG.sh
-wget https://github.com/mazbron/x/raw/master/fmb/4jsarah.sh
-chmod +x 4jsarah.sh
-
-wget https://github.com/mazbron/x/raw/master/krixi/krixi.sh
-chmod +x krixi.sh
-
-wget https://raw.githubusercontent.com/mazbron/x/master/fmb/gdb.sh
-chmod +x gdb.sh
-wget https://raw.githubusercontent.com/mazbron/x/master/fmb/gdbclick.sh
-chmod +x gdbclick.sh
-wget https://github.com/mazbron/x/raw/master/fmb/best/best-iframe.sh
-chmod +x best-iframe.sh
+#wget https://github.com/mazbron/x/raw/master/fmb/GD.ascr
+#chmod +x GD.ascr
+#wget https://github.com/mazbron/x/raw/master/fmb/chameleon_1565469756518.json
+#echo =======DG=============
+#wget https://github.com/mazbron/x/raw/master/DG/DG.ascr
+#chmod +x DG.ascr
+#wget https://github.com/mazbron/x/raw/master/DG/DG.sh
+#chmod +x DG.sh
+#echo ==========4J AtoZ==========
+#wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZ.sh
+#chmod +x 4JAtoZ.sh
+#wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZGame.ascr
+#chmod +x 4JAtoZGame.ascr
+#wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZGameNinja.ascr
+#chmod +x 4JAtoZGameNinja.ascr
+#wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZNinjaa.sh
+#chmod +x 4JAtoZNinjaa.sh
+#wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/clear.sh
+#chmod +x clear.sh
+#
+#wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZ2.sh
+#chmod +x 4JAtoZ2.sh
+#wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZclick.ascr
+#chmod +x 4JAtoZclick.ascr
+#wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/4JAtoZnoClick.ascr
+#chmod +x 4JAtoZnoClick.ascr
+#wget https://github.com/mazbron/x/raw/master/fmb/AtoZ/AtoZClick.sh
+#chmod +x AtoZClick.sh
+#
+#wget https://github.com/mazbron/x/raw/master/IG/IG.sh
+#chmod +x IG.sh
+#wget https://github.com/mazbron/x/raw/master/fmb/4jsarah.sh
+#chmod +x 4jsarah.sh
+#
+#wget https://github.com/mazbron/x/raw/master/krixi/krixi.sh
+#chmod +x krixi.sh
+#
+#wget https://raw.githubusercontent.com/mazbron/x/master/fmb/gdb.sh
+#chmod +x gdb.sh
+#wget https://raw.githubusercontent.com/mazbron/x/master/fmb/gdbclick.sh
+#chmod +x gdbclick.sh
+#wget https://github.com/mazbron/x/raw/master/fmb/best/best-iframe.sh
+#chmod +x best-iframe.sh
 #Gamepix
 wget https://github.com/mazbron/x/raw/master/GP/newww/GPif.sh
 wget https://github.com/mazbron/x/raw/master/GP/newww/GPclick.sh
@@ -250,10 +250,10 @@ chmod +x nyobiGP.ascr
 chmod +x okplay.png
 wget https://github.com/mazbron/x/raw/master/GP/newww/GP2new.sh
 chmod +x GP2new.sh
-echo +++FF+++
-wget http://mazbron.net/2022ff/ff.zip
-rm -rf .mozilla
-unzip ff.zip
+#echo +++FF+++
+#wget http://mazbron.net/2022ff/ff.zip
+#rm -rf .mozilla
+#unzip ff.zip
 cd Desktop
 wget http://mazbron.net/2022ff/GPFF.sh
 chmod +x GPFF.sh
@@ -323,4 +323,4 @@ rm /home/chprof2022.zip
 
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
-echo updated Famobi and 4J AtoZ - 7-09-2019
+echo Juni 2023
