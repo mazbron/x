@@ -316,6 +316,10 @@ sudo service xrdp restart
 nano /etc/hosts
 sudo systemctl enable xrdp
 sudo update-alternatives --config x-session-manager
+echo hapus file ga penting
+rm /root/ff19ipflood.tar.gz
+rm -rf /home/de /home/nl /home/chrome60x
+rm /home/chprof2022.zip
 
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
