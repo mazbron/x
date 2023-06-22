@@ -317,7 +317,7 @@ nano /etc/hosts
 sudo systemctl enable xrdp
 sudo update-alternatives --config x-session-manager
 echo hapus file ga penting
-rm /root/ff19ipflood.tar.gz
+rm /root/ff19ipflood.tar.gz /root/libflashplayer.so /root/install_flash_player_11_linux.x86_64.tar.gz
 rm -rf /home/de /home/nl /home/chrome60x
 rm /home/chprof2022.zip
 
