@@ -313,13 +313,15 @@ sleep 1
 echo Removing Screensaver
 apt-get remove xscreensaver -y
 sudo service xrdp restart
-nano /etc/hosts
-sudo systemctl enable xrdp
-sudo update-alternatives --config x-session-manager
+sleep 1
 echo hapus file ga penting
 rm /root/ff19ipflood.tar.gz /root/libflashplayer.so /root/install_flash_player_11_linux.x86_64.tar.gz
 rm -rf /home/de /home/nl /home/chrome60x
 rm /home/chprof2022.zip
+sleep 1
+nano /etc/hosts
+sudo systemctl enable xrdp
+sudo update-alternatives --config x-session-manager
 
 echo You have successfully Installed LXDE Desktop Environment.. Enjoy..!!
 echo Ceeeers... MAZBRON.com _ BESTSEOTOOL.co
