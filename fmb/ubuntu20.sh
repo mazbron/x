@@ -288,6 +288,7 @@ apt-get install sl -y
 #sleep 1
 #sl -l
 pip install termdown
+snap install termdown
 cd /etc
 mv hosts hosts.bakk
 mv proxychains.conf proxychains.conf.bak
