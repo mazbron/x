@@ -14,7 +14,7 @@ sleep 5
 #sudo apt-get install tightvncserver -y
 #apt-get install xrdp=0.6.1-2 -y
 sleep 2
-
+apt install snapd
 
 sleep 1
 sudo apt install openjdk-8-jdk -y
