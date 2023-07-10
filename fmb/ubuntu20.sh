@@ -267,7 +267,11 @@ wget https://raw.githubusercontent.com/mazbron/x/master/GP/newww/2023/playgp2.pn
 chmod +x FIGP.ascr
 chmod +x GPNew.sh
 chmod +x linkFIGP.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/GA/GA.sh
+wget https://raw.githubusercontent.com/mazbron/x/master/GA/ga.ascr
 sleep 1
+chmod +x GA.sh
+chmod +x ga.ascr
 sudo service xrdp restart
 apt install apache2 -y
 #apt install php libapache2-mod-php php-mysql -y
