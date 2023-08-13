@@ -3,10 +3,10 @@ printf '\033]2;helpbot\a'
 while :
 do
 rm -rf /home/chrome60/Default/Cache/*
-rm -rf /root/Downloads/*
+find /root/Downloads -type f -name '.*' -exec rm {} +
 rm -rf  /home/chrome60/BrowserMetrics
 termdown 2
- google-chrome --user-data-dir=/home/chrome60 --start-maximized --no-sandbox --incognito & sleep 3
+ google-chrome --user-data-dir=/home/chrome60 --start-maximized --no-sandbox --incognito & sleep 5
  google-chrome --user-data-dir=/home/chrome60 https://mazbron.net/gpakun1.php --start-maximized --no-sandbox --incognito & sleep 1
 clear
 termdown 10
@@ -21,5 +21,5 @@ apt-get autoclean
 clear
 termdown 3
 /usr/games/sl -l
-termdown 2
+termdown 5
 done
