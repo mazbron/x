@@ -23,7 +23,7 @@
                 <subParameter name="value" code="0">pressRelease</subParameter>
             </parameter>
             <parameter name="position">
-                <subParameter name="value" code="0">232:16</subParameter>
+                <subParameter name="value" code="0">257:20</subParameter>
                 <subParameter name="unit" code="0">0</subParameter>
             </parameter>
             <parameter name="button">
