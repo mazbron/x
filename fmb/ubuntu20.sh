@@ -324,7 +324,9 @@ rm -rf /home/de /home/nl /home/chrome60x
 rm /home/chprof2022.zip
 sleep 1
 sudo rm /etc/cloud/cloud.cfg
+cd /etc/cloud
 wget https://github.com/mazbron/x/raw/master/cloud.cfg
+cd ..
 sleep 1
 nano /etc/hosts
 sudo systemctl enable xrdp
