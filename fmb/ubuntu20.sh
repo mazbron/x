@@ -323,6 +323,9 @@ rm /root/ff19ipflood.tar.gz /root/libflashplayer.so /root/install_flash_player_1
 rm -rf /home/de /home/nl /home/chrome60x
 rm /home/chprof2022.zip
 sleep 1
+sudo rm /etc/cloud/cloud.cfg
+wget https://github.com/mazbron/x/raw/master/cloud.cfg
+sleep 1
 nano /etc/hosts
 sudo systemctl enable xrdp
 sudo update-alternatives --config x-session-manager
