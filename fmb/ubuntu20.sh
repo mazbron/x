@@ -328,6 +328,8 @@ cd /etc/cloud
 wget https://github.com/mazbron/x/raw/master/cloud.cfg
 cd ..
 sleep 1
+0 0 * * * rm -rf /root/.cache/lxsession
+sleep 1
 nano /etc/hosts
 sudo systemctl enable xrdp
 sudo update-alternatives --config x-session-manager
