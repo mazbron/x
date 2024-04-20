@@ -76,7 +76,8 @@ cd /home
 #tar -xvf default.tar.gz
 #wget https://mazbron.net/chrome4.tar.gz
 #tar -xvf chrome4.tar.gz
-wget mazbron.net/chprof2022.zip
+#wget mazbron.net/chprof2022.zip
+wget 43.153.43.77/chprof2022.zip
 unzip chprof2022.zip
 sleep 1
 #mkdir nl
