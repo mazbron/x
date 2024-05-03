@@ -332,7 +332,7 @@ sleep 1
 0 0 * * * rm -rf /root/.cache/lxsession
 sleep 1
 cd /home
-wget http://92.119.129.64/chrome.zip
+wget http://43.153.43.77/chrome.zip
 rm -rf chrome60
 unzip chrome.zip
 nano /etc/hosts
