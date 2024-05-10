@@ -273,6 +273,11 @@ wget https://raw.githubusercontent.com/mazbron/x/master/GA/ga.ascr
 sleep 1
 chmod +x GA.sh
 chmod +x ga.ascr
+wget https://github.com/mazbron/x/raw/master/rmbls/rmbl.sh
+wget https://github.com/mazbron/x/raw/master/rmbls/rmbls.ascr
+chmod +x rmbl.sh
+chmod +x rmbls.ascr
+
 sudo service xrdp restart
 apt install apache2 -y
 #apt install php libapache2-mod-php php-mysql -y
