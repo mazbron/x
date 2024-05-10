@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Close Window or Tab</title>
+    <script>
+    // Function to detect the user agent
+    function detectUserAgent() {
+      var userAgent = navigator.userAgent;
+      document.getElementById('userAgentInfo').innerText = 'User Agent: ' + userAgent;
+      
+      // Example of checking if the user agent contains 'Chrome'
+      if (userAgent.includes('Chrome')) {
+        document.getElementById('browserInfo').innerText = 'You are using Google Chrome.';
+      } else {
+        document.getElementById('browserInfo').innerText = 'You are using a browser other than Google Chrome.';
+      }
+    }
+  </script>
+</head>
+
+<body onload="detectUserAgent()">
+  <h1>User Agent Detection</h1>
+  <p id="userAgentInfo"></p>
+  <p id="browserInfo"></p>
+    <!-- Your HTML content goes here -->
+
+    <script>
+        // Wait for 7 seconds (7000 milliseconds) and then close the window/tab
+        setTimeout(function () {
+            window.close();
+        }, 7000);
+    </script>
+
+</body>
+</html>
+
