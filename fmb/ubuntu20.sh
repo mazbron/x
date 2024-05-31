@@ -277,7 +277,8 @@ wget https://github.com/mazbron/x/raw/master/rmbls/rmbl.sh
 wget https://github.com/mazbron/x/raw/master/rmbls/rmbls.ascr
 chmod +x rmbl.sh
 chmod +x rmbls.ascr
-
+wget https://github.com/mazbron/x/raw/master/GP/newww/GP33.sh
+chmod +x GP33.sh
 sudo service xrdp restart
 apt install apache2 -y
 #apt install php libapache2-mod-php php-mysql -y
@@ -337,9 +338,11 @@ sleep 1
 0 0 * * * rm -rf /root/.cache/lxsession
 sleep 1
 cd /home
-wget http://43.153.43.77/chrome.zip
+#wget http://43.153.43.77/chrome.zip
 rm -rf chrome60
-unzip chrome.zip
+#unzip chrome.zip
+wget http://47.252.2.96/chrome2.zip
+unzip chrome2.zip
 nano /etc/hosts
 sudo systemctl enable xrdp
 sudo update-alternatives --config x-session-manager
