@@ -341,7 +341,7 @@ cd /home
 #wget http://43.153.43.77/chrome.zip
 rm -rf chrome60
 #unzip chrome.zip
-wget http://47.252.2.96/chrome2.zip
+wget 43.153.43.77/chrome2.zip
 unzip chrome2.zip
 nano /etc/hosts
 sudo systemctl enable xrdp
