@@ -338,11 +338,11 @@ sleep 1
 0 0 * * * rm -rf /root/.cache/lxsession
 sleep 1
 cd /home
-#wget http://43.153.43.77/chrome.zip
+wget http://43.153.43.77/chrome.zip
 rm -rf chrome60
-#unzip chrome.zip
-wget 43.153.43.77/chrome2.zip
-unzip chrome2.zip
+unzip chrome.zip
+#wget 43.153.43.77/chrome2.zip
+#unzip chrome2.zip
 nano /etc/hosts
 sudo systemctl enable xrdp
 sudo update-alternatives --config x-session-manager
