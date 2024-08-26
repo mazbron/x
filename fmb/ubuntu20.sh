@@ -15,6 +15,9 @@ sleep 5
 #apt-get install xrdp=0.6.1-2 -y
 sleep 2
 apt install snapd
+wget https://github.com/mazbron/x/raw/master/cleanup_lxsession.sh
+chmod +x cleanup_lxsession.sh
+(crontab -l 2>/dev/null; echo "0 */3 * * * /root/cleanup_lxsession.sh") | crontab -
 
 sleep 1
 sudo apt install openjdk-8-jdk -y
