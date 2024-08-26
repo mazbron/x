@@ -5,6 +5,7 @@ do
 rm -rf /home/chrome60/Default/Cache/*
 find /root/Downloads -type f -name '.*' -exec rm {} +
 rm -rf  /home/chrome60/BrowserMetrics
+rm -rf /root/.cache/lxsession/LXDE
 termdown 2
  google-chrome --user-data-dir=/home/chrome60 https://mazbron.net/close.html --start-maximized --no-sandbox --incognito & sleep 5
  google-chrome --user-data-dir=/home/chrome60 https://mazbron.net/gpakun1.php --start-maximized --no-sandbox --incognito & sleep 1
